@@ -14,14 +14,22 @@ all you need to run is the commands below.
 2. Download and copy to you server the ilo_250 Folder
 
 3. Then run These commands: 
-/etc/init.d/hp-ams stop
-/etc/init.d/hp-health stop
-/etc/init.d/hp-snmp-agents stop
-rmmod hpilo
-modprobe -r hpilo (on non root users you may need to add sudo to this command)
-cd ilo_250
-./flash_ilo4 --direct (on non root users you may need to add sudo to this command) (also When Flashing the Fans may spin up to near 100% so be prepared)
+>
 
+    /etc/init.d/hp-ams stop
+
+    /etc/init.d/hp-health stop
+
+    /etc/init.d/hp-snmp-agents stop
+
+    rmmod hpilo
+
+    modprobe -r hpilo (on non root users you may need to add sudo to this command)
+
+    cd ilo_250
+
+    ./flash_ilo4 --direct (on non root users you may need to add sudo to this command) (also When Flashing the Fans may spin up to near 100% so be prepared)
+   
 4. Once the flash has completed shudown your system and unplug it. Make sure to Switch the ilo back out of maintainance mode.
 
 5. Create a file called autofan.service in /etc/systemd/system/ and copy this code: 
