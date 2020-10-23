@@ -39,7 +39,6 @@ cd ilo_250
     RestartSec=10s
     
     ExecStart=/bin/bash /autofan.sh 
-    >
     
 
 6. Copy the Autofan.sh to the / directory
