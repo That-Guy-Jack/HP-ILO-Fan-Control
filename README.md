@@ -7,7 +7,7 @@ The folder contians the unpacked ilo with the replacement rom pre copied.
 
 all you need to run is the commands below.
 
-# STEPS:
+## STEPS:
 
 1. Switch Ilo into Maintainance mode. On the Dl360p Gen8 This is located near the backplane conectors on the motherboard. (images in the images file) then reboot.
 
@@ -26,13 +26,17 @@ cd ilo_250
 
 5. Create a file called autofan.service in /etc/systemd/system/ and copy this code: 
 
-   > [Unit]
-   > Description=Fan Speed Controler using autofan.sh
+<    [Unit]
+    
+    Description=Fan Speed Controler using autofan.sh
 
-   > [Service]
-   > Restart=always
-   > RestartSec=10s
-   > ExecStart=/bin/bash /autofan.sh
+    [Service]
+    
+    Restart=always
+    
+    RestartSec=10s
+    
+    ExecStart=/bin/bash /autofan.sh>
 
 6. Copy the Autofan.sh to the / directory
 
