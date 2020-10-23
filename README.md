@@ -7,7 +7,7 @@ The folder contians the unpacked ilo with the replacement rom pre copied.
 
 all you need to run is the commands below.
 
-STEPS: 
+#STEPS: 
 
 1. Switch Ilo into Maintainance mode. On the Dl360p Gen8 This is located near the backplane conectors on the motherboard. (images in the images file) then reboot.
 
