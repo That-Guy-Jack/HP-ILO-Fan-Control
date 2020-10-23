@@ -57,8 +57,8 @@ all you need to run is the commands below.
 9. enjoy silence : ) and if thats to fast or slow edit the autofan.sh to your needs.
 
 ### To-do
- [ ] Create a Script to Install and Create fan control scripts
- [ ] Allow easier input of ILO pramaters
+- [ ] Create a Script to Install and Create fan control scripts
+- [ ] Allow easier input of ILO pramaters
  
  ### Links and other stuff
 Original Reddit post: https://www.reddit.com/r/homelab/comments/hix44v/silence_of_the_fans_pt_2_hp_ilo_4_273_now_with/ 
