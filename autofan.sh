@@ -94,4 +94,3 @@ elif [[ $T2 > 50 ]]
         sshpass -p YOURPASSWORD ssh YOURUSERNAME@YOUR ILO IP 'fan p 2 max 20'
         sshpass -p YOURPASSWORD ssh YOURUSERNAME@YOUR ILO IP 'fan p 3 max 20'
 fi
-
