@@ -13,7 +13,7 @@ all you need to run is the commands below.
 
 2. Download and copy to you server the ilo_250 Folder
 
-3. Then run These commands: 
+3. Then run These commands: (on non root users you may need to add sudo to these command)
 >
 
     /etc/init.d/hp-ams stop
@@ -24,11 +24,10 @@ all you need to run is the commands below.
 
     rmmod hpilo
 
-    modprobe -r hpilo (on non root users you may need to add sudo to this command)
-
+    modprobe -r hpilo 
     cd ilo_250
 
-    ./flash_ilo4 --direct (on non root users you may need to add sudo to this command) (also When Flashing the Fans may spin up to near 100% so be prepared)
+    ./flash_ilo4 --direct  (also When Flashing the Fans may spin up to near 100% so be prepared)
    
 4. Once the flash has completed shudown your system and unplug it. Make sure to Switch the ilo back out of maintainance mode.
 
@@ -57,5 +56,9 @@ all you need to run is the commands below.
 
 9. enjoy silence : ) and if thats to fast or slow edit the autofan.sh to your needs.
 
-
+### To-do
+ [ ] Create a Script to Install and Create fan control scripts
+ [ ] Allow easier input of ILO pramaters
+ 
+ ### Links and other stuff
 Original Reddit post: https://www.reddit.com/r/homelab/comments/hix44v/silence_of_the_fans_pt_2_hp_ilo_4_273_now_with/ 
