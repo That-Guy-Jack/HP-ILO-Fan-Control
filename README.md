@@ -22,7 +22,7 @@ all you need to run is the commands below.
 
 4. Once the flash has completed shudown your system and unplug it. Make sure to Switch the ilo back out of maintainance mode.  
 
-5. Configure The autofan.sh in the / directory. Replace all YOURPASSWORD, YOURUSERNAME and YOURILOIP with the correct info. Once done save and exit.
+5. Configure The autofan.sh in the / directory. Replace Your Password, Your username and Your ilo ip with the correct info. Once done save and exit.
 
 7. Run systemctl daemon-reload and systemctl start autofan to activate the scripts
 
