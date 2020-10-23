@@ -26,13 +26,13 @@ cd ilo_250
 
 5. Create a file called autofan.service in /etc/systemd/system/ and copy this code: 
 
-    [Unit]
-    Description=Fan Speed Controler using autofan.sh
+   > [Unit]
+   > Description=Fan Speed Controler using autofan.sh
 
-    [Service]
-    Restart=always
-    RestartSec=10s
-    ExecStart=/bin/bash /autofan.sh
+   > [Service]
+   > Restart=always
+   > RestartSec=10s
+   > ExecStart=/bin/bash /autofan.sh
 
 6. Copy the Autofan.sh to the / directory
 
