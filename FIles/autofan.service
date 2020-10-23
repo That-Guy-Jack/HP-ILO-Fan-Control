@@ -1,0 +1,7 @@
+[Unit]
+Description=Fan Speed Controler using autofan.sh
+
+[Service]
+Restart=always
+RestartSec=10s
+ExecStart=/bin/bash /autofan.sh 
