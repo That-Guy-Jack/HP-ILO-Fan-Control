@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cpq_package version="2.0.1.0">
+  <filename>CP027911.scexe</filename>
+  <divisions>
+    <division key="64">
+      <division_xlate lang="en">Lights Out</division_xlate>
+      <division_xlate lang="ja">Lights Out</division_xlate>
+    </division>
+    <division key="6">
+      <division_xlate lang="en">Server</division_xlate>
+      <division_xlate lang="ja">サーバ</division_xlate>
+    </division>
+  </divisions>
+  <operating_systems>
+    <operating_system key="1137">
+      <operating_system_xlate>SUSE LINUX Enterprise Server 10 (x86)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="1141">
+      <operating_system_xlate>SUSE LINUX Enterprise Server 10 (AMD64/EM64T)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="2950">
+      <operating_system_xlate>SUSE LINUX Enterprise Server 11 (x86)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="2951">
+      <operating_system_xlate>SUSE LINUX Enterprise Server 11 (AMD64/EM64T)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Red Hat Enterprise Linux 6 Server (x86-64)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Red Hat Enterprise Linux 6 Server (x86)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Red Hat Enterprise Linux 7 Server</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Red Hat Enterprise Linux 6 Workstation (x86-64)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>Red Hat Enterprise Linux 6 Workstation (x86)</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>SUSE Linux Enterprise Server 12</operating_system_xlate>
+    </operating_system>
+    <operating_system key="">
+      <operating_system_xlate>VMware ESX/ESXi 4.0</operating_system_xlate>
+    </operating_system>
+  </operating_systems>
+  <products>
+    <product rom="P70"/>
+    <product rom="P71"/>
+    <product rom="I31"/>
+    <product rom="P75"/>
+    <product rom="I31"/>
+    <product rom="P72"/>
+    <product rom="P75"/>
+    <product rom="P75"/>
+    <product rom="A26"/>
+    <product rom="I30"/>
+    <product rom="A28"/>
+    <product rom="P73"/>
+    <product rom="P73"/>
+    <product rom="J05"/>
+    <product rom="J03"/>
+    <product rom="J02"/>
+    <product rom="J04"/>
+    <product rom="I32"/>
+    <product rom="P79"/>
+    <product rom="P77"/>
+    <product rom="P80"/>
+    <product rom="P78"/>
+    <product rom="P74"/>
+    <product rom="P83"/>
+    <product rom="P75"/>
+    <product rom="J06"/>
+    <product rom="I36"/>
+    <product rom="P89"/>
+    <product rom="P89"/>
+    <product rom="U20"/>
+    <product rom="U20"/>
+    <product rom="P92"/>
+    <product rom="U13"/>
+    <product rom="I38"/>
+    <product rom="U17"/>
+    <product rom="P85"/>
+    <product rom="P86"/>
+    <product rom="U15"/>
+    <product rom="U15"/>
+    <product rom="P95"/>
+    <product rom="P99"/>
+    <product rom="P94"/>
+    <product rom="P91"/>
+    <product rom="P98"/>
+    <product rom="P74"/>
+    <product rom="P93"/>
+    <product rom="U18"/>
+    <product rom="U18"/>
+    <product rom="U18"/>
+    <product rom="U21"/>
+    <product rom="U13"/>
+    <product rom="U12"/>
+    <product rom="P94"/>
+    <product rom="U14"/>
+    <product rom="U14"/>
+    <product rom="U19"/>
+    <product rom="Carbondale14"/>
+    <product rom="I37"/>
+    <product rom="I36"/>
+    <product rom="U22"/>
+    <product rom="U23"/>
+    <product rom="U19"/>
+    <product rom="U24"/>
+    <product rom="J02"/>
+    <product rom="I40"/>
+    <product rom="I39"/>
+    <product rom="I40"/>
+    <product rom="U26"/>
+    <product rom="U25"/>
+    <product rom="U25"/>
+  </products>
+  <category key="2900213">
+    <category_xlate lang="en">Firmware - Lights-Out Management</category_xlate>
+    <category_xlate lang="ja">ファームウェア - Lights-Outマネジメント</category_xlate>
+  </category>
+  <id product="d8701885e8a84180a8d83022fac7f1e4" version="42ef22e4dff6423e8dbe1119044839b0"/>
+  <name>
+    <name_xlate lang="en">Online ROM Flash Component for Linux - HPE Integrated Lights-Out 4</name_xlate>
+    <name_xlate lang="ja">オンラインROMフラッシュコンポーネント for Linux - HPE Integrated Lights-Out 4</name_xlate>
+  </name>
+  <alt_name>
+    <alt_name_xlate lang="en">HPE Integrated Lights-Out 4</alt_name_xlate>
+    <alt_name_xlate lang="ja">HPE Integrated Lights-Out 4</alt_name_xlate>
+  </alt_name>
+  <version value="2.50" revision="" type_of_change="0"/>
+  <manufacturer_name>
+    <manufacturer_name_xlate lang="en">Hewlett Packard Enterprise</manufacturer_name_xlate>
+    <manufacturer_name_xlate lang="ja">Hewlett Packard Enterprise</manufacturer_name_xlate>
+  </manufacturer_name>
+  <languages langlist="en">
+    <languages_xlate lang="en">English (US)</languages_xlate>
+    <languages_xlate lang="ja">英語（US）</languages_xlate>
+  </languages>
+  <release_date year="2016" month="10" day="7" hour="0" minute="0" second="0"/>
+  <description>
+    <description_xlate lang="en">
+<![CDATA[This component provides updated iLO firmware that can be installed directly on supported Linux Operating Systems. This component can also be used to obtain the firmware image for updating via iLO user interface, utilities, or through the scripting interface. Additionally, this component can be used with the HP Smart Update Manager.]]>
+</description_xlate>
+    <description_xlate lang="ja">
+<![CDATA[このコンポーネントは、サポートされるLinuxオペレーティング システムに直接インストール可能なアップデートされたiLOファームウェアを提供します。 このコンポーネントは、iLOユーザー インターフェイス、ユーティリティ、またはスクリプティング インターフェイスからファームウェア イメージのアップデートを入手するために使用することができます。 さらに、HP Smart Update Managerと一緒に使用することが出来ます。]]>
+</description_xlate>
+  </description>
+  <prerequisite_notes>
+    <prerequisite_notes_xlate lang="en">
+      <prerequisite_notes_xlate_part>
+<![CDATA[The addition of IPv6 support for iLO scripting interfaces requires the use of new versions of several iLO<br />
+&nbsp;&nbsp;utilities. Customers using previous versions of these utilities must upgrade to the new versions:<br />
+&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - HPQLOCFG 1.1 (replaces CPQLOCFG)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - HP Lights-Out XML Scripting Sample 4.3.0 bundle<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - HPONCFG 4.3.0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - LOCFG.PL 4.20 (included in the HP Lights-Out XML Scripting Sample 4.3.0 bundle)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - HPLOMIG 4.3.0 (upgrade HPLOMIG before installing this version of iLO 4]]>
+</prerequisite_notes_xlate_part>
+    </prerequisite_notes_xlate>
+    <prerequisite_notes_xlate lang="ja">
+      <prerequisite_notes_xlate_part>
+<![CDATA[The addition of IPv6 support for iLO scripting interfaces requires the use of new versions of several iLO<br />
+&nbsp;&nbsp;utilities. Customers using previous versions of these utilities must upgrade to the new versions:<br />
+&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - HPQLOCFG 1.1 (replaces CPQLOCFG)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - HP Lights-Out XML Scripting Sample 4.3.0 bundle<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - HPONCFG 4.3.0<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - LOCFG.PL 4.20 (included in the HP Lights-Out XML Scripting Sample 4.3.0 bundle)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - HPLOMIG 4.3.0 (upgrade HPLOMIG before installing this version of iLO 4]]>
+</prerequisite_notes_xlate_part>
+    </prerequisite_notes_xlate>
+  </prerequisite_notes>
+  <installation_notes>
+    <installation_notes_xlate lang="en">
+      <installation_notes_xlate_part>
+<![CDATA[<p>
+ <b>To update firmware from the Linux operating system on target server:</b><br />
+ Download the SCEXE file to the target server.<br />
+ Execute: sh CP0xxxxx.scexe</p>
+<p>
+ &nbsp;<b>To obtain firmware image for updating via iLO user interface, utilities, or scripting interface:</b><br />
+ Download the SCEXE file to a client running&nbsp;a Linux operating system.&nbsp; Execute: sh&nbsp; CP0xxxxx.scexe&nbsp;--unpack=directory<br />
+ This command will unpack the ilo4_1XX.bin into a user specified &quot;directory&quot;. If the directory does not exist, the unpacker will attempt to create it.</p>
+<p>
+ <b>To use HP Smart Update Manager on the Firmware Maintenance CD</b><b>:</b><br />
+ Place the Firmware Maintenance CD on a USB key using the USB Key Creator Utility.&nbsp;<br />
+ Copy&nbsp; CP0xxxxx.scexe&nbsp;to /compaq/swpackages directory on the USB Key.<br />
+ Follow HP Smart Update Manager steps to complete firmware update.</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+    <installation_notes_xlate lang="ja">
+      <installation_notes_xlate_part>
+<![CDATA[<p>
+ <b>To update firmware from the Linux operating system on target server:</b><br />
+ Download the SCEXE file to the target server.<br />
+ Execute: sh CP0xxxxx.scexe</p>
+<p>
+ &nbsp;<b>To obtain firmware image for updating via iLO user interface, utilities, or scripting interface:</b><br />
+ Download the SCEXE file to a client running&nbsp;a Linux operating system.&nbsp; Execute: sh&nbsp; CP0xxxxx.scexe&nbsp;--unpack=directory<br />
+ This command will unpack the ilo4_1XX.bin into a user specified &quot;directory&quot;. If the directory does not exist, the unpacker will attempt to create it.</p>
+<p>
+ <b>To use HP Smart Update Manager on the Firmware Maintenance CD</b><b>:</b><br />
+ Place the Firmware Maintenance CD on a USB key using the USB Key Creator Utility.&nbsp;<br />
+ Copy&nbsp; CP0xxxxx.scexe&nbsp;to /compaq/swpackages directory on the USB Key.<br />
+ Follow HP Smart Update Manager steps to complete firmware update.</p>
+]]>
+</installation_notes_xlate_part>
+    </installation_notes_xlate>
+  </installation_notes>
+  <availability_notes/>
+  <documentation_notes>
+    <documentation_notes_xlate lang="en">
+      <documentation_notes_xlate_part>
+<![CDATA[<p>&nbsp;</p>
+
+<p>iLO&nbsp;4 User Guide and Lights-Out Scripting Guide can also be found by following the links at:<br />
+<br />
+<a href="http://www.hp.com/go/ilo">http://www.hpe.com/info/ilo</a><br />
+<br />
+Select your lights-out product, then support &amp; documents, then manuals.<br />
+&nbsp;</p>
+
+<ul>
+	<li>Check the online help for additional information about how to use features.&nbsp;<br />
+	Online help can be accessed from within the browser web pages by clicking the question mark in the upper right-hand corner of each page.</li>
+</ul>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+    <documentation_notes_xlate lang="ja">
+      <documentation_notes_xlate_part>
+<![CDATA[<p>&nbsp;</p>
+
+<p>iLO&nbsp;4 User Guide and Lights-Out Scripting Guide can also be found by following the links at:<br />
+<br />
+<a href="http://www.hp.com/go/ilo">http://www.hpe.com/info/ilo</a><br />
+<br />
+Select your lights-out product, then support &amp; documents, then manuals.<br />
+&nbsp;</p>
+
+<ul>
+	<li>Check the online help for additional information about how to use features.&nbsp;<br />
+	Online help can be accessed from within the browser web pages by clicking the question mark in the upper right-hand corner of each page.</li>
+</ul>
+]]>
+</documentation_notes_xlate_part>
+    </documentation_notes_xlate>
+  </documentation_notes>
+  <revision_history>
+    <revision>
+      <version value="2.50" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>List your enhancements here.</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>改善点をここにリストします。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+    </revision>
+    <revision>
+      <version value="2.44" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>Enhancements:<br />
+&bull; Performance improvements - fewer SMIs.<br />
+&bull; Enhanced MCTP, PMCI and I2C code used to gather information.</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>改良点：<br /> • パフォーマンスの改善 -  SMIの減少<br /> • 情報収集に使用されるMCTP、PMCI、I2Cコードを改善しました。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>This release is based on the 2.40 iLO 4 FW Release and contains all the fixes and enhancements included in that version.&nbsp;</p>
+
+<p>Also included in this release:</p>
+
+<ul>
+	<li>Gen 8 systems no longer include unnecessary wait for MCTP device discovery in order to initialize sensors.</li>
+	<li>Fixed issue where intermittently the IPMI SDRR initialization would take up to 120 seconds.</li>
+	<li>Added iLO event log entry for IPMI PEF actions.</li>
+	<li>Enhanced disk drive status to include controller failure status.</li>
+	<li>Addressed an issue where a Smart Array battery failure could trigger excessive SMI interrupts when NVDIMMs are not present in the system. This could cause a server hang.</li>
+	<li>Auto Power On not working on SL/XL servers.</li>
+	<li>Fixed iLO 4 in Gen9 erasing ServerName EV in non-Virtual Connect environments. This caused them to show as &quot;host is unnamed&quot; in the Onboard Administrator GUI.</li>
+	<li>Fixed iLO 4 SNMP returning wrong IP address when snmpbulkget was used.</li>
+	<li>Fixed Remote Support &#39;Data Package Validation failed&#39; error message.</li>
+	<li>Unable to remove Active Directory Groups via RIBCL.</li>
+	<li>Fixed RIS data storage file path validation and recovery.</li>
+	<li>Fixed unnecessary clearing of the RESTful API as a result of BIOS upgrade/downgrade.</li>
+	<li>Fixed setting of SET_PERSISTENT_BOOT bootorder for systems with a long boot order list.</li>
+	<li>Fixed support for systems with much larger overall SMBIOS records.</li>
+	<li>Fixed HP RESTful tool errors. BIOS registration could produce empty entries.</li>
+	<li>Fixed loss of communication with Onboard Administrator.</li>
+	<li>Removed font download from external source at login.</li>
+	<li>Fixed problems associated with Apollo 4200 with 25 drives. Needed to support more internal platform definitions.</li>
+	<li>Security fixes/enhancements:
+	<ul>
+		<li>Modified &quot;Enforce AES/3DES Encryption&quot; setting to only allow TLS 1.2 protocol.</li>
+		<li>Security fix. See HP Security Bulletin HPSBHF03441.</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このリリースは、2.40のiLO 4 FWのリリースに基づいており、そのバージョンに含まれるすべての修正と機能改善が含まれています。 </p>
+
+<p>このリリースに含まれる：</p>
+
+<ul>
+	<li>Gen 8 システムはセンサーを初期化するための、MCTPデバイスディスカバリーへの不必要な待機時間を含まなくなりました。</li>
+	<li>最大で断続的に120秒を要するIPMI SDRR初期化の問題を修正しました。</li>
+	<li>IPMI PEF アクションのためのiLO イベントログエントリーを追加しました。</li>
+	<li>コントローラー障害ステータスを含むためにディスクドライブステータスを改善しました。</li>
+	<li>NVDIMMがシステムに存在していないときに、Smartアレイバッテリー障害が過度のSMI中断を引き起こしてしまう問題を解決しました。これはサーバーの停止状態を引き起こす可能性があります。</li>
+	<li>SL/XLサーバーでは作動しない自動電源オン機能。</li>
+	<li>非バーチャルコネクト環境でServerName EVを削除するGen 9 erasing 内のiLO 4を修正しました。これによって、それらはオンボード管理者GUIで「host is unnamed」と表示されていました。</li>
+	<li>snmpbulkget が使用されたときに間違ったIPアドレスをリターンiLO 4 SNMPを修正しました。</li>
+	<li>リモートサポート「Data Package Validation failed」エラーメッセージを修正しました。</li>
+	<li>RIBCLを通じたアクティブディレクトリグループの削除ができません。</li>
+	<li>RISデータストレージファイルパスの確認とリカバリーを修正しました。</li>
+	<li>BIOSのアップグレードもしくはダウングレードの結果としてのRESTful APIの不必要なクリアリングを修正しました。</li>
+	<li>ロングブートオーダーリストを伴うシステムのためのSET_PERSISTENT_BOOT bootorderの設定を修正しました。</li>
+	<li>全体としてより大きくなったSMBIOSレコードを伴うシステムのサポートを改善しました。</li>
+	<li>FHP RESTful ツールエラーを修正しました。BIOS登録は空のエントリーを作成することができます。</li>
+	<li>オンボード管理者との通信ロスを修正しました。</li>
+	<li>ログイン時の外部ソースからのフォントダウンロードを削除しました。</li>
+	<li>25ドライブを伴うApollo 4200に関連する問題を修正しました。より多くの内部プラットフォームの定義をサポートするのに必要でした。</li>
+	<li>セキュリティの修正/強化：
+	<ul>
+		<li>TLS 1.2プロトコルのみを許可するよう「Enforce AES/3DES Encryption」設定を修正しました。</li>
+		<li>セキュリティの修正。HP セキュリティ Bulletin HPSBHF03441をご参照ください。</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.42" revision="" type_of_change="0"/>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>This release is based on the 2.40 iLO 4 FW Release and contains all the fixes and enhancements included in that version.&nbsp;&nbsp;</p>
+
+<p>Also included in this release:</p>
+
+<ul>
+	<li>Added a new RIBCL command &quot;FORCE_FORMAT&quot; that enables the recovery of the 4 GB embedded non-volatile storage (NAND Flash) if it is not available.&nbsp; iLO resets automatically afterward for this operation to take effect.&nbsp; If using Intelligent&nbsp;&nbsp; Provisioning, then it will need to be reinstalled. This change is added to help in special cases that require this to fix a problem and a list of symptoms can be found below.&nbsp; This is a limited release and availability is limited.&nbsp; This will&nbsp;&nbsp; be not web-released.
+	<ul>
+		<li>Symptoms:
+		<ul>
+			<li>8192 Self-Test Error reported</li>
+			<li>Errors while applying OneView profiles</li>
+			<li>Can&rsquo;t extract Active Health System</li>
+			<li>Intelligent Provisioning doesn&rsquo;t load when F10 is pressed</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このリリースは、2.40のiLO 4 FWのリリースに基づいており、そのバージョンに含まれるすべての修正と機能改善が含まれています。  </p>
+
+<p>このリリースに含まれる：</p>
+
+<ul>
+	<li>内蔵の4GB不揮発性ストレージ（NANDフラッシュ）が利用できない場合、回復を可能にする新しいRIBCLコマンド「FORCE_FORMAT」を追加しました。この操作を有効にするため、その後iLOは自動的にリセットされます。Intelligent Provisioningを使用する場合、再インストールする必要があります。この変更は、この問題を修正する必要がある特別なケースをサポートするために追加されます。症状のリストは下記にあります。これは、限定リリースで、使用制限があります。これはWebリリースではありません。
+	<ul>
+		<li>症状：
+		<ul>
+			<li>8192 Self-Test エラーを報告</li>
+			<li>OneViewプロファイルを適用時のエラー</li>
+			<li>Active Health Systemを解凍できません</li>
+			<li>F10が押された場合にIntelligent Provisioningがロードされません</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.40" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This version adds support for the following features and enhancements:<br />
+<br />
+&nbsp; &bull; The iLO web interface has been updated to support the Hewlett Packard Enterprise style,&nbsp;URLs, and company information.<br />
+&nbsp; &bull; The Java IRC now includes two alternatives: A Java Web Start console and a Java applet-based&nbsp;console. The Java Web Start option works in newer browsers that do not allow the applet version to run.<br />
+&nbsp;&nbsp;&nbsp; On systems with OpenJDK, you must use the Java applet-based console with a browser (such as Firefox)&nbsp;that supports a Java plug-in.<br />
+&nbsp; &bull; The new Critical Temperature Remain Off setting can be configured via RIBCL for all nonblade servers.&nbsp;&nbsp;This setting controls system behavior when the system is shut down due to thermal protection circuitry.<br />
+&nbsp;&nbsp;&nbsp; This is a different protection mechanism for thermal events, and it is not based on temperature sensor&nbsp;thresholds, OS policy, or the environmental abnormality automatic shutdown configuration.&nbsp;<br />
+&nbsp; &bull; The following service events are now supported with embedded Remote Support registration:<br />
+&nbsp;&nbsp;&nbsp; - ATA Disk Drive Status Changed Event<br />
+&nbsp;&nbsp;&nbsp; - Fibre Channel Host Controller Status Changed Event<br />
+&nbsp; &bull; The Server Reset button is now available on the Boot Order page when the Boot Mode is modified.<br />
+&nbsp; &bull; The NVMe Backplane PIC firmware can now be updated via iLO.<br />
+&nbsp; &bull; The logical drive label and ID were added to the RESTful API.<br />
+&nbsp; &bull; NIC auto-selection can now be configured to search both Shared Network Ports on servers that&nbsp;support this hardware configuration. This feature can be configured via the CLI and RIBCL.<br />
+&nbsp; &bull; NIC auto-selection can now be configured to support NIC failover. When enabled, iLO&nbsp;automatically begins searching for a NIC connection when the current connection fails. This<br />
+&nbsp;&nbsp;&nbsp; feature can be configured via the CLI and RIBCL.</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このバージョンは、以下の機能と改善を追加します。<br /> <br />   • iLO Webインターフェイスは、Hewlett Packard Enterpriseスタイル、URLおよび会社情報をサポートするためにアップデートされました。<br />   • Java IRCは2つの選択肢を含みます： Java Web StartコンソールとJavaアプレットベースコンソール。 Java Web Startオプションは、アプレットバージョンを実行することができない新しいブラウザーで動作します。<br />     OpenJDKを持つシステム上で、Javaプラグインをサポートするブラウザー(Firefoxなど)ではJavaアプレットベースコンソールを使用する必要があります。<br />   • すべての非ブレードサーバーに対してRIBCLを使用して、新しいCritical Temperature Remain Off設定を構成することができます。  システムが熱保護回路によりシャットダウンされたとき、この設定がシステムの動作を制御します。<br />     これは熱イベントのための別の保護機構であり、温度センサーのしきい値、OSポリシー、または環境異常自動シャットダウン構成に基づいていません。<br />   • 次のサービスイベントは現在、Embedded Remote Support登録でサポートされています：<br />     - ATAディスクドライブのステータス変更イベント<br />     - ファイバーチャネルホストコントローラーのステータス変更イベント<br />   • ブートモードが変更されたとき、サーバーリセットボタンがブート順序のページで利用可能です。<br />   • NVMeバックプレーンPICファームウェアはiLOを使用して更新することができます。<br />   • 論理ドライブのラベルとIDがRESTful APIに追加されました。<br />   • このハードウェア構成をサポートするサーバー上で両方の共有ネットワークポートを検索するように、NIC自動選択を構成することができます。 CLIおよびRIBCLを使用して、この機能を構成することができます。<br />   • NICフェイルオーバーをサポートするようにNIC自動選択を構成することができます。 有効にすると、現在の接続に障害が発生した場合、iLOは自動的にNIC接続の検索を開始します。 CLIおよびRIBCLを使用して、この機能を構成することができます。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:<br />
+<br />
+&nbsp; &bull; NIC auto-selection can be configured via RIBCL on DL60 and DL80 servers. These servers&nbsp;do not support the iLO Dedicated Network Port or NIC auto-selection.<br />
+&nbsp; &bull; There is no POST error after one or more fans are removed.<br />
+&nbsp; &bull; iLO does not collect and delete out of date or unused BIOS provider schemas&nbsp;and registries.<br />
+&nbsp; &bull; The iLO 4 web server might stop responding after an invalid file is&nbsp;submitted on the firmware update page.<br />
+&nbsp; &bull; When system throttling occurs on Gen8 servers, the duration is longer than&nbsp;necessary.<br />
+&nbsp; &bull; Cookies set by older versions of iLO were not understood correctly and might&nbsp;cause problems when you try to select iLO Federation groups.<br />
+&nbsp; &bull; The chassis firmware version number is not displayed consistently in the web&nbsp;interface.<br />
+&nbsp; &bull; Sorting by column does not work in some iLO web interface tables.<br />
+&nbsp; &bull; The language icon at the bottom of the browser window is not displayed&nbsp;in Internet Explorer.<br />
+&nbsp; &bull; The domain name cannot be set via the CLP when the Shared Network Port is enabled.<br />
+&nbsp; &bull; A drive failure does not trigger an action when IPMI PEF is enabled.&nbsp;<br />
+&nbsp; &bull; The json/power_alert API returns an incorrect error (HTTP error 500) for bad parameters.<br />
+&nbsp; &bull; The wrong iLO self-test name &quot;UnknownSelfTest&quot; is displayed for the NVRAM space test&nbsp;in Redfish output.<br />
+&nbsp; &bull; The UID Indicator status does not change to BLINK when the Integrated Remote Console is active.<br />
+&nbsp; &bull; Kerberos authentication cannot be enabled when FIPS mode is enabled.<br />
+&nbsp; &bull; Keystrokes are repeated in the Integrated Remote Console when the server is in the UEFI Shell.<br />
+&nbsp; &bull; Data is not displayed in the power meter 20 minute or 24 hour graph.<br />
+&nbsp; &bull; The License page does not refresh to update the status after an iLO Advanced license is&nbsp;installed.<br />
+&nbsp; &bull; Redfish output does not group the Average, Minimum, and Peak values together in the&nbsp;Fast Power Meter output.<br />
+&nbsp; &bull; The NIC Information page displays the address 0.0.0.0 when the IPv6 address&nbsp;is the only IP address available for the iLO NIC.<br />
+&nbsp; &bull; Duplicate entries for network cards are displayed on the Device Inventory page.<br />
+&nbsp; &bull; Redfish output displays an incorrect memory type for non-HPE memory.<br />
+&nbsp; &bull; The NIC Information page displays the value N/A when a NIC team is configured.<br />
+&nbsp; &bull; An incorrect error message is displayed for the TESTTRAP command after SNMP alerts are&nbsp;disabled.<br />
+&nbsp; &bull; Power consumption values are incorrect in Redfish Chassis/1/Power/FastPowerMeter/ output.<br />
+&nbsp; &bull; Power supply bay numbering is inconsistent between the web interface and RESTful API output.<br />
+&nbsp; &bull; If an SNMP test alert is sent when SNMPv1 traps are disabled and SNMPv3 users are not defined,&nbsp;iLO reports a successful test when an error should be displayed.<br />
+&nbsp; &bull; An event log message is not logged when an SSL certificate is imported via the RESTful API.<br />
+&nbsp; &bull; A password that contains the equals sign (=) cannot be set when a user is added by using the CLI.<br />
+&nbsp; &bull; The value null is displayed for all RESTful API NetworkAdapters packet statistics.<br />
+&nbsp; &bull; The RESTful API schema file does not include the supported values for SpeedMbps.<br />
+&nbsp; &bull; An infinite loop in the file system check utility causes slow system performance.<br />
+&nbsp; &bull; DL580 Gen9 servers might fail to boot from an SD card.<br />
+&nbsp; &bull; The 53-Sensor LOM is displayed as missing on the Temperatures page for DL580 Gen8 servers.<br />
+&nbsp; &bull; After a vulnerability scan, iLO 4 might be left doing ACK flood with the scanner software.<br />
+&nbsp; &bull; iLO 4 might become unresponsive when attempting to delete an old AHS file with an invalid character&nbsp;in its name.<br />
+&nbsp; &bull; AlertMail rejects email addresses with hyphen characters.<br />
+&nbsp; &bull; Only one LDAP server can be configured by using RIBCL.<br />
+&nbsp; &bull; Insight Remote Support is not alerted if a failed hard drive is on a bay number above 18.<br />
+&nbsp;</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されます。<br /> <br />   • DL60およびDL80サーバー上でRIBCLを使用してNIC自動選択を構成することができます。 これらのサーバーは、iLO専用ネットワークポートまたはNIC自動選択をサポートしていません。<br />   • 1つ以上のファンが取り外された後、POSTエラーがありません。<br />   • iLOは、古いまたは未使用のBIOSプロバイダースキーマおよびレジストリを収集および削除しません。<br />   • 無効なファイルがファームウェアアップデートページでにサブミットされた後に、iLO 4 Webサーバーが応答しなくなることがあります。<br />   • Gen8サーバー上でシステムのスロットル調整が発生する場合、必要以上に持続時間が長いです。<br />   • iLO連携グループを選択しようとすると、以前のバージョンのiLOで設定されたCookieが正しく理解されず、問題を生じることがあります。<br />   • シャーシファームウェアのバージョン番号が、Webインタフェースに一貫して表示されません。<br />   • 列でのソートが、一部のiLO Webインターフェイステーブルで動作しません。<br />   • ブラウザーウィンドウの下部にある言語アイコンが、Internet Explorerで表示されません。<br />   • 共有ネットワークポートが有効な場合、CLPを使用してドメイン名を設定することはできません。<br />   • IPMI PEFが有効な場合、ドライブ障害はアクションをトリガーしません。 <br />   • json/power_alert APIは、不良パラメーターに対して誤ったエラー (HTTPエラー500)を戻します。<br />   • 間違ったiLO自己テスト名「UnknownSelfTest」が、Redfish出力でNVRAMスペーステストに対して表示されます。<br />   • 統合リモートコンソールがアクティブな場合、UIDインジケーターステータスが点滅に変化しません。<br />   • FIPSモードが有効な場合、Kerberos認証を有効にすることはできません。<br />   • サーバーがUEFIシェルの場合、キーストロークが統合リモートコンソールで繰り返されます。<br />   • データが、電力メーター20分または24時間グラフで表示されません。<br />   • iLO Advancedライセンスがインストールされた後、ライセンスページはステータスをアップデートするために更新されません。<br />   • Redfish出力は、高速電力メーター出力で平均、最小、ピーク値を集めません。<br />   • IPv6アドレスがiLO NICのために利用可能な唯一のIPアドレスである場合、NIC情報ページは、アドレス0.0.0.0を表示します。<br />   • ネットワークカードの重複エントリーが、デバイスインベントリページに表示されます。<br />   • Redfish出力が、非HPE製メモリに対して誤ったメモリタイプを表示します。<br />   • NICチームが構成されている場合、NIC情報ページは値N/Aを表示します。<br />   • SNMPアラートが無効にされた後、誤ったエラーメッセージがTESTTRAPコマンドで表示されます。<br />   • 消費電力値が、Redfishシャーシ/1/電力/高速電力メーター/出力で間違っています。<br />   • 電源装置ベイの番号付けが、WebインターフェイスとRESTful API出力間で矛盾しています。<br />   • SNMPv1トラップが無効にされ、SNMPv3ユーザーが定義されていない場合にSNMPテストアラートが送信されると、エラーが表示されなければならないときに、iLOはテストの成功を報告します。<br />   • SSL証明書がRESTful APIを使用してインポートされると、イベントログメッセージがログに記録されません。<br />   • CLIを使用してユーザーが追加されたときに、等号（=）を含むパスワードを設定することはできません。<br />   • すべてのRESTful API NetworkAdaptersパケット統計にnull値が表示されます。<br />   • RESTful APIスキーマファイルは、SpeedMbpsでサポートされた値を含みません。<br />   • ファイルシステムチェックユーティリティでの無限ループが、システムパフォーマンスの低下を引き起こします。<br />   • DL580 Gen9サーバーは、SDカードからのブートに失敗することがあります。<br />   • 53センサーLOMが、DL580 Gen8サーバーの温度ページで欠落していると表示されます。<br />   • 脆弱性スキャンの後、iLO 4はスキャナーソフトウェアによりACKフラッド状態のままとなる可能性があります。<br />   • 名前に無効な文字がある古いAHSファイルを削除しようとするときに、iLO 4が応答しなくなる可能性があります。<br />   • AlertMailは、ハイフン文字を持つメールアドレスを拒否します。<br />   • RIBCLを使用することにより1つのLDAPサーバーだけを構成することができます。<br />   • 障害のあるハードディスクドライブが18を超えるベイ番号の場合、HP Insight Remote Supportは警告を受けません。<br />  </p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.31" revision="" type_of_change="0"/>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>Fixed an issue where the SPI bus could lock up causing iLO and the host server to become unresponsive if iLO is rebooted while the server is in early POST.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+	<li>サーバーが初期のPOSTの間、iLOが再起動した場合、SPIバスがロックアップして、iLOおよびホストサーバーが応答しなくなる問題を修正しました。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.30" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This version adds support for the following features and enhancements:</p>
+
+<ul>
+	<li>IPMI Platform Event traps can now be sent to IPv6 destinations.</li>
+	<li>The Smart Array drive media type is now available via SNMP, RESTful API, iLO web interface, and RIBCL.</li>
+	<li>The Smart Array drive RPM is now available via SNMP and the RESTful API.</li>
+	<li>Power capping can now be enabled via the RESTful API when the feature is disabled by the ROM settings.</li>
+	<li>Support for new Access Settings options has been added to the RESTful API.</li>
+	<li>Security enhancements:
+	<ul>
+		<li>Removed export ciphers from the default configuration to address false positives reported by scanning tools.</li>
+		<li>Disabled TLS v1.0 in FIPS Mode and Enforce AES/3DES Encryption mode.</li>
+		<li>Added SSH support for aes256-ctr cipher and hmac-sha2-256 mac to fix&nbsp;a connection issue in some default SSH configurations.</li>
+	</ul>
+	</li>
+	<li>The Affected Systems list on iLO Federation pages can be exported to a CSV file.</li>
+	<li>The iLO Event Log is now searchable and can be filtered by event severity, last update, or initial update.</li>
+	<li>The IML is now searchable and can be filtered by event severity, class, last update, or initial update.</li>
+	<li>The following service event types are now supported by HP remote support:
+	<ul>
+		<li>SAS Physical Drive Status Changed Event</li>
+		<li>Storage System Fan Status Changed Event</li>
+		<li>Storage System Power Supply Status Changed Event</li>
+	</ul>
+	</li>
+	<li>The new Chassis Information page is displayed for Apollo servers and SL and&nbsp;XL servers. For these server types, some information from the System&nbsp;Information &gt; Power page has been moved to this page.</li>
+	<li>The new Software Information page displays HP and HP-recommended third-party&nbsp;software, running software, and installed software.</li>
+	<li>Troubleshooting information is available for selected IML events. Supported&nbsp;events are displayed as links in the Description column on the IML page.</li>
+	<li>Servers with a TPM or TM display the module type on the iLO Overview page.</li>
+	<li>Added a new IPMI OEM command to change channel assignments.</li>
+	<li>Increased the number of concurrent IPMI sessions.</li>
+	<li>Updated to DCMI 1.1, parameter revision 2.</li>
+	<li>Added IPMI over IPv6 support.</li>
+	<li>IPMI memory events in SEL now include the DIMM number.</li>
+</ul>
+
+<p>&nbsp;</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このバージョンは、以下の機能と改善を追加します。</p>
+
+<ul>
+	<li>IPMI Platform EventトラップをIPv6宛先に送信することができます。</li>
+	<li>Smartアレイドライブメディアタイプは、SNMP、RESTful API、iLO Webインターフェイス、およびRIBCL経由で利用できるようになりました。</li>
+	<li>SmartアレイドライブRPMは、SNMPおよびRESTful API経由で利用できるようになりました。</li>
+	<li>機能がROM設定で無効にされている場合、消費電力上限はRESTful APIを介して有効にすることができます。</li>
+	<li>新しいアクセス設定オプションのサポートが、RESTful APIに追加されました。</li>
+	<li>セキュリティの強化：
+	<ul>
+		<li>スキャンツールによって報告される誤った陽性に対処するため、デフォルト構成からエクスポート暗号を削除しました。</li>
+		<li>FIPSモードではTLS v1.0を無効とし、AES/3DES暗号化モードを適用します。</li>
+		<li>いくつかのデフォルトSSH構成での接続問題を修正するために、aes256-ctr暗号およびhmac-sha2-256 macのSSHサポートを追加しました。</li>
+	</ul>
+	</li>
+	<li>iLO連携ページの影響を受けるシステムのリストをCSVファイルにエクスポートすることができます。</li>
+	<li>iLOイベントログは検索可能で、イベント深刻度、最終更新、または初期更新でフィルターすることができます。</li>
+	<li>IMLは検索可能で、イベント深刻度、クラス、最終更新、または初期更新でフィルターすることができます。</li>
+	<li>次のサービスイベントタイプが、HP Remote Supportでサポートされます：
+	<ul>
+		<li>SAS Physical Drive Status Changed Event</li>
+		<li>Storage System Fan Status Changed Event</li>
+		<li>Storage System Power Supply Status Changed Event</li>
+	</ul>
+	</li>
+	<li>新しいシャーシ情報ページは、ApolloサーバーおよびSLおよびXLサーバーのために表示されます。 これらのサーバータイプのために、システム情報 > 電力ページからいくつかの情報が、このページに移動されました。</li>
+	<li>新しいソフトウェア情報ページは、HPおよびHP推奨サードパーティソフトウェア、実行中のソフトウェア、およびインストールされたソフトウェアを表示します。</li>
+	<li>トラブルシューティング情報が、選択したIMLイベントに対して利用可能です。 サポートされるイベントが、IMLページの説明欄にリンクとして表示されます。</li>
+	<li>TPMまたはTMを持つサーバーは、iLO概要ページでモジュールタイプを表示します。</li>
+	<li>チャネル割り当てを変更するための新しいIPMI OEMコマンドを追加しました。</li>
+	<li>同時平行のIPMIセッションの数を増やしました。</li>
+	<li>DCMI1.1、パラメーターリビジョン2にアップデートしました。</li>
+	<li>IPMI over IPv6サポートを追加しました。</li>
+	<li>SELのIPMIメモリイベントは、DIMM番号を含みます。</li>
+</ul>
+
+<p> </p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<ul>
+	<li>The iLO Federation group licensing feature does not decode license keys.</li>
+	<li>A RESTful API Power Supply Health Status Warning occurs when no power supply&nbsp;is installed.</li>
+	<li>License keys are displayed when snmpwalk is used.</li>
+	<li>An incorrect URL is displayed for newly-registered providers.</li>
+	<li>On Gen8 servers, when a TPM is present and enabled, the displayed TPM Module&nbsp;value is incorrect.</li>
+	<li>On blade servers that support UEFI, an iLO CLI session hangs while executing&nbsp;the &quot;show system1/bootconfig1&quot; command.</li>
+	<li>An incorrect error message is displayed when a user tries to edit a deleted&nbsp;user account.</li>
+	<li>An LDAP login causes an invalid session URI.</li>
+	<li>iLO hangs when a directory user tries to log in with encryption enabled.</li>
+	<li>iLO Federation group power caps cannot be set or edited by using the RESTful&nbsp;API.</li>
+	<li>On DL20 servers, MULTICAST_FEDERATION_ENABLED can be configured when the&nbsp;Shared Network Port is enabled.</li>
+	<li>In Internet Explorer 11, the iLO Event Log and IML Last Update and Initial&nbsp;Update filter shows a blank filter option.</li>
+	<li>A .NET IRC session closes when it is accessed by three different browser&nbsp;sessions.</li>
+	<li>The wrong PSU firmware version is displayed in the iLO web interface and SNMP.</li>
+	<li>A RESTful API Property Unknown Response message occurs during a firmware&nbsp;update.</li>
+	<li>A RESTful API Property Unknown Response message occurs when iLO Functionality&nbsp;is set to Disabled.</li>
+	<li>A RESTful API Property Unknown Response message occurs when the Virtual Power&nbsp;Press And Hold option is used.</li>
+	<li>The RESTful API cannot be used to set iLO to the factory default settings.</li>
+	<li>An error occurs when the Set_Persistent_Boot_Order.xml script is used on&nbsp;servers that support UEFI.</li>
+	<li>A 500 Internal Server Error occurs when an Email Address, Sender Domain, or&nbsp;SMTP Server value with 63 characters is entered on the AlertMail page.</li>
+	<li>The AlertMailEmail parameter does not display complete email addresses.</li>
+	<li>External Storage trap events are not sent to the HP Support Center.</li>
+	<li>The following error occurs during POST: 338-HP RESTful API Error - Unable to&nbsp;communicate with iLO FW.</li>
+	<li>Test events can be sent when HP remote support is not configured.</li>
+	<li>The Get_TPM_Status.xml script returns incorrect XML.</li>
+	<li>Product names might be appended to version numbers on the Software Inventory&nbsp;page.</li>
+	<li>An incorrect message is displayed when AES encryption is re-enabled by using&nbsp;the Mod_Global_Settings.xml script.</li>
+	<li>When using the RESTful API, the SNMP AlertDestination does not validate the IP&nbsp;address.</li>
+	<li>Acceptance of the SNMP Alert Destination IP address in the CLI and iLO web&nbsp;interface is inconsistent.</li>
+	<li>Incorrect status information is displayed for empty PCI slots.</li>
+	<li>The P840ar is displayed as a P840.</li>
+	<li>False errors were reported after a successful Power Management Controller&nbsp;firmware update, and were followed by an inability to communicate with a&nbsp;rebooting Power Management Controller.</li>
+	<li>Reduced the frequency of iLO Event Log additions for IPMI session&nbsp;login/logouts.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されました：</p>
+
+<ul>
+	<li>iLO連携グループライセンス機能は、ライセンスキーをデコードしません。</li>
+	<li>電源装置がインストールされていない場合、RESTful API Power Supply Health Status Warningが発生します。</li>
+	<li>snmpwalkを使用した場合、ライセンスキーが表示されます。</li>
+	<li>新しく登録されたプロバイダーに対して誤ったURLが表示されます。</li>
+	<li>Gen8サーバーで、TPMが存在し、有効にされた場合、表示されたTPMモジュールの値が正しくありません。</li>
+	<li>「show system1/bootconfig1」コマンドの実行中に、UEFIをサポートするブレードサーバーでは、iLO CLIセッションがハングアップします。</li>
+	<li>ユーザーが削除されたユーザーアカウントを編集しようとしたときに、誤ったエラーメッセージが表示されます。 </li>
+	<li>LDAPログインは、無効なセッションURIを引き起こします。</li>
+	<li>ディレクトリユーザーが暗号化有効でログインしようとすると、iLOがハングアップします。</li>
+	<li>RESTful API.を使用して、iLO連携グループの消費電力上限を設定または編集することはできません。</li>
+	<li>DL20サーバーでは、共有ネットワークポートが有効な場合に、MULTICAST_FEDERATION_ENABLEDを構成することはできません。</li>
+	<li>Internet Explorer 11で、iLOおよびIMLのイベントログ最新更新および初期更新フィルターが空白のフィルターオプションを表示します。</li>
+	<li>3つの異なるブラウザーセッションによってアクセスされると、.NET IRCセッションが終了します。</li>
+	<li>iLO WebインターフェイスとSNMPで、誤ったPSUファームウェアバージョンが表示されます。</li>
+	<li>ファームウェアアップデート中に、RESTful API Property Unknown Responseメッセージが発生します。</li>
+	<li>iLO機能が無効に設定されている場合、RESTful API Property Unknown Responseメッセージが発生します。</li>
+	<li>仮想電源ボタンの押し続けるオプションが使用される場合、RESTful API Property Unknown Responseメッセージが発生します。</li>
+	<li>RESTful APIは、工場出荷時設定にiLOを設定するために使用することができません。</li>
+	<li>UEFIをサポートするサーバー上でSet_Persistent_Boot_Order.xmlスクリプトが使用された場合、エラーが発生します。</li>
+	<li>AlertMailページで63文字のメールアドレス、送信者ドメイン、またはSMTPサーバー値が入力された場合、500 Internal Server Errorが発生します。</li>
+	<li>AlertMailEmailパラメーターは、完全なメールアドレスを表示しません。</li>
+	<li>外部ストレージトラップイベントが、HP Support Centerに送信されません。</li>
+	<li>POST中に次のエラーが発生します： 338-HP RESTful API Error - Unable to communicate with iLO FW。</li>
+	<li>HP Remote Support構成されていない場合に、テストイベントを送信することができます。</li>
+	<li>Get_TPM_Status.xmlスクリプトが誤ったXMLを返します。</li>
+	<li>ソフトウェアインベントリページで製品名がバージョン番号に付加されることがあります。</li>
+	<li>AES暗号化がMod_Global_Settings.xmlスクリプトを使用して再度有効にされた場合、誤ったメッセージが表示されます。</li>
+	<li>RESTful APIを使用する場合、SNMP AlertDestinationはIPアドレスを検証しません。</li>
+	<li>CLIおよびiLO WebインターフェイスのSNMPアラート送信先IPアドレスの受諾が矛盾しています。</li>
+	<li>空のPCIスロットに対して、誤ったステータス情報が表示されます。</li>
+	<li>P840arが、P840と表示されます。</li>
+	<li>誤ったエラーが、パワーマネジメントコントローラーファームウェアの成功したアップデート後に報告され、再起動するパワーマネジメントコントローラーと通信することができないことが続きました。 </li>
+	<li>IPMIセッションのログイン/ログアウトに対するiLOイベントログ追加の頻度を削減しました。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.22" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This version adds support for the following features and enhancements from version 2.20:</p>
+
+<p>&nbsp; &bull; The Remote Console security settings were moved from the Administration &gt;<br />
+&nbsp;&nbsp;&nbsp; Security &gt; Remote Console page to the Remote Console &gt; Security page.<br />
+&nbsp; &bull; The new Authentication Failure Delay Time setting allows users to<br />
+&nbsp;&nbsp;&nbsp; configure the duration of the iLO login delay after a failed login attempt.<br />
+&nbsp;&nbsp;&nbsp; This setting can be configured on the Access Settings page.<br />
+&nbsp; &bull; The new Authentication Failures Before Delay setting allows users to configure<br />
+&nbsp;&nbsp;&nbsp; the number of failed login attempts that are allowed before iLO imposes a<br />
+&nbsp;&nbsp;&nbsp; login delay. This setting can be configured on the Access Settings page.<br />
+&nbsp; &bull; iLO 4 2.20 and later allows you to install multiple language packs.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - For iLO 4 2.10 and earlier&mdash;You can install one language pack.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Installing a new language pack replaces the currently installed language<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pack, regardless of the language pack version.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - For iLO 4 2.20 and later&mdash;Language packs are not supported on servers that<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; do not have a NAND. To continue using language packs on servers without a NAND<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; use iLO 4 2.10 or earlier.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - When you upgrade from an earlier version of iLO 4 to version 2.20 or<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; later, previously installed language packs are deleted.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - iLO 4 2.20 or later requires version 2.20 or later of the iLO language<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pack.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - When version 2.20 or later of a language pack is installed, installing a new<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; language pack of the same language (version 2.20 or later) replaces the currently<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; installed language pack.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The following language packs are available: Japanese and Simplified<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chinese.<br />
+&nbsp; &bull; The HP ProLiant Agentless Management Service status is now listed on the<br />
+&nbsp;&nbsp;&nbsp; Information &gt; System Information &gt; Summary page.<br />
+&nbsp; &bull; Trusted Module status is now displayed on the Information &gt; Overview page.<br />
+&nbsp; &bull; RIBCL scripts and the CLP can now be used to send a test trap to test the<br />
+&nbsp;&nbsp;&nbsp; SNMP configuration.<br />
+&nbsp; &bull; Added support for IPv6 in IPMI LAN Configuration Command Parameters.</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このバージョンは、以下のバージョン2.20からの機能と機能強化を追加します：</p>
+
+<p>  • リモートコンソールのセキュリティ設定が、管理 > セキュリティ > リモートコンソールページから、リモートコンソール > セキュリティページに移動しました。<br />   • 新しい認証失敗遅延時間の設定は、ログイン試行に失敗した後のiLOログイン遅延の時間をユーザーが構成することを可能にします。<br />     この設定は、アクセス設定ページで構成することができます。<br />   • 新しい遅延前認証失敗設定は、iLOがログイン遅延を課す前に許される失敗したログイン試行の回数を構成することをユーザーに可能にします。 この設定は、アクセス設定ページで構成することができます。<br />   • iLO 4 2.20以降は、複数の言語パックをインストールすることができます。<br />       - iLO 4 2.10以前の場合、1つの言語パックをインストールすることができます。<br />         新しい言語パックをインストールすると現在インストールされている言語パックを言語パックのバージョンに関係なく置き換えます。<br />       -iLO4 2.20以降の場合、言語パックはNANDを持たないサーバーではサポートされません。 NANDを持たないサーバーで言語パックを使用し続けるには、iLO 4 2.10以前を使用します。<br />       - iLO 4の以前のバージョンからバージョン2.20以降へアップグレードする場合、以前にインストールされた言語パックは削除されます。<br />       - iLO 4 2.20以降には、バージョン2.20以降のiLO言語パックが必要です。<br />       - バージョン2.20以降の言語パックがインストールされている場合、同じ言語の新しい言語パック（バージョン2.20以降）をインストールすると、現在インストールされている言語パックを置き換えます。<br />       - 以下の言語パックが利用可能です：日本語、簡体字中国語。<br />   • HP ProLiant Agentless Management Serviceステータスは、現在、情報 > システム情報 > サマリーページにリストされます。<br />   • Trusted Moduleステータスは、現在、情報 > 概要ページに表示されます。<br />   • RIBCLスクリプトおよびCLPは、現在、SNMP構成をテストするためにテストトラップを送信するために使用することができます。<br />   • IPMI LAN構成コマンドパラメーターにIPv6のサポートを追加しました。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<p>&nbsp; &bull; When the iLO 4 firmware is updated to version 2.20, the iLO security settings might be<br />
+&nbsp;&nbsp;&nbsp; reset to the default values.<br />
+&nbsp; &bull; Embedded media handling was updated to reduce embedded media errors.<br />
+&nbsp; &bull; Addressed SSRT102184<br />
+&nbsp;<br />
+The following issues are resolved in version 2.20 (replaced by 2.22):<br />
+&nbsp;<br />
+&nbsp; &bull; Fixed detection of the Intel GPU sensor in Gen9 servers with the GPU. This allows<br />
+&nbsp;&nbsp;&nbsp; fans to be controlled more reasonably.<br />
+&nbsp; &bull; Staged ROM settings might be lost after CONREP is run if the server was reset before<br />
+&nbsp;&nbsp;&nbsp; iLO was reset.<br />
+&nbsp; &bull; The correct number of license seats is not displayed when 256 or more seats are<br />
+&nbsp;&nbsp;&nbsp; licensed.<br />
+&nbsp; &bull; Fixed an IPMI driver issue for Linux.<br />
+&nbsp; &bull; Fixed a Virtual Media disconnect issue.<br />
+&nbsp; &bull; Fixed a DHCP client renewal issue.<br />
+&nbsp; &bull; The Alertmail page in the iLO web interface rejects email addresses with the following<br />
+&nbsp;&nbsp;&nbsp; format: <a href="mailto:wwww@xxxx.yyy.zz">wwww@xxxx.yyy.zz</a>.<br />
+&nbsp; &bull; Fixed an IPMI boot option issue when IPMI tool is used.<br />
+&nbsp; &bull; The set command in the iLO CLI does not finish on DL380 Gen9 servers.<br />
+&nbsp; &bull; The iLO IPv6 options are set to the default values when FIPS mode is enabled.<br />
+&nbsp; &bull; The iLO web interface hangs for a few minutes when a long string is entered in the<br />
+&nbsp;&nbsp;&nbsp; Firmware URL box on the Group Firmware Update page.<br />
+&nbsp; &bull; Added an iLO workaround for IPMI tool boot parameter command options.<br />
+&nbsp; &bull; LDAP authentication fails when a password contains diacritic characters.<br />
+&nbsp; &bull; iLO sends several multicast join/leave requests when disabling multicast.<br />
+&nbsp; &bull; iLO event logs that contain an IP address are dropped if the DNS lookup queue is<br />
+&nbsp;&nbsp;&nbsp; full. These events are now logged with (DNS name not found) in place of the DNS name.<br />
+&nbsp; &bull; The iLO web interface allows an iLO Federation Group Key with more than 32 characters<br />
+&nbsp;&nbsp;&nbsp; when the character limit is 31.<br />
+&nbsp; &bull; The set_Boot_Mode.xml script fails when you use HPONCFG to set legacy mode for Gen8<br />
+&nbsp;&nbsp;&nbsp; servers.<br />
+&nbsp; &bull; The Firmware page incorrectly displays slot 0 for HP220i Host adapters.<br />
+&nbsp; &bull; The Asset Tag can be set via XML when the server is powered off, except for when<br />
+&nbsp;&nbsp;&nbsp; the server is in UEFI mode.<br />
+&nbsp; &bull; An Embedded Flash/SD-Card subsystem failure is not logged in the iLO Event Log.&nbsp;<br />
+&nbsp; &bull; iLO does not reset when Active Health System logging is enabled via XML.<br />
+&nbsp; &bull; An iLO Event Log entry is not recorded when network settings are modified<br />
+&nbsp;&nbsp;&nbsp; by using the CLI.<br />
+&nbsp; &bull; The floppy disc boot options always, never, and once are displayed in the Gen9 CLI,<br />
+&nbsp;&nbsp;&nbsp; but these features are not supported.<br />
+&nbsp; &bull; A TPM Caution message is not displayed when a new language pack is installed.<br />
+&nbsp; &bull; The tooltip on the Device Inventory page does not disappear when you click<br />
+&nbsp;&nbsp;&nbsp; outside the table.</p>
+
+<p>&nbsp;</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されました：</p>
+
+<p>  • iLO 4ファームウェアがバージョン2.20にアップデートされると、iLOセキュリティ設定がデフォルト値にリセットされることがあります。<br />   • 内蔵メディアエラーを削減するために、内蔵メディア処理がアップデートされました。<br />   • SSRT102184に対処しました。<br />  <br /> バージョン2.20で、以下の問題を解決しました (2.22で置き換えられました)：<br />  <br />   • GPUを持つGen9サーバーでのIntel GPUセンサーの検出を修正しました。 より合理的にファンを制御することを可能にします。<br />   • iLOがリセットされる前にサーバーがリセットされた場合に、CONREPが実行された後ステージされたROM設定が失われることがあります。<br />   • 256以上のライセンスが付与されると、ライセンス数の正しい数が表示されません。<br />   • Linux用のIPMIドライバーの問題を修正しました。<br />   • 仮想メディアの切断問題を修正しました。<br />   • DHCPクライアントの更新問題を修正しました。<br />   • iLO Webインターフェイスのアラートメールページが、次の形式のメールアドレスを拒否します： <a href="mailto:wwww@xxxx.yyy.zz">wwww@xxxx.yyy.zz</a>。<br />   • IPMIツールが使われる場合のIPMIブートオプション問題を修正しました。<br />   • iLO CLIのsetコマンドが、DL380 Gen9サーバーで完了しません。<br />   • FIPSモードが有効な場合、iLO IPv6オプションはデフォルト値に設定されます。<br />   • グループファームウェアアップデートページのファームウェアURLボックスに長い文字列が入力されたとき、iLO Webインターフェイスが数分間ハングします。<br />   • IPMIツールのブートパラメーターコマンドオプションのiLO回避策を追加しました。<br />   • パスワードが分音記号文字を含んでいる場合、LDAP認証が失敗します。<br />  • マルチキャストを無効にするときに、iLOはいくつかのマルチキャストjoin/leaveリクエストを送信します。<br />   • DNSルックアップキューがいっぱいの場合、IPアドレスを含むiLOイベントログが削除されます。 これらのイベントは、現在DNS名の代わりに（DNS名が見つかりません）と記録されます。<br />   • 文字制限が31でも、iLO Webインターフェイスは32文字以上のiLO連携グループキーを許します。<br />   • Gen8サーバーに対してレガシーモードを設定するためにHPONCFGを使用すると、set_Boot_Mode.xmlスクリプトが失敗します。<br />   • ファームウェアページが、HP220iホストアダプターに対してスロット0を誤って表示します。<br />   • サーバーがUEFIモードのときを除いて、サーバーが電源オフのときに、XMLを介して資産タグを設定することができます。<br />   • 内蔵フラッシュ/SDカードサブシステム障害は、iLOイベントログに記録されません。 <br />   • Active Health SystemログがXMLを介して有効にされると、iLOはリセットされません。<br />   • ネットワーク設定がCLIを使用して変更された場合、iLOイベントログエントリーが記録されません。<br />   • フロッピーディスクブートオプション [always、never、once]がGen9 CLIで表示されますが、これらの機能はサポートされていません。<br />   • 新しい言語パックがインストールされている場合、TPM警告メッセージが表示されません。<br />   • テーブルの外側をクリックした場合、デバイスインベントリページのツールチップが消えません。</p>
+
+<p> </p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.20" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This version adds support for the following features and enhancements:</p>
+
+<p>&nbsp; &bull; The Remote Console security settings were moved from the Administration &gt;<br />
+&nbsp;&nbsp;&nbsp; Security &gt; Remote Console page to the Remote Console &gt; Security page.<br />
+&nbsp; &bull; The new Authentication Failure Delay Time setting allows users to<br />
+&nbsp;&nbsp;&nbsp; configure the duration of the iLO login delay after a failed login attempt.<br />
+&nbsp;&nbsp;&nbsp; This setting can be configured on the Access Settings page.<br />
+&nbsp; &bull; The new Authentication Failures Before Delay setting allows users to configure<br />
+&nbsp;&nbsp;&nbsp; the number of failed login attempts that are allowed before iLO imposes a<br />
+&nbsp;&nbsp;&nbsp; login delay. This setting can be configured on the Access Settings page.<br />
+&nbsp; &bull; iLO 4 2.20 and later allows you to install more than one language pack.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - For iLO 4 2.10 and earlier&mdash;You can install one language pack at a time.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Installing a new language pack replaces the currently installed language<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pack, regardless of the language pack version.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - For iLO 4 2.20 and later&mdash;Language packs are not supported on servers that<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; do not have a NAND. Servers without a NAND should continue to use iLO<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4 2.10.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - iLO 4 2.20 or later requires version 2.20 or later of the iLO language<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pack.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - When you upgrade from an earlier version of iLO 4 to version 2.20 or<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; later, previously installed language packs are deleted.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - The following language packs are available: Japanese and Simplified<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chinese.<br />
+&nbsp; &bull; The HP ProLiant Agentless Management Service status is now listed on the<br />
+&nbsp;&nbsp;&nbsp; Information &gt; System Information &gt; Summary page.<br />
+&nbsp; &bull; Trusted Module status is now displayed on the Information &gt; Overview page.<br />
+&nbsp; &bull; RIBCL scripts and the CLP can now be used to send a test trap to test the<br />
+&nbsp;&nbsp;&nbsp; SNMP configuration.<br />
+&nbsp; &bull; Added support for IPv6 in IPMI LAN Configuration Command Parameters.</p>
+
+<p>&nbsp;</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このバージョンは、以下の機能と改善を追加します。</p>
+
+<p>  • リモートコンソールのセキュリティ設定が、管理 > セキュリティ > リモートコンソールページから、リモートコンソール > セキュリティページに移動しました。<br />   • 新しい認証失敗遅延時間の設定は、ログイン試行に失敗した後のiLOログイン遅延の時間をユーザーが構成することを可能にします。<br />     この設定は、アクセス設定ページで構成することができます。<br />   • 新しい遅延前認証失敗設定は、iLOがログイン遅延を課す前に許される失敗したログイン試行の回数を構成することをユーザーに可能にします。 この設定は、アクセス設定ページで構成することができます。<br />   • iLO 4 2.20以降は、複数の言語パックをインストールすることができます。<br />       - iLO 4 2.10以前の場合、一度に1つの言語パックをインストールすることができます。<br />         新しい言語パックをインストールすると現在インストールされている言語パックを言語パックのバージョンに関係なく置き換えます。<br />       -iLO4 2.20以降の場合、言語パックはNANDを持たないサーバーではサポートされません。 NANDを持たないサーバーは、iLO 4 2.10を使用し続ける必要があります。<br />       - iLO 4 2.20以降には、バージョン2.20以降のiLO言語パックが必要です。<br />       - iLO 4の以前のバージョンからバージョン2.20以降へアップグレードする場合、以前にインストールされた言語パックは削除されます。<br />       - 以下の言語パックが利用可能です：日本語、簡体字中国語。<br />   • HP ProLiant Agentless Management Serviceステータスは、現在、情報 > システム情報 > サマリーページにリストされます。<br />   • Trusted Moduleステータスは、現在、情報 > 概要ページに表示されます。<br />   • RIBCLスクリプトおよびCLPは、現在、SNMP構成をテストするためにテストトラップを送信するために使用することができます。<br />   • IPMI LAN構成コマンドパラメーターにIPv6のサポートを追加しました。</p>
+
+<p> </p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>The following issues are resolved in this version:</p>
+
+<p>&nbsp; &bull; Fixed detection of the Intel GPU sensor in Gen9 servers with the GPU. This allows<br />
+&nbsp;&nbsp;&nbsp; fans to be controlled more reasonably.<br />
+&nbsp; &bull; Staged ROM settings might be lost after CONREP is run if the server was reset before<br />
+&nbsp;&nbsp;&nbsp; iLO was reset.<br />
+&nbsp; &bull; The correct number of license seats is not displayed when 256 or more seats are<br />
+&nbsp;&nbsp;&nbsp; licensed.<br />
+&nbsp; &bull; Fixed an IPMI driver issue for Linux.<br />
+&nbsp; &bull; Fixed a Virtual Media disconnect issue.<br />
+&nbsp; &bull; Fixed a DHCP client renewal issue.<br />
+&nbsp; &bull; Alertmail webpage rejects email addresses with&nbsp; <a href="mailto:wwww@xxxx.yyy.zz">wwww@xxxx.yyy.zz</a>&nbsp; format<br />
+&nbsp; &bull; Fixed an IPMI boot option issue when using IPMI tool.<br />
+&nbsp; &bull; The set command in the iLO CLI does not finish on DL380 Gen9 servers.<br />
+&nbsp; &bull; The iLO IPv6 options are set to the default values when FIPS mode is enabled.<br />
+&nbsp; &bull; The iLO web interface hangs for a few minutes when a long string is entered for a<br />
+&nbsp;&nbsp;&nbsp; group firmware update.<br />
+&nbsp; &bull; Added an iLO workaround for IPMI tool boot parameter command options.<br />
+&nbsp; &bull; LDAP authentication fails when a password contains diacritic characters.<br />
+&nbsp; &bull; LDAP authentication might fail against a properly configured OpenLDAP server due to<br />
+&nbsp;&nbsp;&nbsp; protocol version restrictions.<br />
+&nbsp; &bull; iLO sends several multicast join/leave requests when disabling multicast.<br />
+&nbsp; &bull; iLO event logs that contain an IP address are dropped if the DNS lookup queue is<br />
+&nbsp;&nbsp;&nbsp; full. These events are now logged with (DNS name not found) in place of the DNS name.<br />
+&nbsp; &bull; The iLO web interface allows an iLO Federation Group Key with more than 32 characters<br />
+&nbsp;&nbsp;&nbsp; when the character limit is 31.<br />
+&nbsp; &bull; The set_Boot_Mode.xml script fails when you use HPONCFG to set legacy mode for Gen8<br />
+&nbsp;&nbsp;&nbsp; servers.<br />
+&nbsp; &bull; The Firmware page incorrectly displays slot 0 for HP220i Host adapters.<br />
+&nbsp; &bull; The Asset Tag can be set via XML when the server is powered off, except for when<br />
+&nbsp;&nbsp;&nbsp; the server is in UEFI mode.<br />
+&nbsp; &bull; An Embedded Flash/SD-Card subsystem failure is not logged in iLO Event log.&nbsp;<br />
+&nbsp; &bull; iLO does not reset when Active Health System logging is enabled via XML.<br />
+&nbsp; &bull; An iLO event log entry is not recorded when network settings are modified<br />
+&nbsp;&nbsp;&nbsp; by using the CLI.<br />
+&nbsp; &bull; The floppy disc boot options always, never, and once are displayed in the Gen9 CLI,<br />
+&nbsp;&nbsp;&nbsp; but these features are not supported.<br />
+&nbsp; &bull; A TPM Caution message is not displayed when a new language pack is installed.<br />
+&nbsp; &bull; The tooltip on the Device Inventory page does not disappear when you click<br />
+&nbsp;&nbsp;&nbsp; outside the table.</p>
+
+<p>&nbsp;</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>このバージョンでは以下の問題が解決されました。</p>
+
+<p>  • GPUを持つGen9サーバーでのIntel GPUセンサーの検出を修正しました。 より合理的にファンを制御することを可能にします。<br />   • iLOがリセットされる前にサーバーがリセットされた場合に、CONREPが実行された後ステージされたROM設定が失われることがあります。<br />   • 256以上のライセンスが付与されると、ライセンス数の正しい数が表示されません。<br />   • Linux用のIPMIドライバーの問題を修正しました。<br />   • 仮想メディアの切断問題を修正しました。<br />   • DHCPクライアントの更新問題を修正しました。<br />   • アラートメールウェブページが<a href="mailto:wwww@xxxx.yyy.zz">wwww@xxxx.yyy.zz</a>形式のメールアドレスを拒否します。<br />   • IPMIツールを使用する場合のIPMIブートオプション問題を修正しました。<br />   • iLO CLIのsetコマンドが、DL380 Gen9サーバーで完了しません。<br />   • FIPSモードが有効な場合、iLO IPv6オプションはデフォルト値に設定されます。<br />   • 長い文字列がグループファームウェアのアップデートのために入力されたとき、iLO Webインターフェイスが数分間ハングします。<br />   • IPMIツールのブートパラメーターコマンドオプションのiLO回避策を追加しました。<br />   • パスワードが分音記号文字を含んでいる場合、LDAP認証が失敗します。<br />   • プロトコルバージョンの制約のために正しく構成されたOpenLDAPサーバーに対してLDAP認証が失敗することがあります。<br />   • マルチキャストを無効にするときに、iLOはいくつかのマルチキャストjoin/leaveリクエストを送信します。<br />   • DNSルックアップキューがいっぱいの場合、IPアドレスを含むiLOイベントログが削除されます。 これらのイベントは、現在DNS名の代わりに（DNS名が見つかりません）と記録されます。<br />   • 文字制限が31でも、iLO Webインターフェイスは32文字以上のiLO連携グループキーを許します。<br />   • Gen8サーバーに対してレガシーモードを設定するためにHPONCFGを使用すると、set_Boot_Mode.xmlスクリプトが失敗します。<br />   • ファームウェアページが、HP220iホストアダプターに対してスロット0を誤って表示します。<br />   • サーバーがUEFIモードのときを除いて、サーバーが電源オフのときに、XMLを介して資産タグを設定することができます。<br />   • 内蔵フラッシュ/SDカードサブシステム障害は、iLOイベントログに記録されません。 <br />   • Active Health SystemログがXMLを介して有効にされると、iLOはリセットされません。<br />   • ネットワーク設定がCLIを使用して変更された場合、iLOイベントログエントリーが記録されません。<br />   • フロッピーディスクブートオプション [always、never、once]がGen9 CLIで表示されますが、これらの機能はサポートされていません。<br />   • 新しい言語パックがインストールされている場合、TPM注意メッセージが表示されません。<br />   • テーブルの外側をクリックした場合、デバイスインベントリページのツールチップが消えません。</p>
+
+<p> </p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.11" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>This release is intended for FIPS 140-2 level 1 validation and Common Criteria EAL2+ certification and is based from the iLO 4 v2.10 Release. All bug fixes and enhancements related to v2.10 have also been included in this release.&nbsp; The current status of iLO 4 firmware v2.11 for these two certifications can be found at ttp://h10038.www1.hp.com/certifications.aspx?agencyid=89<br />
+&nbsp;</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>このリリースは、FIPS 140-2 レベル 1検証およびCommon Criteria EAL2+ 認証を目的とし、iLO 4 v2.10リリースから基づきます。 v2.10に関連するすべてのバグ修正と機能強化もこのリリースに含まれています。 これらの2つの認証に対するiLO 4ファームウェアv2.11の現在のステータスは、http://h10038.www1.hp.com/certifications.aspx?agencyid=89で見つけることができます。<br />  </p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+    </revision>
+    <revision>
+      <version value="2.10" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>
+ This version adds support for the following features and enhancements:</p>
+<p>
+ &bull; New CLI and RIBCL commands for sending SNMP test traps.<br />
+ &bull; Agentless Management support for standup storage card firmware versions.<br />
+ &bull; The iLO IP address can now be used as the SubjectAltName in a certificate signing request.<br />
+ &bull; IPMI transport over IPv6.<br />
+ &bull; HP RESTful API updates, including support for:<br />
+ &nbsp; - Mezz and base FRUs<br />
+ &nbsp; - GET of data to retrieve the Active Health System log<br />
+ &nbsp; - Support Logs<br />
+ &bull; Flex Slot Battery Backup Unit information is displayed on the Information &gt; System Information &gt; Power page.<br />
+ &bull; Physical and logical network adapters are displayed on the Information &gt; System Information &gt; Network page.<br />
+ &bull; NIC teaming information is displayed on the Information &gt; System Information &gt; Network page.<br />
+ &bull; Information about devices installed on the system board, such as adapters, PCI devices,&nbsp; SATA controllers, and Smart Storage Batteries is displayed on the new Information &gt; System Information &gt; Device Inventory page.<br />
+ &bull; HP and third-party storage controllers that manage direct-attached storage and the attached physical drives are displayed on the Information &gt; System<br />
+ &nbsp; Information &gt; Storage page.<br />
+ &bull; HP Smart Storage Battery information is displayed on the Information &gt; System Information &gt; Summary, Information &gt; System Information &gt; Power, and Information &gt; System Information &gt; Device Inventory pages.<br />
+ &bull; In addition to the supported OEM parameters, the IPMI boot options for UEFI now support the standard parameters.<br />
+ &bull; Extended the functionality of Lock_Configuration.xml to include restricting the IPMI interface from the system channel.<br />
+ &bull; Added support for IPMI 2.0 PEF and PET generation to the IPMI interface.</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>
+ このバージョンは、以下の機能と改善を追加します。</p>
+<p>
+ • SNMPテストトラップを送信するための新しいCLIおよびRIBCLコマンド。<br /> • スタンドアップストレージカードファームウェアバージョンのためのAgentless Managementサポート。<br /> • iLO IPアドレスが、証明書署名要求でSubjectAltNameとして使用することができます。<br /> • IPv6上のIPMIトランスポート。<br /> • 次のサポートを含むHP RESTful APIのアップデート：<br />   - メザニンおよびベースFRU<br />   - Active Health Systemログを取得するためのデータのGET<br />   - サポートログ<br /> • Flex Slot Battery Backup Unit情報が、情報 > システム情報 > 電源ページに表示されます。<br /> • 物理および論理ネットワークアダプターが、情報 > システム情報 > ネットワークページに表示されます。<br /> • NICチーミング情報が、情報 > システム情報 > ネットワークページに表示されます。<br /> • アダプター、PCIデバイス、SATAコントローラー、およびSmart Storage Batteryなどのようなシステムボード上にインストールされているデバイスに関する情報が、新しく情報 > システム情報 > デバイスインベントリページに表示されます。<br /> • 直接接続ストレージおよび接続された物理ドライブを管理するHPやサードパーティのストレージコントローラーが、情報 > システム情報 > ストレージページに表示されます。<br /> • HP Smart Storage Battery情報が、情報 > システム情報 > 概要、情報 > システム情報 > 電源、および情報 > システム情報 > デバイスインベントリページに表示されます。<br /> • サポートされているOEMパラメーターに加えて、UEFIのためのIPMIブートオプションは標準的なパラメーターをサポートします。<br /> • システムチャネルからIPMIインターフェイスを制限することを含むために、Lock_Configuration.xmlの機能を拡張しました。<br /> • IPMIインタフェースにIPMI2.0 PEFおよびPET生成のためのサポートを追加しました。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[The following issues are resolved in this version:<br />
+&bull; Addressed SSRT101886<br />
+&bull; An iLO kernel crash after 40 or more days of uptime under certain operating systems can&nbsp;lead to an operating system crash. When this occurs, the iLO Event Log records a &ldquo;Power restored to iLO&rdquo; event at the time of the OS crash.<br />
+&bull; iLO might send multiple SNMP traps that show the Smart Array battery falsely&nbsp;changing status (SNMP trap ID 11020).<br />
+&bull; iLO firmware updates might stay at 1% and never finish.<br />
+&bull; ADH ciphers are accepted in iLO 4 when AES is enabled.<br />
+&bull; Incorrect information is displayed on the Information &gt; System Information &gt; Network page&nbsp;when there are similar MAC addresses.<br />
+&bull; SSDP advertisements have bad signatures and iLO Federation groups don&#39;t display all&nbsp;peers.<br />
+&bull; Power supply sensors are not illustrated in the Temperature graph.<br />
+&bull; The iLO Event Log reports that a firmware update failed even though the firmware was&nbsp;updated successfully with the HP SUM Scalable Update feature.<br />
+&bull; The .NET IRC disconnects unexpectedly when playing a captured video file.<br />
+&bull; The Ping Gateway on Startup network setting does not work.<br />
+&bull; In some cases, running the Advanced Power Capping Microcontroller Firmware causes&nbsp;future component updates to fail.<br />
+&bull; The UID LED might stop blinking when the Remote Console is still open after a system&nbsp;power cycle.<br />
+&bull; The invalid error &quot;Duplicate record exists&quot; occurs while adding a new directory group.<br />
+&bull; A user with the Virtual Power and Reset privilege cannot use the Swap ROM feature.<br />
+&bull; DL580 servers report an incorrect Power Redundancy state on removal of a power supply&nbsp;cable.<br />
+&bull; Intermittent missing OS name and version in get_server_name response.<br />
+&bull; iLO Dedicated Network Port options are displayed on DL60 servers, which support only the Shared Network Port configuration.<br />
+&bull; An incorrect error message is displayed when auto power-off is set via XML scripting during POST.<br />
+&bull; The Get_Embedded_Health.xml output displays incorrect iLO NIC information.<br />
+&bull; The user name is not displayed in the iLO Event Log when a Language Pack is uninstalled.<br />
+&bull; There is a discrepancy between the iLO web interface and XML scripting when an HP SSO record is added by DNS name.<br />
+&bull; The Serial Command Line Speed setting is not saved when the speed is changed in the iLO 4 Configuration Utility.<br />
+&bull; LDAP does not work after updating from iLO firmware version 1.40 to 1.50.<br />
+&bull; New iLO Federation groups default to the power capping value from a previously deleted group.<br />
+&bull; The Link State NIC setting is displayed on the Network General Settings page for BL460t servers when this setting is not supported on server blades.<br />
+&bull; SNMP and SNMP trap ports cannot be set without the SNMP_ACCESS tag.<br />
+&bull; The iLO Event Log does not record an event when the AlertMail settings are changed via RIBCL and CLP.<br />
+&bull; The power redundancy status is incorrect when a mismatched power supply is inserted without a power cord.<br />
+&bull; The iLO Event Log does not record an event when the Remote Syslog settings are changed via RIBCL.<br />
+&bull; An incorrect error message occurs when the server name is set via XML during POST.<br />
+&bull; The Asset Tag can be configured via XML when the server is off.<br />
+&bull; An invalid domain name can be configured in the iLO 4 Configuration Utility.<br />
+&bull; The iLO 4 Configuration Utility prompts the user to save and reset iLO when no change was made.<br />
+&bull; Cert_Request.xml does not display an error when invalid characters are used for the state, country and locality.<br />
+&bull; If the Delete SSH Key button is clicked when no SSH key is installed, the message &quot;Public Key deleted&quot; is displayed even though there was no installed SSH key.<br />
+&bull; When the RESTful Interface Tool is used to display the system ROM version, the output incorrectly displays the backup system ROM version.<br />
+&bull; The CLI does not display the oemhp_powercap information when power capping is disabled.<br />
+&bull; Multiple incorrect &quot;faulty/unsupported power supply&quot; messages are recorded in configurations that use the HP 800W/900W Gold AC Power Input Module or the HP Server RPS Backplane Kit.<br />
+&bull; Pwrstat displays incorrect power supply status information for the HP 800W/900W Gold AC Power Input Module and the HP Server RPS Backplane Kit.<br />
+&bull; An intermittent virtual CD disconnection occurs during a system reboot.<br />
+&nbsp;<br />
+&nbsp;Note: To address the &ldquo;POODLE&rdquo; security vulnerability, the iLO security policy has&nbsp;changed in version 2.03 and SSLv3 is now disabled. You might need to enable TLS (Transport Layer Security)&nbsp;in your browser in order to access the iLO web interface.&nbsp; TLS is the successor to SSL&nbsp;(Secure Sockets Layer]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[このバージョンでは以下の問題が解決されました。<br /> • SSRT101886に対処しました。<br /> • 特定のオペレーティングシステムで40日以上の稼働時間の経過後のiLOカーネルクラッシュは、オペレーティングシステムのクラッシュにつながることがあります。 これが発生すると、iLOイベントログはOSクラッシュ時に「Power restored to iLO」イベントを記録します。<br /> • iLOは、誤ったSmartアレイバッテリーのステータス変更を示す複数のSNMPトラップを送ることがあります。（SNMPトラップID 11020）<br /> • iLOファームウェアのアップデートが、1%のままで終了しないことがあります。<br /> • AESが有効な場合、ADH暗号は、iLO4で受け入れられます。<br /> • 類似したMACアドレスが存在する場合に誤った情報が情報 > システム情報 > ネットワークページに表示されます。<br /> • SSDPアドバタイズメントが不正な署名を持ち、iLO連携グループはすべてのピアを表示しません。<br /> • 電源装置センサーが、温度グラフに図示されません。<br /> • ファームウェアがHP SUMのスケーラブルアップデート機能で正常に更新されていても、iLOイベントログがファームウェアアップデートの失敗を報告します。<br /> • キャプチャしたビデオファイルを再生するときに、.NET IRCが予期せず切断されます。<br /> • スタートアップネットワークの設定に関するPingゲートウェイは、動作しません。<br /> • いくつかのケースでは、アドバンスト消費電力上限マイクロコントローラーファームウェアを実行すると、将来のコンポーネントアップデートが失敗する原因になります。<br /> • リモートコンソールがシステムの電源再投入後にまだ開いているときに、UID LEDが点滅を停止することがあります。<br /> • 新しいディレクトリグループを追加しているときに、無効なエラー「Duplicate record exists」が発生します。<br /> • 仮想電源およびリセット権限を持つユーザーは、スワップROM機能を使用できません。<br /> • DL580サーバーは、電源装置ケーブルの取り外しで誤った電源冗長性状態を報告します。<br /> • get_server_name応答での断続的なOS名およびバージョンの欠落。<br /> • 共有ネットワークポート構成のみをサポートするDL60サーバーにiLO専用ネットワークポートオプションが表示されます。<br /> • POST中にXMLスクリプトを介して自動電源オフが設定される場合、誤ったエラーメッセージが表示されます。<br /> • Get_Embedded_Health.xml出力は、誤ったiLO NIC情報を表示します。<br /> • 言語パックをアンインストールすると、ユーザー名がiLOイベントログに表示されません。<br /> • HP SSOレコードがDNS名で追加される場合、iLO WebインターフェイスとXMLスクリプトの間に相違があります。<br /> • iLO4設定ユーティリティで速度が変更されたとき、シリアルコマンドライン速度設定が保存されません。<br /> • iLOファームウェアをバージョン1.40から1.50へアップデートした後、LDAPが動作しません。<br /> • 新しいiLO連携グループは、前に削除されたグループから消費電力上限力値をデフォルト設定します。<br /> • この設定がサーバーブレードでサポートされていない場合、リンク状態NIC設定はBL460tサーバー用のネットワーク全般設定ページに表示されます。<br /> • SNMPおよびSNMPトラップポートは、SNMP_ACCESSタグなしで設定することはできません。<br /> • アラートメール設定がRIBCLおよびCLPを介して変更された場合、iLOイベントログはイベントを記録しません。<br /> • 一致しない電源装置が電源コードなしで挿入された場合、電源の冗長ステータスが正しくありません。<br /> • リモートSyslog設定がRIBCLを介して変更された場合、iLOイベントログはイベントを記録しません。<br /> • サーバー名がPOST中にXMLを介して設定される場合、誤ったエラーメッセージが表示されます。<br /> • サーバーの電源がオフの場合、XMLを介して資産タグを構成することができます。<br /> • iLO4設定ユーティリティで無効なドメイン名を構成することができます。<br /> • 変更が行われなかった場合にも、iLO 4設定ユーティリティはユーザーに保存およびiLOのリセットを促します。<br /> • 無効な文字が州、国や地域に対して使用されていても、Cert_Request.xmlはエラーを表示しません。<br /> • SSHキーがインストールされていないときにSSHキーの削除ボタンがクリックされた場合、インストールされたSSHキーがなかったにもかかわらず、メッセージ「Public Key deleted」が表示されます。<br /> • RESTfulインターフェースツールがシステムROMのバージョンを表示するために使用されると、誤ってバックアップシステムROMバージョンが出力に表示されます。<br /> • 消費電力上限が無効にされている場合、CLIはoemhp_powercap情報を表示しません。<br /> • HP 800W/900W Gold ACパワーサプライモジュールまたはHP サーバーRPSバックプレーンキットを使用する構成で複数の誤った「faulty/unsupported power supply」メッセージが記録されます。<br /> • Pwrstatは、HP 800W/900W Gold ACパワーサプライモジュールおよびHP サーバーRPSバックプレーンキットの誤った電源装置ステータス情報を表示します。<br /> • システムリブートに断続的な仮想CDの切断が発生します。<br />  <br />   注: “POODLE”セキュリティ脆弱性に対処するために、iLOセキュリティポリシーがバージョン2.03で変更され、SSLv3が無効にされました。 iLO Webインターフェイスにアクセスするために、ブラウザーでTLS （Transport Layer Security）を有効にする必要があるかもしれません。 TLSは、SSL （Secure Sockets Layer）に代わるものです。]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.03" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+ <li>
+  Added support for TLS v1.1 and TLS v1.2 when using HTTPS URLs with iLO scripted virtual media, firmware update, certificate import, SSH key import, and for HP remote support registration and data collection.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+ <li>
+  iLOスクリプト仮想メディア、ファームウェアアップデート、証明書のインポート、SSHキーのインポート、およびHP Remote Support登録およびデータ収集でHTTPS URLを使用する場合に、TLS v1.1およびTLS v1.2のサポートを追加しました。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  Improved the reliability of DIMM SPD read/write operations.</li>
+ <li>
+  A timing issue could cause intermittent Windows Hardware Error Architecture (WHEA) test failures.</li>
+ <li>
+  Booting from an SD card with ESXi could fail.</li>
+ <li>
+  AMD-based HP ProLiant Gen 8 servers with iLO 4 2.00 or 2.02 might report incorrect processor temperatures.</li>
+ <li>
+  HP ProLiant Gen 8 servers with iLO 4 2.00 or 2.02 might report an incorrect value for the temp1 sensor.</li>
+ <li>
+  HP ProLiant Gen8 servers with iLO 4 2.00 or 2.02 might display an incorrectly lit FAN1 Systems Insight Display (SID) LED when no FAN1 is installed.</li>
+ <li>
+  Partitions on the NAND device might fail to mount.&nbsp; In some cases, this could result in Active Health System download failures or the Embedded User Partition might not be available.</li>
+ <li>
+  Addressed SSRT101745</li>
+ <li>
+  Addressed SSRT101790</li>
+</ul>
+<p>
+ Note: To address the &ldquo;POODLE&rdquo; security vulnerability, the iLO security policy has changed and SSLv3 is now disabled. You may need to enable TLS (Transport Layer Security) in your browser in order to access the iLO web interface. &nbsp;TLS is the successor to SSL (Secure Sockets Layer).<br />
+ &nbsp;<br />
+ &nbsp;<br />
+ &nbsp;</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  DIMM SPDリード/ライト動作の信頼性を向上しました。</li>
+ <li>
+  タイミングの問題は断続的にWindows Hardware Error Architecture (WHEA) テスト障害を引き起こす可能性があります。</li>
+ <li>
+  ESXiによるSDカードからの起動は失敗する可能性があります。</li>
+ <li>
+  iLO4 2.00または2.02を搭載したAMDベースのHP ProLiant Gen 8サーバーは、間違ったプロセッサー温度を報告することがあります。</li>
+ <li>
+  iLO4 2.00または2.02を搭載したHP ProLiant Gen 8サーバーは、temp1センサーの間違った値を報告することがあります。</li>
+ <li>
+  iLO4 2.00または2.02を搭載したHP ProLiant Gen 8サーバーは、ファン１がインストールされていないときに、誤ってファン1のSystems Insight Display (SID) LEDの点灯を表示することがあります。</li>
+ <li>
+  NANDデバイス上のパーティションがマウントに失敗することがあります。 場合によっては、これによりActive Health Systemのダウンロード障害や、内蔵ユーザーパーティションが使用できない原因となりことがあります。</li>
+ <li>
+  SSRT101745に対処しました。</li>
+ <li>
+  SSRT101790に対処しました。</li>
+</ul>
+<p>
+ 注： “POODLE”セキュリティ脆弱性に対処するために、iLOセキュリティポリシーが変更されて、SSLv3が無効にされました。 iLO Webインターフェイスにアクセスするために、ブラウザーでTLS （Transport Layer Security）を有効にする必要があるかもしれません。  TLSは、SSL （Secure Sockets Layer）に代わるものです。<br />  <br />  <br />  </p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.02" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+ <li>
+  The following condition was added for DIMMs: &quot;Good, Partially in Use.&rdquo;</li>
+ <li>
+  The RIBCL Get Embedded Health has been updated for the following AMP modes: Channel Sparing, Rank Sparing, Intrasocket Mirroring, and Intersocket Mirroring.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+ <li>
+  次の条件がDIMMに追加されました： "Good, Partially in Use.”</li>
+ <li>
+  RIBCL Get Embedded Healthが次のAMPモード用にアップデートされました： Channel Sparing、Rank Sparing、Intrasocket Mirroring、Intersocket Mirroring</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  The iLO Link-Local IPv6 address is displayed during POST when iLO is using the Shared Network Port, but the Shared Network Port does not support IPv6.</li>
+ <li>
+  The inlet air sensor is not displayed on the temperature graph.</li>
+ <li>
+  The Memory page is displayed incorrectly on ProLiant DL580 Gen8 servers.</li>
+ <li>
+  The following message appears during POST after RBSU changes are made and the IML is cleared: iLO FW communication issue-Unable to communicate with iLO FW.</li>
+ <li>
+  A &ldquo;repaired&rdquo; message is automatically posted to the IML after a Critical Fan Event.</li>
+ <li>
+  Power button actions do not respond in the HP RESTful API.</li>
+ <li>
+  IPMI Alert Immediate (Get Alert Status) always returns an error completion code.</li>
+ <li>
+  Component firmware flash status is not shown at the bottom of the iLO web interface window.</li>
+ <li>
+  The Remote Console crashes when a URL greater than 256 bytes is mounted.</li>
+ <li>
+  Multiple 6064 SNMP Correctable Memory Error Trap occur when only one is expected.</li>
+ <li>
+  iLO RBSU incorrectly provides the Transceiver Speed Autoselect menu option when the server uses Shared Network Port mode.</li>
+ <li>
+  An incorrect error message is displayed when the boot order is changed by a user without the Configure iLO Settings privilege.</li>
+ <li>
+  The Enable Active Health System logging check box and Apply button are active when the Active Health System has been disabled in hardware by using a motherboard switch.</li>
+ <li>
+  Fan Blowout during POST due to a jammed rotor &nbsp;continues to occur when the OS is running and the rotor has been repaired.</li>
+ <li>
+  &nbsp;iLO RBSU does not correctly check user privileges.</li>
+ <li>
+  iLO RBSU incorrectly uses a maximum of 19 characters for user names.</li>
+ <li>
+  The embedded Remote Support services fails to detect an Uncorrectable memory error event.</li>
+ <li>
+  Cache module status is displayed for HP Dynamic Smart Array B140i Controllers.</li>
+ <li>
+  Storage configuration changes are not updated in iLO until the server OS is started.</li>
+ <li>
+  There are virtual media mounting problems when using the HP RESTful API.</li>
+ <li>
+  Multiple mismatched power supplies are not detected.</li>
+ <li>
+  The Active Health System page shows the estimated size of entire log file as Unknown.</li>
+ <li>
+  The iLO web interface crashes when a user browses to the Memory page.</li>
+ <li>
+  The Join Group button on the Administration &gt; iLO Federation page is unavailable until the browser is refreshed.</li>
+ <li>
+  A 404 error occurs when the HP RESTful API is used to access any path underneath /rest/v1/systems/1/bios.</li>
+</ul>
+&nbsp;<br />
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  iLOが共有ネットワークポートを使用している場合、iLOリンクローカルIPv6アドレスがPOST中に表示されますが、共有ネットワークポートはIPv6をサポートしません。</li>
+ <li>
+  吸気センサーは温度グラフに表示されません。</li>
+ <li>
+  ProLiant DL580 Gen8サーバー上でメモリーページが誤って表示されます。</li>
+ <li>
+  RBSUの変更が行われて、IMLがクリアされた後のPOST中に次のメッセージが表示されます： iLO FW communication issue-Unable to communicate with iLO FW</li>
+ <li>
+  「repaired」メッセージがクリティカルファンイベントの後、自動的にIMLポストされます。</li>
+ <li>
+  電源ボタンアクションはHP RESTful APIで応答しません。</li>
+ <li>
+  IPMI Alert Immediate (Get Alert Status)は常にエラー完了コードを返します。</li>
+ <li>
+  コンポーネントのファームウェアフラッシュステータスがiLO Webインターフェイスウィンドウの下部に表示されません。</li>
+ <li>
+  256バイトを超えるURLがマウントされると、リモートコンソールがクラッシュします。</li>
+ <li>
+  1つだけが想定されている時に、複数の6064 SNMP訂正可能メモリエラートラップが発生します。</li>
+ <li>
+  サーバーが共有ネットワークポートモードを使用する場合、iLO RBSUが誤ったTransceiver Speed Autoselectメニューオプションを提供します。</li>
+ <li>
+  iLO設定の構成特権をもたないユーザーによってブート順序が変更されたときに、誤ったエラーメッセージが表示されます。</li>
+ <li>
+  アクティブヘルスシステムがマザーボードのスイッチを使用してハードウェアで無効にされている場合に、Active Health Systemのログ記録を有効化するチェックボックスおよび適用ボタンがアクティブです。</li>
+ <li>
+  OSが実行されていて、ローターが修復されたときに、動かなくなったローターによりPOST中にファンブローアウトが起こり続けます。</li>
+ <li>
+  iLO RBSUが正しくユーザー特権をチェックしません。</li>
+ <li>
+  iLO RBSUはユーザー名に19文字の最大値を誤って使用します。</li>
+ <li>
+  Embedded Remote Supportサービスが訂正不能なメモリエラーイベントの検出に失敗します。</li>
+ <li>
+  キャッシュモジュールステータスが、HP Dynamic Smartアレイ B140iコントローラーに対して表示されます。</li>
+ <li>
+  サーバーOSが開始されるまで、ストレージ構成の変更はiLOに更新されません。</li>
+ <li>
+  HP RESTful APIを使用する場合、仮想メディアのマウント問題があります。</li>
+ <li>
+  複数の一致しなかった電源装置が検出されません。 </li>
+ <li>
+  Active Health Systemページはログファイル全体の推定サイズを不明として表示します。</li>
+ <li>
+  ユーザーがメモリページを参照すると、iLO Webインターフェイスがクラッシュします。</li>
+ <li>
+  ブラウザーが更新されるまで管理 > iLO連携ページのグループに参加ボタンが利用できません。</li>
+ <li>
+  HP RESTful APIが/rest/v1/systems/1/biosの下の任意のパスへのアクセスに使用された場合、404エラーが発生します。</li>
+</ul>
+ <br />
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="2.00" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>
+ Enhancements:<br />
+ &nbsp;<br />
+ Gen 9 ProLiant Servers Only<br />
+ &bull; Manual iLO reboot via the server UID button&mdash;Allows you to use the server UID button to initiate a graceful iLO reboot or a hardware iLO reboot.<br />
+ &bull; HP ProLiant Pre-boot Health Summary&mdash;Displays diagnostic information on the server monitor when the server is off and power is available.<br />
+ &bull; 1 GB Embedded User Partition&mdash;Allows you to use a 1 GB non-volatile flash memory partition as if it was an SD-card attached to the server.<br />
+ &nbsp;<br />
+ Gen 8 and Gen 9 ProLiant Servers<br />
+ &bull; iLO Federation Group License Activation&mdash;Supports license key installation on multiple systems.<br />
+ &bull; Group configuration for iLO Federation Groups&mdash;Allows you to configure groups for the systems in an iLO Federation Management group. Configuring the group memberships of individual systems is still supported.<br />
+ &bull; HP RESTful API&mdash;The HP RESTful API is a management interface that server management tools can use to perform configuration, inventory, and monitoring of an HP ProLiant server via iLO.<br />
+ &nbsp;<br />
+ <br />
+ Feature previews:<br />
+ &bull; Shared Network Port port selection&mdash;Allows you to choose between port 1 and port 2 for Shared Network Port functionality. You can configure this setting on the Network &gt; Shared Network Port &gt; General page in the iLO web interface.<br />
+ &nbsp;&nbsp;&nbsp; NOTE: Not all sideband NICs are supported. In some cases, port 2 might not be fully functional.<br />
+ &nbsp;&nbsp;&nbsp;<br />
+ &bull; iLO network connection auto-select&mdash;Allows you to configure iLO to automatically select the iLO Dedicated Network Port or Shared Network Port, based on the detected network activity. This feature can be configured by using the iLO CLI or XML scripting.</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>
+ 改良点：<br />  <br /> Gen 9 ProLiantサーバーのみ<br /> • サーバーUIDボタンによる手動iLOリブート-正常なiLOリブートまたはハードウェアiLOリブートを開始するためにサーバーUIDボタンを使用することができます。<br /> • HP ProLiant起動前ヘルスサマリー-サーバー電源がオフで電力が利用可能な場合、サーバーモニターに診断情報を表示します。<br /> • 1GB内蔵ユーザーパーティション-サーバーに接続されたSDカードであるかのように1GBの不揮発性フラッシュメモリのパーティションを使用することができます。<br />  <br /> Gen 8およびGen 9 ProLiantサーバー<br /> • iLO連携グループライセンスアクティベーション-複数システム上のライセンスキーインストールをサポートします。<br /> • iLO連携グループのグループ構成-iLO連携管理グループ内のシステムに対してグループを構成することができます。 個々のシステムのグループメンバーシップを構成することもサポートされます。<br /> • HP RESTful API-HP RESTful APIは、サーバー管理ツールがiLO経由でHP ProLiantサーバーの構成、インベントリ、および監視を実行するために使用できる管理インターフェイスです。<br />  <br /> <br /> 機能プレビュー：<br /> • 共有ネットワークポートのポート選択-共有ネットワークポート機能のためにポート1およびポート2のどちらかを選択する選択することができます。 iLO Webインターフェイスのネットワーク > 共有ネットワークポート > 全般ページでこの設定を構成することができます。<br />    注： すべてのサイドバンドNICがサポートされているわけではありません。 場合によっては、ポート2は完全には機能しない可能性があります。<br />    <br /> • iLOネットワーク接続の自動選択-検出されたネットワークアクティビティに基づいて、iLO専用ネットワークポートまたは共有ネットワークポートを自動的に選択するように、iLOを構成することができます。 この機能は、iLO CLIまたはXMLスクリプトを用いて構成することができます。</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[Fixes:<br />
+&bull; The error &quot;Max number of certificates has been reached&quot; occurs when SSO certificates are imported.<br />
+&bull; The iLO Shared Network Port cannot be enabled for embedded LOM via the ROM-based setup utility or iLO web interface.<br />
+&bull; iLO cannot be enabled via the iLO RBSU if it was disabled by using the iLO 4 Configuration Utility in the UEFI System Utilities.<br />
+&bull; DHCP options can be modified via the ROM-based setup utility when DHCP is disabled.<br />
+&bull; The System Information Health Summary page shows an Undefined error message on DL380p Gen8 servers.<br />
+&bull; iLO requires a reset for IPv6 Multicast Scope changes.<br />
+&bull; The iLO clock is one hour fast during Daylight Savings Time when it is configured by the ROM-based setup utility or the Insight Management Agents.<br />
+&bull; The power supply status for an installed power supply is incorrectly displayed as &quot;Not installed&quot; on the System Information Power Information page in the iLO web interface.<br />
+&bull; An error message is not displayed when an invalid Gateway IPv4 address is configured.&nbsp;<br />
+&bull; Users without the Configure iLO Settings privilege can modify iLO ROM-based setup utility settings.&nbsp;<br />
+&bull; The character limit for the Server Name is inconsistent between the iLO web interface and the CLI.<br />
+&bull; The power supply status shows Failed/Good, In Use when the power cord is removed from the server.<br />
+&bull; Embedded Remote Support fails after sending a second test service event.<br />
+&bull; The iLO Firmware cannot be updated via the Group Firmware Update feature.<br />
+&bull; The 24-hour power graph does not include all available power data.<br />
+&bull; Characters are missing on the Group Virtual Media page after a disk image is connected through a URL.<br />
+&bull; The Login Security Banner display on the Login page is incomplete.<br />
+&bull; The CLI hangs after Virtual Media is mounted through a URL.<br />
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[修正：<br /> • SSO証明書がインポートされる際に、エラー「証明書の最大数に達しました」が発生します。<br /> • iLO共有ネットワークポートは、ROMベースセットアップユーティリティまたはiLO Webインターフェイスを通して内蔵LOMのために有効にすることはできません。<br /> • UEFIシステムユーティリティのiLO4構成ユーティリティを使用して無効にした場合、iLOは、iLO RBSUを通して有効にすることはできません。<br /> • DHCPが無効にされている場合、DHCPオプションはROMベースセットアップユーティリティを通して変更できます。<br /> • システム情報ヘルスサマリーページがDL380p Gen8サーバー上で未定義エラーメッセージを表示します。<br /> • iLOは、IPv6マルチキャストスコープの変更のためにリセットを必要とします。<br /> • ROMベースセットアップユーティリティまたはInsightマネジメントエージェントによって構成されている場合、iLO時計は夏時間の間、1時間進んでいます。<br /> • 搭載されている電源装置の電源装置ステータスが、iLO Webインターフェイスのシステム情報の電源情報ページで間違って「未インストール」と表示されます。<br /> • 無効なゲートウェイIPv4アドレスが構成される場合にエラーメッセージが表示されません。 <br /> • iLO設定の構成特権をもたないユーザーが、iLO ROMベースセットアップユーティリティ設定を変更することができます。 <br /> • サーバー名の文字数制限が、iLO WebインターフェイスおよびCLI間で矛盾しています。<br /> • 使用中にサーバーから電源コードを取り除いた場合、電源装置ステータスが障害/良好を表示します。<br /> • Embedded Remote Supportは、第2のテストサービスイベントを送信した後に失敗します。<br /> • グループファームウェアアップデート機能を通してiLOファームウェアをアップデートすることができません。<br /> • 24時間電力グラフは、すべての利用可能な電力データを含んでいません。<br /> • ディスクイメージがURLを通して接続された後、グループ仮想メディアページで文字が欠落します。<br /> • ログインページのログインセキュリティバナー表示は不完全です。<br /> • 仮想メディアがURLを通してマウントされた後、CLIがハングアップします。<br />
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.53" revision="" type_of_change="0"/>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ 1.53 Fixes:<br />
+ - Addressed incorrect power supply events seen on SL based HP&nbsp;ProLiant servers.<br />
+ <br />
+ &nbsp;</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ 1.53 修正：<br /> - SLベースのHP ProLiantサーバー上で見られた無効な電源装置のイベントに対処にしました。<br /> <br />  </p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.51" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[1.50 Enhancements:<br />
+- Added an SNMP trap for Uncorrectable Machine Check Error.<br />
+- Added the ability for iLO to get Domain name to Get or Display from DHCPv6<br />
+&nbsp; server.<br />
+- Implemented significant performance improvements in iLO Federation Management<br />
+&nbsp; queries.<br />
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[1.50 改良点：<br /> - 訂正不能マシンチェックエラーのSNMPトラップを追加しました。<br /> - DHCPv6サーバーからドメイン名をGetまたはDisplayするiLO用の機能を追加しました。<br /> - iLO連携管理クエリにおけるパフォーマンスの大幅な向上を実装しました。<br />
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ 1.51 Fixes:<br />
+ - Intermittent Non-Maskable Interrupt (NMI) Events May Occur on HP ProLiant Gen8 Servers running on a Hypervisor Operating System With HP Integrated Lights-Out 4 Firmware Versions 1.30, 1.32, 1.40 and 1.50.<br />
+ <br />
+ 1.50 Fixes:<br />
+ - Auto Power On does not work on server blades after upgrading to iLO 4 v1.40.<br />
+ - SSH keys cannot be imported by using XML after upgrading to iLO 4 v1.40.<br />
+ - Random &quot;Embedded Flash/SD-CARD: Failed restart&quot; errors appear in the iLO 4 Event&nbsp;Log after server shutdown.<br />
+ - The Windows Server 2008 or 2012 installer might fail with the following error message when used with Virtual Media on iLO 4 1.32 and 1.40: &ldquo;A required CD/DVD drive device driver is missing.&quot;<br />
+ - If you create a disk image when Virtual Media is mounted in the Java IRC, an invalid message is displayed.<br />
+ - The keyboard doesn&#39;t work when you use the Java IRC to mount an image file through a URL.<br />
+ - When using the Java IRC in Linux, some characters cannot be entered from a Japanese keyboard when the Japanese layout is selected.<br />
+ - iLO might stop responding if the DNS server fails to respond when iLO is trying to log multiple entries that require DNS reverse lookup.<br />
+ - Time zones that are south of the Equator and use DST are handled incorrectly.<br />
+ - An incomplete Japanese message is displayed in the Set to factory defaults interface when the Japanese Language Pack is loaded.<br />
+ - AlertMail implementation is inconsistent between the iLO web interface and the CLI.<br />
+ - iLO does not always respond to multicast M-SEARCH requests.<br />
+ - Multicast replies display an incorrect iLO version number.<br />
+ - iLO requires a reset when the IPv6 Multicast Scope is changed for iLO Federation discovery.<br />
+ - The SERVER_POST_STATE element is missing from RIBCL output.<br />
+ - iLO Virtual Media CD-ROM connect says &ldquo;ok&rdquo; when <a href="http://name">http://name</a> is unreachable.<br />
+ - Multiple iLO Federation Management groups cannot be deleted in a certain order.<br />
+ - Menu and Title area return to English characters when the Japanese Language Pack is loaded.<br />
+ - EBIPA IPv6 settings not always updated on iLO when iLO DHCP IPv4 is disabled.<br />
+ - iLO WEB page could stop responding after a firmware update via the group firmware update in iLO Federation Management.</p>
+<p>
+ &nbsp;</p>
+<br />
+<br type="_moz" />
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ 1.51 修正：<br /> - 断続的なNon-Maskable Interrupt (NMI) イベントが、HP Integrated Lights-Out 4ファームウェアバージョン1.30、1.32、1.40および1.50を搭載したハイパーバイザーオペレーティングシステムを実行するHP ProLiant Gen8サーバーで発生することがあります。<br /> <br /> 1.50 修正：<br /> - iLO 4 v1.40にアップグレードした後、自動電源投入はサーバーブレード上では動作しません。<br /> - iLO 4 v1.40にアップグレードした後、XMLを使用してSSHキーをインポートすることはできません。<br /> - サーバーのシャットダウン後、iLO 4イベントログにランダムに「Embedded Flash/SD-CARD: Failed restart」エラーが表示されます。<br /> - iLO 4 1.32および1.40で仮想メディアを使用した場合、Windows Server 2008または2012インストーラーは次のエラーメッセージを表示して失敗することがあります。「A required CD/DVD drive device driver is missing.」<br /> - 仮想メディアがJava IRCでマウントされているときに、ディスクイメージを作成すると、無効なメッセージが表示されます。<br /> - URLを通してイメージファイルをマウントするためにJava IRCを使用するとき、キーボードが機能しません。<br /> - LinuxでJava IRCを使用する場合に日本語レイアウトが選択されていると、一部の文字を日本語キーボードから入力することはできません。<br /> - iLOがDNS逆引き参照を必要とする複数のエントリをログ記録しようとしているときに、DNSサーバーが応答に失敗した場合、iLOは応答を停止する場合があります。<br /> - 南半球で夏時間を使用するタイムゾーンは、誤って取り扱われます。<br /> - 日本語言語パックがロードされたときに、不完全な日本語のメッセージが工場出荷時設定インタフェースに表示されます。<br /> - AlertMaiｌの実装が、iLO WebインターフェイスとCLIの間で矛盾しています。<br /> - iLOは、常にマルチキャストのM-SEARCH要求に応答しません。<br /> - マルチキャスト応答が間違ったiLOのバージョン番号を表示します。<br /> - IPv6マルチキャストスコープがiLO連携検出のために変更された場合、iLOはリセットする必要があります。<br /> - SERVER_POST_STATE要素が、RIBCL出力から欠落しています。<br /> - <a href="http://name">http://name</a>に到達できない場合にiLO仮想メディアCD-ROM接続が「OK」と表示します。<br /> - 特定の順序で複数のiLOの連携管理グループを削除することはできません。<br /> - 日本語言語パックがロードされた場合、メニューおよびタイトル領域が英語で表示されます。<br /> - iLO DHCPのIPv4が無効にされている場合、EBIPA IPv6設定は常にiLO上でアップデートされませんでした。<br /> - iLO連携管理においてグループファームウェアアップデート経由でファームウェアのアップデート後に、iLO Webページが応答しなくなることがありました。</p>
+<p>
+  </p>
+<br /> <br type="_moz" />
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.50" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[Enhancements:<br />
+- Added an SNMP trap for Uncorrectable Machine Check Error.<br />
+- Added the ability for iLO to get Domain name to Get or Display from DHCPv6<br />
+&nbsp; server.<br />
+- Implemented significant performance improvements in iLO Federation Management<br />
+&nbsp; queries.<br />
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[改良点：<br /> - 訂正不能マシンチェックエラーのSNMPトラップを追加しました。<br /> - DHCPv6サーバーからドメイン名をGetまたはDisplayするiLO用の機能を追加しました。<br /> - iLO連携管理クエリにおけるパフォーマンスの大幅な向上を実装しました。<br />
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ Fixes:<br />
+ - Auto Power On does not work on server blades after upgrading to iLO 4 v1.40.<br />
+ - SSH keys cannot be imported by using XML after upgrading to iLO 4 v1.40.<br />
+ - Random &quot;Embedded Flash/SD-CARD: Failed restart&quot; errors appear in the iLO 4 Event&nbsp;Log after server shutdown.<br />
+ - The Windows Server 2008 or 2012 installer might fail with the following error message when used with Virtual Media on iLO 4 1.32 and 1.40: &ldquo;A required CD/DVD drive device driver is missing.&quot;<br />
+ - If you create a disk image when Virtual Media is mounted in the Java IRC, an invalid message is displayed.<br />
+ - The keyboard doesn&#39;t work when you use the Java IRC to mount an image file through a URL.<br />
+ - When using the Java IRC in Linux, some characters cannot be entered from a Japanese keyboard when the Japanese layout is selected.<br />
+ - iLO might stop responding if the DNS server fails to respond when iLO is trying to log multiple entries that require DNS reverse lookup.<br />
+ - Time zones that are south of the Equator and use DST are handled incorrectly.<br />
+ - An incomplete Japanese message is displayed in the Set to factory defaults interface when the Japanese Language Pack is loaded.<br />
+ - AlertMail implementation is inconsistent between the iLO web interface and the CLI.<br />
+ - iLO does not always respond to multicast M-SEARCH requests.<br />
+ - Multicast replies display an incorrect iLO version number.<br />
+ - iLO requires a reset when the IPv6 Multicast Scope is changed for iLO Federation discovery.<br />
+ - The SERVER_POST_STATE element is missing from RIBCL output.<br />
+ - iLO Virtual Media CD-ROM connect says &ldquo;ok&rdquo; when <a href="http://name">http://name</a> is unreachable.<br />
+ - Multiple iLO Federation Management groups cannot be deleted in a certain order.<br />
+ - Menu and Title area return to English characters when the Japanese Language Pack is loaded.<br />
+ - EBIPA IPv6 settings not always updated on iLO when iLO DHCP IPv4 is disabled.<br />
+ - iLO WEB page could stop responding after a firmware update via the group firmware update in iLO Federation Management.</p>
+<p>
+ &nbsp;</p>
+<br />
+<br type="_moz" />
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ 修正：<br /> - iLO 4 v1.40にアップグレードした後、自動電源投入はサーバーブレード上では動作しません。<br /> - iLO 4 v1.40にアップグレードした後、XMLを使用してSSHキーをインポートすることはできません。<br /> - サーバーのシャットダウン後、iLO 4イベントログにランダムに「Embedded Flash/SD-CARD: Failed restart」エラーが表示されます。<br /> - iLO 4 1.32および1.40で仮想メディアを使用した場合、Windows Server 2008または2012インストーラーは次のエラーメッセージを表示して失敗することがあります。「A required CD/DVD drive device driver is missing.」<br /> - 仮想メディアがJava IRCでマウントされているときに、ディスクイメージを作成すると、無効なメッセージが表示されます。<br /> - URLを通してイメージファイルをマウントするためにJava IRCを使用するとき、キーボードが機能しません。<br /> - LinuxでJava IRCを使用する場合に日本語レイアウトが選択されていると、一部の文字を日本語キーボードから入力することはできません。<br /> - iLOがDNS逆引き参照を必要とする複数のエントリをログ記録しようとしているときに、DNSサーバーが応答に失敗した場合、iLOは応答を停止する場合があります。<br /> - south of the EquatorおよびDSTを使用するタイムゾーンは、誤って取り扱われます。<br /> - 日本語言語パックがロードされたときに、不完全な日本語のメッセージが工場出荷時設定インタフェースに表示されます。<br /> - AlertMaiｌの実装が、iLO WebインターフェイスとCLIの間で矛盾しています。<br /> - iLOは、常にマルチキャストのM-SEARCH要求に応答しません。<br /> - マルチキャスト応答が間違ったiLOのバージョン番号を表示します。<br /> - IPv6マルチキャストスコープがiLO連携検出のために変更された場合、iLOはリセットする必要があります。<br /> - SERVER_POST_STATE要素が、RIBCL出力から欠落しています。<br /> - <a href="http://name">http://name</a>に到達できない場合にiLO仮想メディアCD-ROM接続が「OK」と表示します。<br /> - 特定の順序で複数のiLOの連携管理グループを削除することはできません。<br /> - 日本語言語パックがロードされた場合、メニューおよびタイトル領域が英語で表示されます。<br /> - iLO DHCPのIPv4が無効にされている場合、EBIPA IPv6設定は常にiLO上でアップデートされませんでした。<br /> - iLO連携管理においてグループファームウェアアップデート経由でファームウェアのアップデート後に、iLO Webページが応答しなくなることがありました。</p>
+<p>
+  </p>
+<br /> <br type="_moz" />
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.40" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[&nbsp;ENHANCEMENTS:<br />
+&nbsp;<br />
+This version adds support for the following features and enhancements:<br />
+&nbsp;<br />
+- iLO Federation Management<br />
+&nbsp; NOTE: iLO Federation Management is supported on IPv4 and IPv6 networks on the iLO Dedicated &nbsp;&nbsp;&nbsp;&nbsp;Network Port.&nbsp; It is not supported on iLO Shared Network Port.<br />
+&nbsp;<br />
+- Insight Remote Support Direct Connect configuration is available in iLO 4 1.40 and later.<br />
+&nbsp;<br />
+- iLO 4 1.40 and later supports the HP Enterprise Secure Key Manager ESKM 3.1 and later,<br />
+&nbsp; which can be used in conjunction with HP Secure Encryption.<br />
+&nbsp;<br />
+- Improved Java Integrated Remote Console (IRC)<br />
+&nbsp;<br />
+- UEFI System Utilities support on the HP ProLiant DL580 Gen8 server.<br />
+<br />
+<br type="_moz" />
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[ 改良点：<br />  <br /> このバージョンは、以下の機能と改善を追加します。<br />  <br /> - iLO連携管理<br />  注: iLO連携管理は、iLO専用ネットワークポート上のIPv4およびIPv6ネットワークでサポートされています。 iLO共有ネットワークポートではサポートされていません。<br />  <br /> - Insight Remote Support Direct Connect構成は、iLO 4 1.40以降で利用可能です。<br />  <br /> - iLO 4 1.40以降は、HPセキュア暗号化と組み合わせて使用することができるHP Enterprise Secure Key Manager ESKM 3.1以降をサポートします。<br />  <br /> - Java統合リモートコンソール (IRC)を改善しました。<br />  <br /> - UEFIシステムユーティリティは、HP ProLiant DL580 Gen8サーバー上でサポートされています。<br /> <br /> <br type="_moz" />
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[&nbsp;FIXES:<br />
+The following issues are resolved in this firmware version:<br />
+&nbsp;<br />
+- Server Auto Power-On might be triggered when iLO is reset through IPMI.<br />
+&nbsp;<br />
+- Firmware updates that use USB Virtual Media might fail due to secure flash image corruption.<br />
+&nbsp;<br />
+- SSH sockets might take 30 seconds to close.<br />
+&nbsp;<br />
+- The GET_OA_INFO command output does not include the OA IPv6 address.<br />
+&nbsp;<br />
+- The iLO 4 SNMP stack might become unresponsive to SNMP requests.<br />
+&nbsp;<br />
+- The file upload section is not displayed on the iLO web interface Firmware page.<br />
+&nbsp;<br />
+- The Integrated Remote Console (IRC) stops working when iLO is busy.<br />
+&nbsp;<br />
+- The .NET Integrated Remote Console (IRC) fails to start in Chrome if a trusted certificate is not installed.<br />
+&nbsp;<br />
+- Kerberos Keytab files cannot be added from the iLO web interface.<br />
+&nbsp;<br />
+- An error occurs if you register for Remote Support with proxy settings, and then you delete the proxy settings.<br />
+&nbsp;<br />
+- Directory settings information is not consistent between the iLO web interface and the scripting interfaces.<br />
+&nbsp;<br />
+- The server shuts down when a user exits the system RBSU during an iLO reset.<br />
+&nbsp;<br />
+- Kerberos Keytab files cannot be added when FIPS mode is enabled.<br />
+&nbsp;<br />
+- A service event is not generated when a hard disk drive fails during boot.<br />
+&nbsp;<br />
+- The Acquire dialog box is displayed when the remote console is started, but there is no active<br />
+&nbsp; session to acquire.<br />
+&nbsp;<br />
+- The status of a spare drive changes to inactive when the spare drive is in use.<br />
+&nbsp;<br />
+- When the security override switch is enabled, long login names might fail.<br />
+&nbsp;<br />
+- TPM status cannot be viewed by using XML scripts.<br />
+&nbsp;<br />
+- The IPv6 default gateway might be saved as a static default gateway.<br />
+&nbsp;<br />
+- When configured for FIPS mode/AES-DES the key exchange method &lsquo;diffie-hellman group1 sha1&rsquo; should not be supported.<br />
+&nbsp;<br />
+- The iLO clock fails to synchronize with NTP when a Primary Time Server is not entered.<br />
+&nbsp;<br />
+- The iLO webserver unexpectedly quits after the NVRAM is cleared.<br />
+&nbsp;<br />
+- The iLO DHCPv6/EBIPA address is not displayed in OA when OA is configured on an IPv6-only network.<br />
+&nbsp;<br />
+- The Backup ROM date is displayed incorrectly on the Diagnostics page in the iLO web interface.<br />
+&nbsp;<br />
+- The IPMI Get Sensor Reading command returns incorrect data for the Inlet Ambient sensor.<br />
+&nbsp;<br />
+- Auto Power-On takes two minutes when the delay is set to 15, 30, 45, or 60 seconds.<br />
+&nbsp;<br />
+- Some Power On Self Test (POST) errors might be truncated in the Integrated Management Log (IML).<br />
+&nbsp;<br />
+- The output of the RIBCL GET_POST_STATE command shows the output for the HOST_POWER command.<br />
+&nbsp;<br />
+- If the Shared Remote Console feature is not licensed, an error message should be displayed when a user<br />
+&nbsp; clicks the Share button.<br />
+&nbsp;<br />
+- iLO cannot be configured to propagate the NTP or OA time setting to the host.<br />
+&nbsp;<br />
+- An SSH session is not logged out when AES/3DES is enabled or disabled by using the CLI.<br />
+&nbsp;<br />
+- The iLO CLI and web interface have different length requirements for the FQDN.<br />
+&nbsp;<br />
+- There is no warning message in the CLI when the power mode is set to OS control.<br />
+&nbsp;<br />
+- The Login Security Banner does not work consistently between the iLO web interface and iLO scripts.<br />
+&nbsp;<br />
+- The remote console displays multiple CD-ROM drives with the same drive letter.<br />
+&nbsp;<br />
+- The SSH interface might freeze after multiple back-to-back connections.<br />
+&nbsp;<br />
+- An iLO system with no installed certificates reports that the maximum number of certificates is reached.<br />
+&nbsp;<br />
+- The temperature graph in the iLO web interface shows details for only one sensor when multiple sensors have<br />
+&nbsp; the same coordinates.<br />
+&nbsp;<br />
+- The SNTP settings are not displayed in the iLO web interface after a firmware update.<br />
+&nbsp;<br />
+- An error occurs when the iLO firmware is updated by using the CLI.<br />
+&nbsp;<br />
+- The CPU temperature is reported incorrectly.<br />
+&nbsp;<br />
+- An event is not generated when the default language is changed by using scripts or the CLI.<br />
+&nbsp;<br />
+- An error message is not displayed when an incorrect firmware URL is entered.<br />
+&nbsp;<br />
+- The Integrated Management Log (IML) displays an error when a maintenance note is entered.<br />
+&nbsp;<br />
+- An event is not generated when a power-on error occurs.<br />
+&nbsp;<br />
+- The VLAN tag cannot be configured by using the iLO RBSU.<br />
+&nbsp;<br />
+- The iLO firmware date is displayed incorrectly in the iLO RBSU.<br />
+&nbsp;<br />
+- A warning message does not occur when the Local User Accounts setting is changed to Disabled for an iLO system that does not have a configured directory.<br />
+&nbsp;<br />
+- The power-on delay options are inconsistent between the iLO web interface and the CLI.<br />
+&nbsp;<br />
+- The Intelligent Provisioning version is not displayed on the iLO System Information &gt; Firmware page.<br />
+&nbsp;<br />
+- The Enterprise Secure Key Manager (ESKM) certificate is deleted if no certificate name is entered.<br />
+&nbsp;<br />
+- The CLI labels a mismatched power supply with OK status.<br />
+&nbsp;<br />
+- An event is not generated when a language pack update fails.<br />
+&nbsp;<br />
+- An event is not generated when the Power Regulator settings are modified.<br />
+&nbsp;<br />
+- WINDBG with port number 65535 cannot be enabled from the iLO CLI.<br />
+&nbsp;<br />
+- Duplicate IP addresses are not detected.<br />
+&nbsp;<br />
+- iLO 4 1.20 and later does not send ARP before replying to a ping request. This causes iLO 4 to be unreachable to pings from clients with teamed NICs.<br />
+&nbsp;<br />
+- Solaris 10 and 11 cannot be installed by using Virtual Media<br />
+&nbsp;<br />
+- The SNTP time zone offset is incorrectly applied to the time provided by the OA when c-Class blade servers are inserted into the enclosure or are e-fused.<br />
+&nbsp;<br />
+- When the server serial number is updated in the BIOS, the system board FRU data is not updated.]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[ 修正：<br /> このファームウェアのバージョンで、以下の問題を解決しました。<br />  <br /> - iLOがIPMIを通してリセットされると、サーバーの自動電源オンがトリガーされる可能性があります。<br />  <br /> - USB仮想メディアを使用するファームウェアアップデートは、セキュアフラッシュイメージの破損のために失敗することがあります。<br />  <br /> - SSHソケットは、クローズに30秒かかることがあります。<br />  <br /> - GET_OA_INFOコマンドの出力は、OA IPv6アドレスが含まれません。<br />  <br /> - iLO 4 SNMPスタックが、SNMP要求に応答しなくなることがあります。<br />  <br /> - ファイルアップロードセクションが、iLO Webインターフェイスのファームウェアページに表示されません。<br />  <br /> - iLOがビジーの場合、統合リモートコンソール (IRC) は動作を停止します。<br />  <br /> - 信頼された証明書がインストールされていない場合、.NET統合リモートコンソール (IRC) は、Chromeで起動に失敗します。<br />  <br /> - Kerberos KeytabファイルをiLO Webインターフェイスから追加することはできません。<br />  <br /> - プロキシ設定を持つRemote Supportを登録し、その後、プロキシ設定を削除すると、エラーが発生します。<br />  <br /> - ディレクトリ設定情報が、iLO Webインターフェイスとスクリプトインターフェイス間で一貫していません。<br />  <br /> - iLOのリセット中にユーザーがシステムRBSUを終了すると、サーバーがシャットダウンします。<br />  <br /> - FIPSモードが有効になっている場合、Kerberos Keytabファイルを追加することはできません。<br />  <br /> - 起動中にハードディスクドライブが障害を発生した場合、サービスイベントが生成されません。<br />  <br /> - リモートコンソールが開始されると取得ダイアログボックスが表示されますが、取得するためのアクティブなセッションがありません。<br />  <br /> - スペアドライブが使用されている場合、スペアドライブのステータスは非アクティブに変わります。<br />  <br /> - セキュリティオーバーライドスイッチを有効にすると、長いログイン名が失敗することがあります。<br />  <br /> - XMLスクリプトを使用してTPMステータスを表示することができません。<br />  <br /> - IPv6デフォルトゲートウェイが、スタティックデフォルトゲートウェイとして保存されることがあります。<br />  <br /> -  FIPSモード/AES-DES鍵交換方法 ‘diffie-hellman group1 sha1’用に構成されている場合は、サポートするべきではありません。<br />  <br /> - プライマリタイムサーバーが入力されていない場合、iLOクロックはNTPとの同期に失敗します。<br />  <br /> - NVRAMがクリアされた後、iLO Webサーバーが予期せず終了します。<br />  <br /> - OAがIPv6のみのネットワークで構成されている場合、iLO DHCPv6/EBIPAアドレスがOAに表示されません。<br />  <br /> - バックアップROMの日付が、iLO Webインターフェイスの診断ページに誤って表示されます。<br />  <br /> - IPMI Get Sensor Readingコマンドが吸気周囲センサーの誤ったデータを返します。<br />  <br /> - 遅延が15、30、45、または60秒に設定されている場合、自動電源オンに2分かかります。<br />  <br /> - いくつかのPower On Self Test (POST) エラーがインテグレーテッドマネジメントログ (IML) で切り捨てられることがあります。<br />  <br /> - RIBCL GET_POST_STATEコマンドの出力が、HOST_POWERコマンドの出力を表示します。<br />  <br /> - 共有リモートコンソール機能がライセンスされていない場合、ユーザーが共有ボタンをクリックすると、エラーメッセージを表示するべきです。<br />  <br /> - ホストにNTPまたはOA時間設定を伝播するようにiLOを構成することはできません。<br />  <br /> - CLIを使用してAES/3DESを有効または無効にした場合、SSHセッションがログアウトされません。<br />  <br /> - iLO CLIとWebインターフェイスは、FQDNに対して異なる長さの要件を持ちます。<br />  <br /> - 電力モードがOS制御に設定される場合、CLIで警告メッセージは表示されません。<br />  <br /> - ログインセキュリティバナーが、iLO WebインターフェイスとiLOスクリプト間で一貫して動作しません。<br />  <br /> - リモートコンソールが、同じドライブ文字を持つ複数のCD-ROMドライブを表示します。<br />  <br /> - SSHインターフェイスが、複数の連続した接続後にフリーズすることがあります。<br />  <br /> - インストールされた証明書を持たないiLOシステムは、証明書の最大数に達したと報告します。<br />  <br /> - 複数のセンサーが同じ座標を持つ場合、iLO Webインターフェイスの温度グラフは、1つのセンサーの詳細のみを表示します。<br />  <br /> - ファームウェアの更新後、SNTPの設定がiLO Webインターフェイスに表示されません。<br />  <br /> - iLOファームウェアがCLIを使用して更新された場合、エラーが発生します。<br />  <br /> - CPU温度が誤って報告されます。<br />  <br /> - デフォルト言語は、スクリプトまたはCLIを使用して変更された場合、イベントが生成されません。<br />  <br /> - 間違ったファームウェアURLが入力された場合、エラーメッセージが表示されません。<br />  <br /> - メンテナンスノートが入力されると、インテグレーテッドマネジメントログ (IML) はエラーを表示します。<br />  <br /> - 電源オン時にエラーが発生した場合、イベントが生成されません。<br />  <br /> - iLO RBSUを使用してVLANタグを構成することはできません。<br />  <br /> - iLOファームウェア日付が、iLO RBSUで正しく表示されません。<br />  <br /> - ローカルユーザーアカウント設定が構成されたディレクトリを持たないiLOシステムで無効に変更された場合、警告メッセージが発生しません。<br />  <br /> - 電源オン遅延オプションが、iLO WebインターフェイスとCLIの間で一貫していません。<br />  <br /> - Intelligent Provisioningバージョンが、iLOシステム情報 > ファームウェアページに表示されません。<br />  <br /> - 証明書名が入力されない場合、Enterprise Secure Key Manager (ESKM) 証明書が削除されます。<br />  <br /> - CLIがミスマッチなパワーサプライをOKステータスにラベル付します。<br />  <br /> - 言語パックの更新が失敗した場合にイベントが生成されません。<br />  <br /> - パワーレギュレーターの設定が変更された場合にイベントが生成されません。<br />  <br /> - iLO CLIからポート番号65535でWINDBGを有効にすることができません。<br />  <br /> - 重複IPアドレスは検出されません。<br />  <br /> - iLO 4 1.20およびそれ以降は、ping要求に応答する前にARPを送信しません。 これは、iLO4がチーム構成されたNICを持つクライアントからのpingに到達できない原因になります。<br />  <br /> - 仮想メディアを使用してSolaris 10および11をインストールすることはできません。<br />  <br /> - c-Classブレードサーバーがエンクロージャーに挿入されるか、e-フューズされたとき、SNTPタイムゾーンオフセットがOAによって提供された時間に間違って適用されます。<br />  <br /> - サーバーのシリアル番号がBIOSで更新されると、システムボードのFRUデータが更新されません。]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.32" revision="" type_of_change="1"/>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  A security vulnerability related to SSRT101323 has been addressed.</li>
+ <li>
+  A security vulnerability related to SSRT101336 has been addressed.</li>
+ <li>
+  The iLO ROM-Based Setup Utility (RBSU), which is accessed via F8 at Power On, was reduced in fit in a 64KB size limit.</li>
+ <li>
+  iLO allowed some ciphers other than AES/3DES to be used when the AES/3DES Encryption Enforcement Settings were enabled.</li>
+ <li>
+  Firmware upgrades were slow or problematic following a failed URL-based/scriptable virtual media floppy drive session.</li>
+ <li>
+  A boot issue might occur if embedded media was not ready during POST due to an unexpected power event.</li>
+ <li>
+  iLO might crash when the Import Direct DNS Name button is clicked on the Security - Single Sign-On Settings page or when a certificate is imported by using RIBCL.</li>
+ <li>
+  Blade servers might hang during POST if a smart component tries to cold-boot the system.</li>
+ <li>
+  IPMI transactions to read the power consumption from Power Supplies P/N 499250-201 might report an incorrect value of zero watts.</li>
+ <li>
+  CPU overheating messages could be incorrectly detected and logged in the IML and causing iLO to initiate a server shutdown.</li>
+ <li>
+  SSH Channel could close unexpectedly after one command is executed.</li>
+ <li>
+  SSH interface could lock up after multiple back to back connections.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  SSRT101323に関連するセキュリティの脆弱性が対処されています。</li>
+ <li>
+  SSRT101336に関連するセキュリティの脆弱性が対処されています。</li>
+ <li>
+  電源投入時にF8を介してアクセスされるiLO ROMベースセットアップユーティリティ（RBSU）は、64KBのサイズ制限の適合で削減されました。</li>
+ <li>
+  強制AES/3DES暗号設定が有効にされた場合、iLOはAES/3DES以外のいくつかの暗号が使用されることを可能にしました。</li>
+ <li>
+  ファームウェアアップグレードは遅いまたは障害のあるURLベース/スクリプタブル仮想メディアフロッピードライブセッションの問題がありました。</li>
+ <li>
+  埋め込まれたメディアが予期しない電源イベントにより、POST中に準備ができなかった場合、ブート問題が発生する可能性があります。</li>
+ <li>
+  [DNS名から直接インポート]ボタンがセキュリティ - シングルサインオン設定ページでクリックされるか、証明書がRIBCLを使ってインポートされる場合、iLOがクラッシュすることがあります。</li>
+ <li>
+  Smartコンポーネントがシステムをコールドブートしようとした場合、ブレードサーバーがPOST中にハングアップすることがあります。</li>
+ <li>
+  パワーサプライP/N 499250-201から消費電力を読むためのIPMIトランザクションが、ゼロワットの誤った値をレポートすることがあります。</li>
+ <li>
+  CPUオーバーヒートメッセージが誤って検出され、IMLに記録され、iLOがサーバーシャットダウンを開始することを引き起こします。</li>
+ <li>
+  1つのコマンドが実行された後、SSHチャネルが予期せず閉じることがありました。</li>
+ <li>
+  複数の連続した接続の後、SSHインターフェイスがロックアップすることがありました。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.30" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>
+ This version adds support for the following features and enhancements:<br />
+ &nbsp;<br />
+ &nbsp;</p>
+<ul>
+ <li>
+  System ROM, Chassis Manager, CPLD, and Power Management Controller firmware can be updated in the iLO web interface and via RIBCL scripts.</li>
+ <li>
+  IPv6 network communications (dedicated network connection only). In addition to the features supported in iLO 4 1.2x, the following features are supported:
+  <ul style="list-style-type: circle">
+   <li>
+    RIBCL/XML scripting</li>
+   <li>
+    SNMPv3</li>
+  </ul>
+ </li>
+ <li>
+  Additional IPv6 functionality was added to the iLO utilities.</li>
+ <li>
+  The following Server Power-On Delay options are available: 15, 30, 45, and 60 seconds.</li>
+ <li>
+  RIBCL can be used with Single Sign-On (SSO).</li>
+ <li>
+  New web server with improved performance and reliability.</li>
+ <li>
+  New SSH server with improved performance and reliability.</li>
+ <li>
+  The System Information &gt; Memory page displays the HP part number for DIMMs.</li>
+ <li>
+  The supported size for Encoded Kerberos tickets increased to 16 KB.</li>
+ <li>
+  SNMP trap 9001 covers all server reset cases instead of only cases in which iLO governs the reset.</li>
+ <li>
+  SNMP Traps are sent if communication between iLO and Insight Remote Support or iLO and Insight Online fails.</li>
+ <li>
+  Improved download performance for the Active Health System log.</li>
+</ul>
+<p>
+ &nbsp;</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>
+ このバージョンは、以下の機能と改善を追加します。<br />  <br />  </p>
+<ul>
+ <li>
+  iLOウェブインターフェイスおよびRIBCLスクリプトを通してシステムROM、Chassis Manager、CPLDおよびパワーマネジメントコントローラーファームウェアをアップデートすることができます。</li>
+ <li>
+  IPv6ネットワーク通信(専用のネットワーク接続のみ)。 iLO4 1.2xでサポートされる機能に加えて、以下の機能をサポートします。
+  <ul style="list-style-type: circle">
+   <li>
+    RIBCL/XMLスクリプティング</li>
+   <li>
+    SNMPv3</li>
+  </ul>
+ </li>
+ <li>
+  追加のIPv6機能が、iLOユーティリティに追加されました。</li>
+ <li>
+  次のサーバー電源オン遅延オプションが利用可能です：15、30、45、60秒を追加しました。</li>
+ <li>
+  シングルサインオン(SSO)でRIBCLを使用できます。</li>
+ <li>
+  改良されたパフォーマンスと信頼性を持つ新しいWebサーバー。</li>
+ <li>
+  改良されたパフォーマンスと信頼性を持つ新しいSSHサーバー。</li>
+ <li>
+  システム情報 > メモリページは、DIMMのHP製品番号を表示します。</li>
+ <li>
+  エンコードされたKerberosチケットのサポートされたサイズが16KBに拡大されました。</li>
+ <li>
+  SNMPトラップ9001は、iLOがリセットを決定する場合だけではなく、すべてのサーバーのリセットケースをカバーします。</li>
+ <li>
+  iLOとInsight Remote SupportまたはiLOとInsight Online間の通信に障害がある場合、SNMPトラップが送信されます。</li>
+ <li>
+  Active Health Systemログのダウンロードパフォーマンスを改善しました。</li>
+</ul>
+<p>
+  </p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ The following issues are resolved in this firmware version:<br />
+ &nbsp;</p>
+<ul>
+ <li>
+  A possible security vulnerability related to SSRT101250 existed.</li>
+ <li>
+  The Integrated Remote Console (IRC) playback video could stop responding after recording.</li>
+ <li>
+  An incorrect entry was logged to the iLO Event Log when the IRC was launched to join a Shared Remote Console session.</li>
+ <li>
+  The iLO firmware replaced the server Real Time Clock (RTC) time with the iLO Network Time Protocol (NTP) time on every server reboot. The RTC is now set with the NTP time only when the server is plugged in and returns from an unpowered state.</li>
+ <li>
+  No SNMP alert was logged in HP SIM on failed iLO login attempts.</li>
+ <li>
+  The JAVA Integrated Remote console (JIRC) could not launch with HP SIM Single Sign On (SSO).</li>
+ <li>
+  The iLO SSH Server disconnected sessions during re-key operations.</li>
+ <li>
+  When importing new HP SSO certificates, a &ldquo;Certificate Could Not Be Stored&rdquo; error might occur.</li>
+ <li>
+  The Integrated Remote Console (IRC) might not be able to play a Pre-failure video downloaded from a web server.</li>
+ <li>
+  Mismatched Power Supply entries in the Integrated Management Log (IML) were not repaired after the correct power supply was installed.</li>
+ <li>
+  The Event log failed to display the user name when Lock_Config was enabled.</li>
+ <li>
+  No XML Logout iLO Event Log entry is recorded when a user logged out via HPONCFG.</li>
+ <li>
+  No iLO Event Log entries are recorded when IPMI/DCMI is set to Enabled or Disabled by using Mod_Global_Settings.xml.</li>
+ <li>
+  No iLO Event Log entries are recorded when Directory settings are modified through the CLI and XML scripts.</li>
+ <li>
+  No CLI option is provided to change the SNMP port and the SNMP trap port.</li>
+ <li>
+  The Power-On Delay cannot be set to Minimum Delay or Random up to 120 seconds on the Server Power page.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ このファームウェアのバージョンで、以下の問題を解決しました。<br />  </p>
+<ul>
+ <li>
+  SSRT101250に関連する潜在的なセキュリティの脆弱性がありました。</li>
+ <li>
+  統合リモートコンソール（IRC）再生ビデオが記録後に応答を停止することがありました。</li>
+ <li>
+  IRCが共有リモートコンソールセッションに参加するために開始されたとき、間違ったエントリーがiLOイベントログに記録されました。</li>
+ <li>
+  iLOファームウェアがサーバー再起動毎にiLO Network Time Protocol (NTP)時間でサーバーReal Time Clock (RTC)時間を置き換えました。 サーバーが取り付けられて、電源の入っていない状態から復帰する時のみ、RTCはNTP時間で設定されるようになります。</li>
+ <li>
+  iLOログインの試行に失敗した場合にHP SIMでSNMPアラートがログに記録されませんでした。</li>
+ <li>
+  JAVA統合リモートコンソール（JIRC）がHP SIMシングルサインオン（SSO）で起動できませんでした。</li>
+ <li>
+  iLO SSHサーバーが再キー操作中にセッションを切断しました。</li>
+ <li>
+  新しいHP SSO証明書をインポートする場合、“証明書は保存できませんでした。”エラーが起こることがありました。</li>
+ <li>
+  統合リモートコンソール(IRC)がWebサーバーからダウンロードされる事前障害ビデオを再生することができないことがありました。</li>
+ <li>
+  正しいパワーサプライが取り付けられた後、インテグレーテッドマネジメントログ（IML）でMismatched Power Supplyエントリーが訂正されませんでした。</li>
+ <li>
+  Lock_Configが有効にされた場合、イベントログがユーザー名の表示に失敗しました。</li>
+ <li>
+  ユーザーがHPONCFGを通してログアウトした場合、XML Logout iLOイベントログエントリーが記録されません。</li>
+ <li>
+  IPMI/DCMIが Mod_Global_Settings.xmlを使用して有効または無効に設定される場合に、iLOイベントログエントリーが記録されません。</li>
+ <li>
+  ディレクトリ設定がCLIおよびXMLスクリプトを通して変更される場合、iLOイベントログエントリーが記録されません。</li>
+ <li>
+  SNMPポートおよびSNMPトラップポートを変更するためのCLIオプションが提供されません。</li>
+ <li>
+  サーバーの電力ページで電源オン遅延を最小遅延または120秒までランダムに設定できません。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.22" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+ <li>
+  Improved Active Health System logging for newly added log entries.</li>
+ <li>
+  The persistent mouse and keyboard setting can now be configured by using the set_persmouse_status.xml script.&nbsp;&nbsp;</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+ <li>
+  新しく追加されたログエントリーのためのActive Health Systemログを改善しました。</li>
+ <li>
+  永続的なマウスおよびキーボード設定がset_persmouse_status.xmlスクリプトを使用して構成できるようになりました。  </li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  Corrected an issue where a spurious power supply event could cause a system to shutdown and record an IML entry due to noise in the power supply presence and status signals.</li>
+ <li>
+  iLO 4 will no longer incorrectly report a failed power supply in the IML&nbsp; when some power supply insertions are conducted with mismatched power supplies.</li>
+ <li>
+  Corrected a General Power Supply failure message in the IML when there is a power loss or the power cord was not attached to one of the power supplies.</li>
+ <li>
+  Fixed an issue in which iLO Virtual Serial Port Log playback ends too early or too late, preventing logged data from&nbsp; being displayed, or displaying old data in the wrong location.&nbsp; The iLO Virtual Serial Port Log playback now stops at the end of the stored data.</li>
+ <li>
+  Corrected a Self-Signed certificate expiration date issue that occurred when iLO is set to the factory default settings after the year 2012.&nbsp; This may occur if iLO generates a new SSL self-signed certificate after January 18th, 2013.</li>
+ <li>
+  Resolved an issue in which SSH sessions could be abruptly closed, leaving the server side socket in an undetected error condition.&nbsp; This could lead to no more available SSH sockets until the next iLO reset.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  偽のパワーサプライイベントがシステムのシャットダウンおよびパワーサプライの存在とステータス信号でのノイズによりIMLエントリーへの記録を引き起こすことがある問題を修正しました。</li>
+ <li>
+  いくつかのパワーサプライの取り付けが不一致なパワーサプライで行われた場合に、IMLにパワーサプライの障害を間違って報告しなくなりました。</li>
+ <li>
+  電力損失があるかまたはパワーサプライの１つに電源コードが接続されていなかった場合のIMLの一般パワーサプライ障害メッセージを修正しました。</li>
+ <li>
+  iLO仮想シリアルポートログの再生が早くまたは遅く終わる、記録されたデータを表示しない、または間違った位置の古いデータを表示する問題を修正しました。 iLO仮想シリアルポートログの再生は現在保存されているデータの終わりで停止します。</li>
+ <li>
+  iLOが2012年以降に工場出荷時のデフォルト設定にされた場合に起こる自己署名証明書の有効期限の問題を修正しました。 これは、iLOが2013年1月18日以降に新しいSSL自己署名証明書を生成する場合に発生することがあります。</li>
+ <li>
+  SSHセッションが急に閉じられ、サーバーサイドソケットが検出されないエラー状態となる問題を修正しました。  これは、次のiLOリセットまでこれ以上使用可能なSSHソケットがない原因となることがありました。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.20" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>
+ - IPv6 support for web GUI and Integrated Remote Console on iLO dedicated network</p>
+<p>
+ - Support for SNMP v3</p>
+<p>
+ - Location Discovery Services (BL/SL)</p>
+<p>
+ - 3D temp graph</p>
+<p>
+ - Support for Remote Syslog of server events</p>
+<p>
+ - Support for e-Mail alerting of server events</p>
+<p>
+ - Serial Console Record/Playback</p>
+<p>
+ - Support for new iLO Essentials license option</p>
+<p>
+ - Support for new iLO Scale-Out license option</p>
+<p>
+ - FIPS&nbsp; (Federal Information Processing Standard) Mode compliance support**</p>
+<p>
+ - Integrated Remote Console now supports .NET Framework v4.0</p>
+<p>
+ &nbsp;</p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<p>
+ - Web GUIおよびiLO専用ネットワーク上の統合リモートコンソールに対するIPv6サポート</p>
+<p>
+ - SNMP v3のサポート</p>
+<p>
+ - BL/SLに対するLocation Discovery Services（位置情報検出機能）</p>
+<p>
+ - 3D温度グラフ</p>
+<p>
+ - サーバーイベントのリモートSyslogのサポート</p>
+<p>
+ - サーバーイベントのメールアラートのサポート</p>
+<p>
+ - シリアルコンソール記録/再生</p>
+<p>
+ - 新しいiLO Essentialsライセンスオプションのサポート</p>
+<p>
+ - 新しいiLOスケールアウトライセンスオプションのサポート</p>
+<p>
+ - FIPS（Federal Information Processing Standard）モード準拠サポート**</p>
+<p>
+ - 統合リモートコンソールは、.NET Framework v4.0をサポートします</p>
+<p>
+  </p>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ - The HTTP TRACE method in the iLO 4 webserver is now disabled. Having<br />
+ &nbsp; this feature enabled caused some security scanners to report it as a<br />
+ &nbsp; vulnerability.</p>
+<p>
+ - iLO 4 no longer fails to synchronize the date and time with the Onboard Administrator.</p>
+<p>
+ - The iLO 4 Certificate Signing Request countryName object was changed from a UTF8 object to<br />
+ &nbsp; a printable string. This will prevent some Certificate Authorities from rejecting the iLO 4 CSR.</p>
+<p>
+ - The Integrated Remote Console will now disconnect Virtual Media when the USB flash drive is<br />
+ &nbsp; physically removed.</p>
+<p>
+ - The Integrated Remote Console no longer fails to open and displays &ldquo;HTTP error: The operation<br />
+ &nbsp; has timed out&rdquo;.</p>
+<p>
+ - iLO 4 will no longer become inaccessible for 40 minutes after an unreachable SNMP alert destination<br />
+ &nbsp; is entered.</p>
+<p>
+ - iLO 4 on BL460c Gen8 servers will no longer log the random event &quot;System Overheating (Temperature<br />
+ &nbsp; Sensor 3, Location CPU, Temperature 0C)&quot; in the IML if the second processor isn&rsquo;t populated.</p>
+<p>
+ - The SNMP tags have been removed from the MOD_GLOBAL_SETTINGS command. TO modify the SNMP<br />
+ &nbsp; parameters, you must now use the MOD_SNMP_IM_SETTINGS command.</p>
+<p>
+ - The pre-failure video playback will no longer end without showing video.</p>
+<p>
+ - A user with insufficient privileges can no longer modify the network settings by using the<br />
+ &nbsp; iLO command line interface.<br />
+ <br />
+ - Increased buffer size to allow the importing of a X.509 certificate file up to 3072 bytes long (Base64 encoded).</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<p>
+ - iLO 4のWebサーバーでHTTP TRACEメソッドが無効にされました。 この機能を有効にしておくと、いくつかのセキュリティスキャナーが脆弱性としてそれを報告する原因になりました。</p>
+<p>
+ - iLO 4は、Onboard Administratorによる日付と時刻の同期に失敗しなくなりました。</p>
+<p>
+ - iLO 4の証明書署名要求countryNameオブジェクトは、UTF8オブジェクトから印刷可能文字列に変更されました。 これにより、いくつかのCA(証明書機関)がiLO 4 CSRを拒絶することを回避します。</p>
+<p>
+ - USBフラッシュドライブが物理的に取り外された時、統合リモートコンソールは仮想メディアを切断します。</p>
+<p>
+ - 統合リモートコンソールは、オープンに失敗することはなくなりました。その際のHTTPエラー"操作はタイムアウトしました"の表示をしなくなりました。 </p>
+<p>
+ - 到達不能なSNMPアラートの送信先が入力された後、40分間、iLO 4がアクセス不能になることはなくなりました。</p>
+<p>
+ - 第2プロセッサーがインストールされない場合、BL460c Gen8サーバーのiLO 4は、IMLにランダムなイベント"System Overheating (Temperature Sensor 3, Location CPU, Temperature 0C)"を記録しなくなりました。</p>
+<p>
+ - SNMPタグが、MOD_GLOBAL_SETTINGSコマンドから削除されました。 SNMPパラメーターを変更するには、MOD_SNMP_IM_SETTINGSコマンドを使用する必要があります。</p>
+<p>
+ - 事前障害ビデオの再生は、ビデオを表示しないで終了しなくなります。</p>
+<p>
+ - 十分な権限を持たないユーザーが、iLOのコマンドラインインターフェイスを使用してネットワーク設定を変更することはできなくなりました。<br /> <br /> - (base64エンコードされた)3072バイト長までのX.509証明書ファイルのインポートを可能にするためにバッファーサイズを増やしました。</p>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.13" revision="" type_of_change="1"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[
+ Condensed the Active Health System (AHS) log data to enhance iLO memory capabilities
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[
+ iLOメモリー機能を拡張するためにActive Health System (AHS)ログデータを圧縮しました。 
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[
+ Fixed a possible security vulnerability when using Integrated Lights-Out (iLO&#39;s) Integrated Remote Console. Please see Security Bulletin SSRT100934 for more information.
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[
+ Integrated Lights-Out (iLO) の統合リモートコンソールを使用した場合に考えられるセキュリティの脆弱性を修正しました。 詳しくは、セキュリティ情報SSRT100934を参照してください。
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.10" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+ <li>
+  Support for HP Insight Remote Support 7.0 and later.<br />
+  &nbsp;</li>
+ <li>
+  Support for Location Discovery Services (ML and DL servers only).<br />
+  &nbsp;</li>
+ <li>
+  Support for configurable Remote Console hot keys.<br />
+  &nbsp;</li>
+ <li>
+  Integrated Management Log enhancements (iLO web interface):
+  <ul>
+   <li>
+    Added the ability to change the status of Critical or Caution events to Repaired.<br />
+    &nbsp;</li>
+   <li>
+    Added the ability to add a Maintenance Note to the IML log.<br />
+    &nbsp;</li>
+   <li>
+    Added logging for some Smart Array storage events.<br />
+    &nbsp;</li>
+  </ul>
+ </li>
+ <li>
+  Added a customizable login security banner.<br />
+  &nbsp;</li>
+ <li>
+  Added more defined SNMP traps related to the server power state.<br />
+  &nbsp;</li>
+ <li>
+  Changed the handling of cache modules in order to not report an error for normal conditions such as cache recharging or logical drive expansion.<br />
+  &nbsp;</li>
+ <li>
+  Improved iLO Event Log message when non-iLO firmware is flashed.<br />
+  &nbsp;</li>
+ <li>
+  Added CLI performance improvements.<br />
+  &nbsp;</li>
+ <li>
+  Added CLI support for adding and removing SSH keys.<br />
+  &nbsp;</li>
+ <li>
+  Added manual_ilo_reset to the CLI, which allows network changes without an immediate reset.</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[<ul>
+ <li>
+  HP Insight Remote Support 7.0以降のサポート。<br /> &nbsp;</li>
+ <li>
+  Location Discovery Service（MLおよびDLサーバーのみ）のサポート。<br /> &nbsp;</li>
+ <li>
+  リモートコンソールの構成可能ホットキーのサポート。<br /> &nbsp;</li>
+ <li>
+  インテグレーテッドマネジメントログの機能強化（iLO Webインターフェイス）：
+  <ul>
+   <li>
+    &quot;クリティカル&quot;あるいは&quot;注意&quot;のイベントを&quot;対処済み&quot;ステータスに変更する機能を追加しました。<br /> &nbsp;</li>
+   <li>
+    IMLログにメンテナンスノートを付加する機能を追加しました。<br /> &nbsp;</li>
+   <li>
+    いくつかのSmartアレイのストレージイベントの記録を追加しました。<br /> &nbsp;</li>
+  </ul>
+ </li>
+ <li>
+  カスタマイズ可能な、ログインセキュリティのバナーを追加しました。<br /> &nbsp;</li>
+ <li>
+  サーバーの電力ステータスに関する定義されたSNMPトラップを追加しました。<br /> &nbsp;</li>
+ <li>
+  キャッシュの回復や論理ドライブの拡張のような通常の状態でエラーを報告しないように、キャッシュモジュールの処理を変更しました。<br /> &nbsp;</li>
+ <li>
+  非iLOファームウェアがフラッシュされた場合の、iLOイベントログのメッセージを改善しました。<br /> &nbsp;</li>
+ <li>
+  CLIのパフォーマンスの改善を追加しました。<br /> &nbsp;</li>
+ <li>
+  SSHキーを追加および削除するためのCLIサポートを追加しました。<br /> &nbsp;</li>
+ <li>
+  即時リセットなしでネットワークの変更が可能な、manual_ilo_resetコマンドをCLIに追加しました。</li>
+</ul>
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  Fixed issue in which fan speed/airflow impedance occurs in certain situations.<br />
+  &nbsp;</li>
+ <li>
+  Updated the Factory_Defaults.xml script to include clearing the iLO and IML logs.<br />
+  &nbsp;</li>
+ <li>
+  Fixed an issue in which the server would auto power-on unexpectedly when iLO defaults were set using RIBCL.<br />
+  &nbsp;</li>
+ <li>
+  The iLO web interface and XML now show N/A for Total Memory Size, Operating Frequency, and Operating Voltage for empty processor sockets.<br />
+  &nbsp;</li>
+ <li>
+  Updated SET_HOST_APO.XML to use iLO user permissions.<br />
+  &nbsp;</li>
+ <li>
+  Changes to boot order in the iLO web interface and XML scripts now require the Virtual Power and Reset permission.<br />
+  &nbsp;</li>
+ <li>
+  Fixed Get_All_Languages.xml to work with CPQLOCFG.<br />
+  &nbsp;</li>
+ <li>
+  Fixed an issue where the iLO web interface displays the wrong message for an invalid&nbsp;SID.<br />
+  &nbsp;</li>
+ <li>
+  Fixed an issue where Clear_AHS_Data.xml will not execute successfully when AHS is disabled through the iLO web interface.<br />
+  &nbsp;</li>
+ <li>
+  The iLO Event Log now logs the name of the user that ran Clear_AHS_Data.XML.<br />
+  &nbsp;</li>
+ <li>
+  Fixed the Clear_AHS_Data.xml informational message.<br />
+  &nbsp;</li>
+ <li>
+  Removed unrelated VSP messages when running Mod_VSP_Flow_Control.<br />
+  &nbsp;</li>
+ <li>
+  Fixed the Set_Server_Name.xml log entry in the iLO Event Log.<br />
+  &nbsp;</li>
+ <li>
+  Fixed synchronization issues with the Power Regulator Values in iLO web interface and XML scripts.<br />
+  &nbsp;</li>
+ <li>
+  Fixed Get_Network.XML to display correct network information when the iLO 4 configured link is set to Auto.<br />
+  &nbsp;</li>
+ <li>
+  Fixed invalid XML response for Get_All_Languages.xml and Get_Language.xml.<br />
+  &nbsp;</li>
+ <li>
+  Fixed the Get_EmHealth.xml Storage Controller label.<br />
+  &nbsp;</li>
+ <li>
+  Fixed the IRC playback video when the server is powered off.<br />
+  &nbsp;</li>
+ <li>
+  Fixed IRC intermittent hang when un-mounting virtual media during a server&nbsp;reboot.<br />
+  &nbsp;</li>
+ <li>
+  Fixed the issue that caused an SSH session to disconnect when the IRC Trust Setting is changed.<br />
+  &nbsp;</li>
+ <li>
+  Fixed an issue that caused the .NET IRC to prompt for user credentials when started from the iLO web interface.<br />
+  &nbsp;</li>
+ <li>
+  Fixed an issue that caused the numeric keypad&nbsp; to work incorrectly in some situations.<br />
+  &nbsp;</li>
+ <li>
+  Fixed intermittent Unknown status for System Health, Server Power and UID in the iLO&nbsp;web interface Overview page.<br />
+  &nbsp;</li>
+ <li>
+  Fixed an issue that caused a DHCP supplied time zone not to be applied to the time&nbsp;iLO obtained from an SNTP server.<br />
+  &nbsp;</li>
+ <li>
+  Fixed a temporary loss of communication with Smart Array firmware which could lead to iLO noting a critical storage condition.<br />
+  For more information, see the CA: <a href="http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?locale=en_US&amp;objectID=c03384383">http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?locale=en_US&amp;objectID=c03384383</a>.<br />
+  &nbsp;</li>
+ <li>
+  Fixed an issue in which the server remains to be powered off when issuing a shutdown command (f12 &gt; F2) using ESXi 5.0 U1.<br />
+  &nbsp;</li>
+ <li>
+  Fixed intermittent communication issues between iLO and a Smart Array Controller.<br />
+  &nbsp;</li>
+ <li>
+  Fixed the iLO web interface System Information page to display correct fan speed and temperatures.<br />
+  &nbsp;</li>
+ <li>
+  Various SNMP performance enhancements.<br />
+  &nbsp;</li>
+ <li>
+  Reworded the event log message to better identify when non-iLO firmware is flashed.<br />
+  &nbsp;</li>
+ <li>
+  Added controlled stepping of fan speed to avoid large fan speed changes that could cause fan failures.</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[<ul>
+ <li>
+  特定の状況でファンの速度/気流の抵抗が発生する問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLOおよびIMLログのクリアを含むようにFactory_Defaults.xmlスクリプトをアップデートしました。<br /> &nbsp;</li>
+ <li>
+  iLOのデフォルトがRIBCLを使用して設定されていた場合、サーバーが急にオートパワーオンになる問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLOのWebインターフェイスとXMLは、空のプロセッサーソケットの合計メモリサイズ、動作周波数、および動作電圧をN/Aと表示するようになりました。<br /> &nbsp;</li>
+ <li>
+  iLOユーザー権限を使用するためにSET_HOST_APO.XMLをアップデートしました。<br /> &nbsp;</li>
+ <li>
+  iLOのWebインターフェイスとXMLスクリプトのブート順序の変更は、仮想電源とリセットの権限が必要になりました。<br /> &nbsp;</li>
+ <li>
+  CPQLOCFGで動作するようにGet_All_Languages.xmlを修正しました。<br /> &nbsp;</li>
+ <li>
+  無効なSIDのためにiLOのWebインターフェイスが間違ったメッセージを表示する問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLOのWebインターフェイスでAHSが無効にされている場合、Clear_AHS_Data.xmlが正常に実行されない問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLOのイベントログは、Clear_AHS_Data.XMLを実行したユーザーの名前を記録するようになりました。<br /> &nbsp;</li>
+ <li>
+  Clear_AHS_Data.xml情報メッセージを修正しました。<br /> &nbsp;</li>
+ <li>
+  Mod_VSP_Flow_Controlを実行しているときの関係ないVSPメッセージを削除しました。<br /> &nbsp;</li>
+ <li>
+  iLOのイベントログ内のSet_Server_Name.xmlログエントリーを修正しました。<br /> &nbsp;</li>
+ <li>
+  iLOのWebインターフェイスとXMLスクリプトのパワーレギュレータ値の同期の問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLO 4のリンクが自動に設定されている場合、正しいネットワーク情報を表示するためにGet_Network.XMLを修正しました。<br /> &nbsp;</li>
+ <li>
+  Get_All_Languages.xmlとGet_Language.xmlの無効なXML応答を修正しました。<br /> &nbsp;</li>
+ <li>
+  Get_EmHealth.xmlストレージコントローラーのラベルを修正しました。<br /> &nbsp;</li>
+ <li>
+  サーバーの電源がオフになっているときのIRCプレイバックビデオを修正しました。<br /> &nbsp;</li>
+ <li>
+  サーバーの再起動時に仮想メディアをアンマウントしたときの、IRCの断続的なハングアップを修正しました。<br /> &nbsp;</li>
+ <li>
+  IRCの信頼設定が変更されたときにSSHセッションの切断を引き起こす問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLO Webインターフェイスから起動した場合に.NET IRCがユーザー認証を要求する原因となる問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  ある状況でテンキーが正しく動作しない原因となる問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLO Webインターフェイスの概要ページで、システムヘルス、サーバー電力およびUIDのステータスが、断続的に&quot;不明&quot;になる問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  DHCPが提供したタイムゾーンが、iLOがSMTPサーバーから入手した時間に適用されない問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLOが重要なストレージの状態を記録することにつながる、Smartアレイのファームウェアとの一時的な通信の切断を修正しました。<br /> 詳しくは、CA（<a href="http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?locale=en_US&amp;objectID=c03384383">http://h20000.www2.hp.com/bizsupport/TechSupport/Document.jsp?locale=en_US&amp;objecID=c03384383</a>）を参照してください。<br /> &nbsp;</li>
+ <li>
+  ESXI 5.0 u1を使用して、シャットダウンコマンド（f12 &gt; F2）を発行した場合、サーバーの電源が切れない問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  iLOおよびSmartアレイコントローラーとの間で断続的な通信の問題を修正しました。<br /> &nbsp;</li>
+ <li>
+  正しいファンの回転速度と温度を表示するように、iLO Webインターフェイスのシステム情報ページを修正しました。<br /> &nbsp;</li>
+ <li>
+  様々なSNMP性能の向上。<br /> &nbsp;</li>
+ <li>
+  非iLOファームウェアをフラッシュした場合、より識別できるようにイベントログメッセージを置き換えました。<br /> &nbsp;</li>
+ <li>
+  ファンの障害を引き起こす可能性がある大幅なファンの回転速度の変更を避けるために、ファンの回転速度のステッピング制御を追加しました。</li>
+</ul>
+]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.05" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[- The iLO SNMP interface will react to excessive activity to SNMP Network port 161 to prevent &ldquo;Denial of Service&rdquo; type attacks<br />
+- When the Agentless Management Service (AMS) is installed on the host operating system, the iLO &ldquo;Server Name&rdquo; will be updated. This overwrites the information entered in the iLO GUI (same behavior in iLO 3 under Windows)<br />
+- The HP SmartMemory Technology is better displayed on the System Information Memory page<br />
+- There is support for iLO 4 monitoring larger, internally attached storage enclosures<br />
+- When the Agentless Management Service (AMS) is installed on the host operating system, the host Network Link status will be displayed, even if &ldquo;SNMP Pass-thru&rdquo; is enabled<br />
+- NIC Link Status:&nbsp; The host OS &ldquo;network LINK&rdquo; status will be better reflected in the iLO GUI. If no cable is connected to the port AND the NIC is disabled by the HOST, the GUI will show &ldquo;Informational&rdquo; rather than &ldquo;Link Down&rdquo;<br />
+- When the Agentless Management Service (AMS) is installed on the host Linux operating system, events logged to the Integrated Management Log (IML) are also logged to the Linux &ldquo;messages&rdquo; file<br />
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[- iLO SNMPインターフェイスは、&quot;サービス妨害&quot;のような攻撃を防ぐために、SNMPネットワークポート161への過剰な活動に反応します。<br /> - Agentless Management Service（AMS)が、ホストオペレーティングシステムにインストールされた場合、iLOの&quot;サーバー名&quot;はアップデートされます。 これは、iLO GUI（Windows下のiLO 3の動作と同じ）で入力した情報を上書きします。<br /> - HP SmartMemory Technologyは、システム情報、メモリのページで詳しく表示されます。<br /> - 大規模で内部に接続されているストレージエンクロージャーをiLO 4が監視するサポートがあります。<br /> - Agentless Management Service（AMS)が、ホストオペレーティングシステムにインストールされた場合、&quot;SNMP Pass-thru&quot;が有効でも、ホストのネットワークリンクステータスが表示されます。<br /> - NICリンクステータス：&nbsp; ホストOSの&ldquo;network LINK&rdquo;ステータスは、iLO GUIに詳しく反映されます。 ポートに接続されたケーブルがなくてNICがホストにより無効な場合、GUIは&ldquo;Link Down&rdquo;ではなくて&ldquo;Informational&rdquo;と表示します。<br />
+ - Agentless Management Service（AMS)が、ホストのLinuxオペレーティングシステムにインストールされた場合、インテグレーテッドマネジメントログ（IML）に記録されたイベントは、Linuxの&ldquo;メッセージ&rdquo;ファイルにも記録されます。
+<br /]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_fixes_xlate lang="en">
+        <revision_fixes_xlate_part>
+<![CDATA[- Feature not supported message&nbsp;was not displayed for all tags for some xml scripts<br />
+- User could not&nbsp;set MIN_PASSWORD to zero (0) using a RIBCL script<br />
+- Could not&nbsp;import SSH key via RIBCL if the key is for the Administrator account<br />
+- Unable to restore the captured file from HPONCFG on Blade Servers<br />
+- Incorrect error message when SSH Port&nbsp;was left blank in HPONCFG or XML scripts<br />
+- IRC session gets disconnected after a minute after booting into the server OS<br />
+- Possible mismatch representation between ILO CLI and GUI network gateway setting<br />
+- Physical DVD on HP BladeSystem c3000 Enclosure might fail to mount correctly via Scriptable VM<br />
+- No event&nbsp;was logged when SSH Key&nbsp;was deleted]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+      <revision_fixes_xlate lang="ja">
+        <revision_fixes_xlate_part>
+<![CDATA[- サポートされていない機能のメッセージは、いくつかのXMLスクリプトですべてのタグは表示されません。
+<br /> - RIBCLスクリプトを使用してMIN_PASSWORDをゼロ（0）に設定することはできません。<br /> - Administratorアカウントのキーの場合、RIBCL経由でSSHキーをインポートすることはできません。<br /> - キャプチャーしたファイルをブレードサーバー上でHPONCFGから復元することはできません。<br /> - HPONCFGあるいはXMLスクリプトでSSHポートに空白が残っている場合、間違ったエラーメッセージになります。<br /> - サーバーOSが起動して1分後、IRCセッションは切断されます。<br /> - ILO CLIとGUIのネットワークゲートウェイ設定の間で不一致が起こる可能性があります。<br /> - HP BladeSystem ｃ3000エンクロージャーの物理DVDは、スクリプト可能なVM経由でマウントに失敗する可能性があります。<br /> - SSHキーが削除された場合、イベントが何も記録されません]]>
+</revision_fixes_xlate_part>
+      </revision_fixes_xlate>
+    </revision>
+    <revision>
+      <version value="1.01" revision="" type_of_change="0"/>
+      <revision_enhancements_xlate lang="en">
+        <revision_enhancements_xlate_part>
+<![CDATA[Initial&nbsp;Release with the following features:<br />
+<br />
+&nbsp;iLO 4 supports HP Active Health System, HP&#39;s always-on diagnostic capability that is new for Gen8 HP ProLiant servers<br />
+&nbsp;iLO 4 supports HP Agentless Management for out-of-the box SNMP-based server management that does not require OS-based Agents<br />
+&nbsp;iLO 4 supports the new, built-in Intelligent Provisioning capability for easy server setup&nbsp;which is new for Gen8 HP ProLiant&nbsp;servers<br />
+&nbsp;iLO 4 supports up to 1Gbit dedicated LAN access&nbsp;on Gen8&nbsp;HP ProLiant ML/DL/SL servers<br />
+]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+      <revision_enhancements_xlate lang="ja">
+        <revision_enhancements_xlate_part>
+<![CDATA[初期リリースは以下の機能を含みます：<br /> 
+<br />
+&nbsp;iLO 4は、HP Active Health System、Gen8 HP ProLiantサーバー用の新しいHPの診断機能をサポートします。<br />
+&nbsp;iLO 4は、OSベースのエージェントを必要とせず、すぐに利用可能なSNMPベースのサーバー管理であるHP Agentless Managementをサポートします<br />
+&nbsp;iLO 4は、Gen8 HP ProLiantサーバー用の簡単なサーバーのセットアップのための、新しい組み込みのIntelligent Provisioning機能をサポートします。<br />
+&nbsp;iLO 4は、Gen8 HP ProLiant ML/DL/SL サーバー上で1Gbitまでの専用のLANアクセスをサポートします。<br />]]>
+</revision_enhancements_xlate_part>
+      </revision_enhancements_xlate>
+    </revision>
+  </revision_history>
+  <sw_keys>
+    <sw_keys_and>
+      <sw_key name="RI10">
+        <sw_key_expectedpath>firmware:ilo4</sw_key_expectedpath>
+      </sw_key>
+    </sw_keys_and>
+  </sw_keys>
+  <prerequisites>
+    <supported_operating_systems>
+      <supported_operating_system platform="red_hat_enterprise_linux_x86" major="6" minor="0" sr="OEM" name="Red Hat Enterprise Linux 6 Server (x86)"/>
+      <supported_operating_system platform="red_hat_enterprise_linux_client_x86_64" major="6" minor="0" sr="OEM" name="Red Hat Enterprise Linux 6 Workstation (x86-64)"/>
+      <supported_operating_system platform="suse_linux_enterprise_server_x86_64" major="10" minor="0" sr="OEM" name="SUSE LINUX Enterprise Server 10 (AMD64/EM64T)"/>
+      <supported_operating_system platform="suse_linux_enterprise_server_x86_64" major="12" minor="0" sr="OEM" name="SUSE Linux Enterprise Server 12"/>
+      <supported_operating_system platform="red_hat_enterprise_linux_client_x86" major="6" minor="0" sr="OEM" name="Red Hat Enterprise Linux 6 Workstation (x86)"/>
+      <supported_operating_system platform="red_hat_enterprise_linux_x86_64" major="6" minor="0" sr="OEM" name="Red Hat Enterprise Linux 6 Server (x86-64)"/>
+      <supported_operating_system platform="suse_linux_enterprise_server_x86" major="11" minor="0" sr="OEM" name="SUSE LINUX Enterprise Server 11 (x86)"/>
+      <supported_operating_system platform="suse_linux_enterprise_server_x86" major="10" minor="0" sr="OEM" name="SUSE LINUX Enterprise Server 10 (x86)"/>
+      <supported_operating_system platform="suse_linux_enterprise_server_x86_64" major="11" minor="0" sr="OEM" name="SUSE LINUX Enterprise Server 11 (AMD64/EM64T)"/>
+      <supported_operating_system platform="red_hat_enterprise_linux_x86_64" major="7" minor="0" sr="OEM" name="Red Hat Enterprise Linux 7 Server"/>
+    </supported_operating_systems>
+    <supported_devices>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3307</supported_device_data>
+          <supported_device_data name="subven">103C</supported_device_data>
+          <supported_device_data name="subdev">3381</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3306</supported_device_data>
+          <supported_device_data name="subven">103C</supported_device_data>
+          <supported_device_data name="subdev">3381</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3308</supported_device_data>
+          <supported_device_data name="subven">103C</supported_device_data>
+          <supported_device_data name="subdev">3381</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3300</supported_device_data>
+          <supported_device_data name="subven">103C</supported_device_data>
+          <supported_device_data name="subdev">3381</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3301</supported_device_data>
+          <supported_device_data name="subven">103C</supported_device_data>
+          <supported_device_data name="subdev">3381</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+      <supported_devices_and>
+        <supported_device type="pci">
+          <supported_device_data name="ven">103C</supported_device_data>
+          <supported_device_data name="dev">3302</supported_device_data>
+          <supported_device_data name="subven">103C</supported_device_data>
+          <supported_device_data name="subdev">3381</supported_device_data>
+        </supported_device>
+      </supported_devices_and>
+    </supported_devices>
+    <required_diskspace size_kb="5120"/>
+  </prerequisites>
+  <installation>
+    <install>
+      <install_caps silent="yes" needuseracct="no"/>
+      <command>sh CP0XXXXX.scexe</command>
+      <command_params></command_params>
+      <reboot_required value="no"/>
+      <reboot_details value="No">
+        <reboot_details_xlate lang="en">Reboot is not required after installation for updates to take effect and hardware stability to be maintained.</reboot_details_xlate>
+        <reboot_details_xlate lang="ja">アップデートの効果とハードウェアの安定を得るために、インストール後の再起動は必要ありません。</reboot_details_xlate>
+      </reboot_details>
+      <per_device_install_time_seconds>0</per_device_install_time_seconds>
+    </install>
+    <uninstall>
+      <uninstall_caps silent="no"/>
+      <command></command>
+      <command_params></command_params>
+      <reboot_required value="no"/>
+    </uninstall>
+  </installation>
+</cpq_package>
