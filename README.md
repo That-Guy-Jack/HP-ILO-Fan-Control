@@ -33,6 +33,8 @@ all you need to run is the commands below.
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
 - [x] Allow easier input of ILO pramaters
+- [ ] Allow users to input ilo paramaters when using the install.sh 
+- [ ] Make the install.sh script have fun colours : D
  
  ### Links and other stuff
 Original Reddit post: https://www.reddit.com/r/homelab/comments/hix44v/silence_of_the_fans_pt_2_hp_ilo_4_273_now_with/ 
