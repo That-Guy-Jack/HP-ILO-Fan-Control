@@ -11,11 +11,11 @@ if [ $input = yes ] ; then
         cd /
         echo "Downloading ILO_250 for ROM Upgrade"
         echo "Downloading to / directory"
-        wget https://github.com/That-Guy-Jack/HP-ILO-Fan-Control/tree/main/Files/ilo_250
+        wget https://github.com/That-Guy-Jack/HP-ILO-Fan-Control/tree/main/FIles/ilo_250
         echo "Finished Download"
         echo "Making autofan.service"
         cd /etc/systemd/system/
-        wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Files/autofan.service
+        wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/FIles/autofan.service
         echo "Finished making autofan.service"
         echo "Preping latest autofan.sh"
         cd /
