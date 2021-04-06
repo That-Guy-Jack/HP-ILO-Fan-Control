@@ -6,7 +6,7 @@ if [ $input = yes ] ; then
 # agreement confirmed
 # refresh OR create agreement file status
         echo "Installing required apt packages sshpass, lm-sensors and wget"
-        apt install sshpass wget lm-sensors -y
+        apt install sshpass wget lm-sensors jq -y
         echo "Installed required apt packages"
         cd /
         echo "Downloading ILO_250 for ROM Upgrade"
