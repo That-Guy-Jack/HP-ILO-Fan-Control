@@ -11,7 +11,7 @@ all you need to run is the commands below.
 
 1. Switch Ilo into Maintainance mode. On the Dl360p Gen8 This is located near the backplane conectors on the motherboard. (images in the images file) then reboot.
 
-2. Download the install.sh script and Run it this will download all required files and pre moves installs the autofan.service and downloads the autofan.sh ready to be edited. if You are more advanced  you can install everything sperately.
+2. Download the install.sh script and Run it this will download all required files and pre moves installs the autofan.service and downloads the correct autofan.sh based on the input ready to be edited. if You are more advanced  you can install everything sperately.
 (downlaod using wget https://github.com/That-Guy-Jack/HP-ILO-Fan-Control/blob/main/Install.sh)
 
 3. Then run The prep.sh in the ilo_250 folder ( cd /ilo_250 ) if this errors it may be beacuse the ilo isnt it maintainace (on non root users you may need to add sudo to this command)
@@ -22,15 +22,13 @@ all you need to run is the commands below.
 
 4. Once the flash has completed shudown your system and unplug it. Make sure to Switch the ilo back out of maintainance mode.  
 
-5. Chose the Correct fan script and rename /delete accordingly (autofan.sh is for the DL360p G8 and the autofan-dl380p-g8.sh is for a DL380p G8) 
+5. Configure The autofan.sh in the / directory. Replace Your Password, Your username and Your ilo ip with the correct info. Once done save and exit.
 
-6. Configure The autofan.sh in the / directory. Replace Your Password, Your username and Your ilo ip with the correct info. Once done save and exit.
+6. Run systemctl daemon-reload and systemctl start autofan to activate the scripts
 
-7. Run systemctl daemon-reload and systemctl start autofan to activate the scripts
+7. Create a corontab command to start the systemd service on startup: @reboot systemctl start autofan
 
-8. Create a corontab command to start the systemd service on startup: @reboot systemctl start autofan
-
-9. enjoy silence : ) and if thats to fast or slow edit the autofan.sh to your needs.
+8. enjoy silence : ) and if thats to fast or slow edit the autofan.sh to your needs.
 
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
