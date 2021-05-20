@@ -22,7 +22,9 @@ all you need to run is the commands below.
 
 4. Once the flash has completed shudown your system and unplug it. Make sure to Switch the ilo back out of maintainance mode.  
 
-5. Configure The autofan.sh in the / directory. Replace Your Password, Your username and Your ilo ip with the correct info. Once done save and exit.
+5. Chose the Correct fan script and rename /delete accordingly (autofan.sh is for the DL360p G8 and the autofan-dl380p-g8.sh is for a DL380p G8) 
+
+6. Configure The autofan.sh in the / directory. Replace Your Password, Your username and Your ilo ip with the correct info. Once done save and exit.
 
 7. Run systemctl daemon-reload and systemctl start autofan to activate the scripts
 
