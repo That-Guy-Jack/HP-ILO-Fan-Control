@@ -17,13 +17,26 @@ if [ $input = yes ] ; then
         cd /etc/systemd/system/
         wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Files/autofan.service
         echo "Finished making autofan.service"
-        echo "Preping latest autofan.sh"
-        cd /
-        echo "Downloading Latest autofan.sh"
-        wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Files/autofan.sh
-        echo "Downloaded autofan.sh Change Placeholders with correct info"
-        echo "Please Visit the Github Page to Follow Instructions"
-        echo "https://github.com/That-Guy-Jack/HP-ILO-Fan-Control"
+        echo "Which server are you running? Dl360p (1) or the DL380p (2) [1] or [2] :"
+        read server
+        if [ $server = 1 ] ; then
+                echo "Preping autofan.sh for DL360p "
+                cd /
+                echo "Downloading Latest autofan.sh"
+                wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Files/autofan.sh
+                echo "Downloaded autofan.sh Change Placeholders with correct info"
+                echo "Please Visit the Github Page to Follow Instructions"
+                echo "https://github.com/That-Guy-Jack/HP-ILO-Fan-Control"
+        else
+                echo "Preping autofan.sh for DL380p "
+                cd /
+                echo "Downloading Latest autofan.sh"
+                wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Files/autofan-dl380p-g8.sh
+                echo "Renaming File"
+                mv autofan-dl380p-g8.sh autofan.sh
+                echo "Downloaded autofan.sh Change Placeholders with correct info"
+                echo "Please Visit the Github Page to Follow Instructions"
+                echo "https://github.com/That-Guy-Jack/HP-ILO-Fan-Control"
         exit 1
 else
    echo " :( exitting"
