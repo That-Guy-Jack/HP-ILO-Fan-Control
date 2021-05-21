@@ -27,7 +27,8 @@ if [ $input = yes ] ; then
                 echo "Downloaded autofan.sh Change Placeholders with correct info"
                 echo "Please Visit the Github Page to Follow Instructions"
                 echo "https://github.com/That-Guy-Jack/HP-ILO-Fan-Control"
-        else
+                exit 1
+        else if [ $server = 2 ] ; then
                 echo "Preping autofan.sh for DL380p "
                 cd /
                 echo "Downloading Latest autofan.sh"
@@ -37,6 +38,9 @@ if [ $input = yes ] ; then
                 echo "Downloaded autofan.sh Change Placeholders with correct info"
                 echo "Please Visit the Github Page to Follow Instructions"
                 echo "https://github.com/That-Guy-Jack/HP-ILO-Fan-Control"
+                exit 1
+        else 
+        echo "incorrect answer :<"
         exit 1
 else
    echo " :( exitting"
