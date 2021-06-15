@@ -12,7 +12,7 @@ all you need to run is the commands below.
 1. Switch Ilo into Maintainance mode. On the Dl360p Gen8 This is located near the backplane conectors on the motherboard. (images in the images file) then reboot.
 
 2. Download the install.sh script and Run it this will download all required files and pre moves installs the autofan.service and downloads the correct autofan.sh based on the input ready to be edited. if You are more advanced  you can install everything sperately.
-(downlaod using wget https://github.com/That-Guy-Jack/HP-ILO-Fan-Control/blob/main/Install.sh)
+(downlaod using wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Install.sh)
 
 3. Then run The prep.sh in the ilo_250 folder ( cd /ilo_250 ) if this errors it may be beacuse the ilo isnt it maintainace (on non root users you may need to add sudo to this command)
 >
