@@ -33,6 +33,7 @@ all you need to run is the commands below.
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
 - [x] Allow easier input of ILO pramaters
+- [ ] Add info for the security switch
 - [ ] Allow users to input ilo paramaters when using the install.sh 
 - [ ] Make the install.sh script have fun colours : D
  
