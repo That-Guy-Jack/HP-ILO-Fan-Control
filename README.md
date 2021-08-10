@@ -5,7 +5,9 @@ Allows a Simple Fan Curve to be set using the Custom ROM by u/phoenixdev on redd
 In this Repo all files that you need are included : )
 The folder contians the unpacked ilo with the replacement rom pre copied. 
 
-all you need to run is the commands below.
+All you need to run is the commands below.
+
+Currently Linux Only Essxi Support is in the works!
 
 ## STEPS:
 
@@ -33,6 +35,7 @@ all you need to run is the commands below.
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
 - [x] Allow easier input of ILO pramaters
+- [ ] Make Essxi friendly verstion
 - [ ] Add info for the security switch
 - [ ] Allow users to input ilo paramaters when using the install.sh 
 - [ ] Make the install.sh script have fun colours : D
