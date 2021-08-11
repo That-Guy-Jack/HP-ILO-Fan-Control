@@ -32,6 +32,11 @@ Currently Linux Only Essxi Support is in the works!
 
 8. enjoy silence : ) and if thats to fast or slow edit the autofan.sh to your needs.
 
+
+
+###Notes
+- I Recomend especially for the dl360 to add a small 40mm fan to the raid controler to keep it cool
+
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
 - [x] Allow easier input of ILO pramaters
