@@ -12,8 +12,17 @@
 PASSWORD="YOURILOPASSWORD"
 USERNAME="YOURILOUSER"
 ILOIP="YOURILOIP"
-T1="$(sensors -Aj coretemp-isa-0000 | jq '.[][] | to_entries[] | select(.key | endswith("input")) | .value' | sort -rn | head -n1)"
-T2="$(sensors -Aj coretemp-isa-0001 | jq '.[][] | to_entries[] | select(.key | endswith("input")) | .value' | sort -rn | head -n1)"
+#T1="$(sensors -Aj coretemp-isa-0000 | jq '.[][] | to_entries[] | select(.key | endswith("input")) | .value' | sort -rn | head -n1)"
+#T2="$(sensors -Aj coretemp-isa-0001 | jq '.[][] | to_entries[] | select(.key | endswith("input")) | .value' | sort -rn | head -n1)"
+
+sshpass -p $PASSWORD ssh $USERNAME@$ILOIP show /system1/sensor2 > temp.txt
+T1CLEAN=$(grep --color=never -Ihr "CurrentReading" temp.txt | xargs -d '\r')
+T1=$(echo "${T1CLEAN/    CurrentReading=/}" | xargs)
+rm -rf temp.txt
+sshpass -p $PASSWORD ssh $USERNAME@$ILOIP show /system1/sensor3 > temp.txt
+T2CLEAN=$(grep --color=never -Ihr "CurrentReading" temp.txt | xargs -d '\r')
+T2=$(echo "${T2CLEAN/    CurrentReading=/}" | xargs)
+rm -rf temp.txt
 
 echo "==============="
 echo "CPU 1 Temp $T1 C"
