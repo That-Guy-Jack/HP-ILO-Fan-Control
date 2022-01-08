@@ -46,7 +46,7 @@ DL360p Gen8
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
 - [x] Allow easier input of ILO pramaters
-- [ ] Make Essxi friendly verstion
+- [ ] Make ESXI friendly verstion
 - [ ] Add info for the security switch
 - [ ] Allow users to input ilo paramaters when using the install.sh 
 - [ ] Make the install.sh script have fun colours : D
