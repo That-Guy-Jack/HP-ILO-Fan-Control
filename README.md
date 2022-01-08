@@ -33,8 +33,14 @@ Currently Linux Only Essxi Support is in the works!
 8. enjoy silence : ) and if thats to fast or slow edit the autofan.sh to your needs.
 
 
+# Tested Servers:
+## 1U Servers:
+DL380p Gen8
+DL380p Gen9
+## 2U Servers:
+DL360p Gen8 (2U)
 
-###Notes
+# Notes
 - I Recomend especially for the dl360 to add a small 40mm fan to the raid controler to keep it cool
 
 ### To-do
