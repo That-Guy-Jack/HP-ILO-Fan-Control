@@ -38,11 +38,11 @@ Currently Linux Only Essxi Support is in the works!
 DL380p Gen8
 DL380p Gen9
 ## 2U Servers:
-DL360p Gen8 (2U)
+DL360p Gen8
 
 # Notes
 - I Recomend especially for the dl360 to add a small 40mm fan to the raid controler to keep it cool
-
+- If you have the fan script working on a diffent server thats listed in the tested server section create a issue and i'll add it.
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
 - [x] Allow easier input of ILO pramaters
