@@ -39,6 +39,7 @@ DL380p Gen8
 DL380p Gen9
 ## 2U Servers:
 DL360p Gen8
+DL80 Gen9 - Tested by @rootless4real
 
 # Notes
 - I Recomend especially for the dl360 to add a small 40mm fan to the raid controler to keep it cool
