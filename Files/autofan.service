@@ -1,5 +1,5 @@
 [Unit]
-Description=Fan Speed Controler using autofan.sh
+Description=Fan speed controller using autofan.sh
 
 [Service]
 Restart=always
