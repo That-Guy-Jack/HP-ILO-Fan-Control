@@ -17,7 +17,7 @@ if [ $input = yes ] ; then
         cd /etc/systemd/system/
         wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Files/autofan.service
         echo "Finished making autofan.service"
-        echo "Which server are you running? DL360p G8 (1), or the DL380p G8 (2) [1] or [2] :"
+        echo "Which server are you running? DL360p G8 (1) or DL380p G8 (2) [1] or [2] :"
                 read server
                 if [ $server = 1 ] ; then
                         echo "Preping autofan.sh for DL360p G8"
