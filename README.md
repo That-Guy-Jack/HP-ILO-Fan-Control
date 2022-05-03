@@ -48,7 +48,7 @@ DL80 Gen9 - Tested by @rootless4real
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
 - [x] Allow easier input of ILO pramaters
-- [ ] Make ESXI friendly version
+- [ ] Make ESXI friendly version - Script now Existis and works just needs automation
 - [ ] Add info about the security switch
 - [ ] Allow users to input ILO paramaters when using `install.sh` 
 - [ ] Make the install.sh script have fun colours :D
