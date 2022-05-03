@@ -5,7 +5,7 @@ This repo contains all of the required files! :)
 All you need to run is the commands below.
 
 ### Currently, the scripts are only for Linux!
-ESXi Support is in the works!
+ ~~ESXi Support is in the works!~~ Thanks to @thomaswilbur For making the ESXI verstion of the script! - see EXSI readme
 
 ## STEPS:
 
@@ -17,7 +17,9 @@ ESXi Support is in the works!
 3. Run the `prep.sh` in the `ilo_250` folder. If this errors it may be beacuse the ILO isnt it maintainance mode. (You may need to run this script as root.)
 >
 
-    ./flash_ilo4 --direct  (When flashing the fans spin up to 100%, so be prepared)
+    ./flash_ilo4 --direct  
+    
+(When flashing the fans spin up to 100%, so be prepared)
    
 
 4. Once the flash has completed, shut down your system and unplug it. Make sure to switch ILO back out of maintainance mode.  
