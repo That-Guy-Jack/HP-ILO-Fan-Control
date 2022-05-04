@@ -28,7 +28,7 @@ All you need to run is the commands below.
 
 6. Run `systemctl daemon-reload` and `systemctl start autofan` to activate the service.
 
-7. Create a crontab command to start the systemd service on startup: `@reboot systemctl start autofan`.
+7. Run the following command to automatically start the service on reboot: `systemctl enable autofan`
 
 8. Enjoy silence! :) And if thats toO fast or slow, edit the autofan.sh to your needs.
 
