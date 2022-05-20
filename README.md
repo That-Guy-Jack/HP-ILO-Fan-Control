@@ -48,10 +48,10 @@ DL80 Gen9 - Tested by @rootless4real
 ### To-do
 - [x] Create a Script to Install and Create fan control scripts
 - [x] Allow easier input of ILO pramaters
-- [ ] Make ESXI friendly version - Script now Existis and works just needs automation
+- [x] Make ESXI friendly version - Big thanks to @thomaswilbur for making the script and @TannerFilip for making a easier to use script!
 - [ ] Add info about the security switch
 - [ ] Allow users to input ILO paramaters when using `install.sh` 
-- [ ] Make the install.sh script have fun colours :D
+- [x] Make the install.sh script have fun colours :D - added thanks to @TannerFilip
  
  ### Links and other stuff
 Original Reddit post: https://www.reddit.com/r/homelab/comments/hix44v/silence_of_the_fans_pt_2_hp_ilo_4_273_now_with/ 
