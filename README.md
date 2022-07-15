@@ -4,8 +4,8 @@ This repo contains all of the required files! :)
 
 All you need to run is the commands below.
 
-### Currently, the scripts are only for Linux!
- ~~ESXi Support is in the works!~~ Thanks to @thomaswilbur For making the ESXI verstion of the script! - see EXSI readme
+### Scripts are available for Linux and ESXi!
+Thanks to @thomaswilbur for making the ESXi verstion of the script! - See `README-ESXI.md`.
 
 ## STEPS:
 
