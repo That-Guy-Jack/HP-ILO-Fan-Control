@@ -1,57 +1,64 @@
-# HP-ILO-Fan-Control
+# HP-iLO-Fan-Control
+
+**Scripts are available for Linux and ESXi!**
+
 Allows a Simple Fan Curve to be set using the custom ROM made by u/phoenixdev on Reddit. (linked below)
-This repo contains all of the required files! :)
+
+This repo contains all the required files! :)
 
 All you need to run is the commands below.
 
-### Scripts are available for Linux and ESXi!
-Thanks to @thomaswilbur for making the ESXi verstion of the script! - See `README-ESXI.md`.
+## BEFORE PROCEEDING
 
-## STEPS:
+**READ `SECURITY-SWITCH.MD`, IT INCLUDES A LOT OF INFORMATION.**
 
-1. Switch ILO into maintainance mode, then reboot. (On the DL360 G8, this is located near the backplane connectors to the motherboard.)
+## Installation
 
-2. Download the `install.sh` script and run it. This will download all required files and move them, installs the `autofan.service`, and downloads the correct `autofan.sh` based on your input ready to be edited. If you are an advanced user, you can install everything sperately.
+1. Switch iLO into maintenance mode, then reboot. (On the DL360 G8, this is located near the backplane connectors to the motherboard.)
+
+2. Download the `install.sh` script and run it. This will download all required files and move them, installs the `autofan.service`, and downloads the correct `autofan.sh` based on your input ready to be edited. If you are an advanced user, you can install everything separately.
 (Download using `wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Install.sh`)
 
-3. Run the `prep.sh` in the `ilo_250` folder. If this errors it may be beacuse the ILO isnt it maintainance mode. (You may need to run this script as root.)
->
+3. Run the `prep.sh` in the `ilo_250` folder. If this errors, it may be because the iLO isn't it maintenance mode. (You may need to run this script as root. When flashing the fans spin up to 100%, so be prepared)
 
-    ./flash_ilo4 --direct  
-    
-(When flashing the fans spin up to 100%, so be prepared)
-   
+4. > ./flash_ilo4 --direct
 
-4. Once the flash has completed, shut down your system and unplug it. Make sure to switch ILO back out of maintainance mode.  
-
-5. Configure `autofan.sh` in the / directory. Replace your password, your username, and your ILO ip with the correct info. Once done, save and exit.
+5. Once the flash has completed, shut down your system and unplug it. Make sure to switch iLO back out of maintenance mode.  
 
 6. Run `systemctl daemon-reload` and `systemctl start autofan` to activate the service.
 
-7. Create a crontab command to start the systemd service on startup: `@reboot systemctl start autofan`.
+7. Run `systemctl enable autofan` to start the service on reboot.
 
-8. Enjoy silence! :) And if thats toO fast or slow, edit the autofan.sh to your needs.
+8. Enjoy silence! :) And if that’s too fast or too slow, edit `autofan.sh` to your needs.
 
+## Tested Servers
 
-# Tested Servers:
-## 1U Servers:
+### 1U Servers
+
 DL360p Gen8
-## 2U Servers:
+
+### 2U Servers
+
 DL380p Gen8
+
 DL380p Gen9
+
 DL80 Gen9 - Tested by @rootless4real
 
-# Notes
+## Notes
+
 - I recommend especially for the DL360 to add a small 40mm fan to the RAID controller to keep it cool.
-- If you have the fan script working on a different server than what's listed in the tested server section, create a issue and I'll add it.
-- 
+- If you have the fan script working on a different server than what's listed in the tested server section, create an issue and I'll add it.
+
 ### To-do
+
 - [x] Create a Script to Install and Create fan control scripts
-- [x] Allow easier input of ILO pramaters
+- [x] Allow easier input of iLO parameters
 - [x] Make ESXI friendly version - Big thanks to @thomaswilbur for making the script and @TannerFilip for making the script easier to use!
-- [ ] Add info about the security switch
-- [x] Allow users to input ILO paramaters when using `install.sh` 
-- [x] Make the install.sh script have fun colours :D - added thanks to @TannerFilip
- 
- ### Links and other stuff
-Original Reddit post: https://www.reddit.com/r/homelab/comments/hix44v/silence_of_the_fans_pt_2_hp_ilo_4_273_now_with/ 
+- [x] Add info about the security switch
+- [x] Allow users to input iLO parameters when using `install.sh` 
+- [x] Make the install.sh script have fun colors :D - added thanks to @TannerFilip
+
+### Links and other stuff
+
+Original Reddit post: <https://www.reddit.com/r/homelab/comments/hix44v/silence_of_the_fans_pt_2_hp_iLO_4_273_now_with/>
