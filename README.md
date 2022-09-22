@@ -45,6 +45,8 @@ DL380p Gen9
 
 DL80 Gen9 - Tested by @rootless4real
 
+SL4540 Gen8 - Tested by @YoSiJo
+
 ## Notes
 
 - I recommend especially for the DL360 to add a small 40mm fan to the RAID controller to keep it cool.
