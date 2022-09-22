@@ -8,6 +8,8 @@ This repo contains all the required files! :)
 
 All you need to run is the commands below.
 
+Currently using ILO4 Version 2.60 - Working on updating to 2.77 <https://github.com/kendallgoto/ilo4_unlock>
+
 ## BEFORE PROCEEDING
 
 **READ `SECURITY-SWITCH.MD`, IT INCLUDES A LOT OF INFORMATION.**
