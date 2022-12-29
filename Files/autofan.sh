@@ -84,7 +84,7 @@ elif [[ $T2 > 77 ]]
         sshpass -p $PASSWORD ssh $USERNAME@$ILOIP 'fan p 1 max 70'
         sshpass -p $PASSWORD ssh $USERNAME@$ILOIP 'fan p 2 max 70'
         sshpass -p $PASSWORD ssh $USERNAME@$ILOIP 'fan p 3 max 70'
-elif [[ $T1 > 67 ]]
+elif [[ $T2 > 67 ]]
     then
         sshpass -p $PASSWORD ssh $USERNAME@$ILOIP 'fan p 0 max 39'
         sshpass -p $PASSWORD ssh $USERNAME@$ILOIP 'fan p 1 max 39'
