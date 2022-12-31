@@ -62,6 +62,7 @@ SL4540 Gen8 - Tested by @YoSiJo
 - [x] Add info about the security switch
 - [x] Allow users to input iLO parameters when using `install.sh` 
 - [x] Make the install.sh script have fun colors :D - added thanks to @TannerFilip
+- [x] Add features mentioned in That-Guy-Jack/HP-ILO-Fan-Control#15
 
 ### Links and other stuff
 
