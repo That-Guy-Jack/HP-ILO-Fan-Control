@@ -41,13 +41,15 @@ DL360p Gen8
 
 ### 2U Servers
 
-DL380p Gen8
+DL380p Gen8 
 
 DL380p Gen9
 
 DL80 Gen9 - Tested by @rootless4real
 
 SL4540 Gen8 - Tested by @YoSiJo
+
+HPE 2U StoreEasy 1650 - Tested by @nicr4wks
 
 ## Notes
 
