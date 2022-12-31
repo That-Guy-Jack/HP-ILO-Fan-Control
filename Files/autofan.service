@@ -1,7 +1,10 @@
 [Unit]
-Description=Fan speed controller using autofan.sh
+Description=HP Server Fan Speed Controller
 
 [Service]
+ExecStart=/bin/bash /autofan.sh 
 Restart=always
 RestartSec=10s
-ExecStart=/bin/bash /autofan.sh 
+
+[Install]
+WantedBy=default.target
