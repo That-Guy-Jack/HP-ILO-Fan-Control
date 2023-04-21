@@ -51,6 +51,8 @@ SL4540 Gen8 - Tested by @YoSiJo
 
 HPE 2U StoreEasy 1650 - Tested by @nicr4wks
 
+HP 2U ProLiant XL420 Gen9 - Tested by @bogdik
+
 ## Notes
 
 - I recommend especially for the DL360 to add a small 40mm fan to the RAID controller to keep it cool.
