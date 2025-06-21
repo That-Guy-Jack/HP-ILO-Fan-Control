@@ -1,3 +1,7 @@
+###NOT ALL MY CODE. CREDIT TO THAT_GUY_JACK FOR 99% OF THIS. ###
+###INSTALL.SH APPEARS TO WORK ON MY SYSTEM. SHOULD WORK ON OTHERS, NOT MUCH CHANGED FROM KNOWN GOOD. GOOD LUCK!###
+
+
 # HP-iLO-Fan-Control
 
 **Scripts are available for Linux and ESXi!**
@@ -19,7 +23,7 @@ Currently using ILO4 Version 2.60 - Working on updating to 2.77 <https://github.
 1. Switch iLO into maintenance mode, then reboot. (On the DL360 G8, this is located near the backplane connectors to the motherboard.)
 
 2. Download the `install.sh` script and run it. This will download all required files and move them, installs the `autofan.service`, and downloads the correct `autofan.sh` based on your input ready to be edited. If you are an advanced user, you can install everything separately.
-(Download using `wget https://raw.githubusercontent.com/That-Guy-Jack/HP-ILO-Fan-Control/main/Install.sh`)
+(Download using `wget https://raw.githubusercontent.com/Illusionist2732/HP-ILO-Fan-Control-ML350/main/install.sh`)
 
 3. Run the `prep.sh` in the `ilo_250` folder. If this errors, it may be because the iLO isn't it maintenance mode. (You may need to run this script as root. When flashing the fans spin up to 100%, so be prepared)
 
@@ -52,6 +56,10 @@ SL4540 Gen8 - Tested by @YoSiJo
 HPE 2U StoreEasy 1650 - Tested by @nicr4wks
 
 HP 2U ProLiant XL420 Gen9 - Tested by @bogdik
+
+### Tower Servers
+
+ML350 Gen 9
 
 ## Notes
 
