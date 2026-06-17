@@ -10,6 +10,8 @@ All you need to run is the commands below.
 
 Currently using ILO4 Version 2.60 - Working on updating to 2.77 <https://github.com/kendallgoto/ilo4_unlock>
 
+Do note I don't use Github as much as i used to, Feel Free to ping me a direct email on <git-ilo@thatguyjack.co.uk> and i'll try and get back to you as soon as!
+
 ## BEFORE PROCEEDING
 
 **READ `SECURITY-SWITCH.MD`, IT INCLUDES A LOT OF INFORMATION.**
