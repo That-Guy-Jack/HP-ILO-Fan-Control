@@ -50,6 +50,11 @@ if [[ ${ACCEPTED,,} =~ ^[y] ]]; then
         HOSTTYPE="DL370p G8 (ESXi-based)"
         ;;
 
+    5)
+        AUTOFANFILE="autofan-dl380p-hdcontroller-g8-.sh"
+        HOSTTYPE="DL370p G8 (No ESXi - CPU + HD controller)"
+        ;;
+
     *)
         echo -e "\e[31mInvalid choice. Exiting.\e[0m"
         exit 1
