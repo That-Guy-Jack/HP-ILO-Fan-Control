@@ -23,11 +23,12 @@ if [[ ${ACCEPTED,,} =~ ^[y] ]]; then
     mv autofan.service /etc/systemd/system/
     echo -e "\e[92m autofan service created\e[0m"
 
-    read -rep $'Which server are you running? (Enter 1-4)
+    read -rep $'Which server are you running? (Enter 1-5)
     1. DL360p G8 (No ESXi)
     2. DL380p G8 (no ESXi)
     3. DL360p G8 (ESXi-based)
-    4. DL380p G8 (ESXi-based)\n' HOSTCHOICE
+    4. DL380p G8 (ESXi-based)
+    5. DL380p G8 (No ESXi - CPU + HD controller)\n' HOSTCHOICE
 
     case $HOSTCHOICE in
     1)
@@ -47,12 +48,12 @@ if [[ ${ACCEPTED,,} =~ ^[y] ]]; then
 
     4)
         AUTOFANFILE="autofan-dl380p-g8-EXSI.sh"
-        HOSTTYPE="DL370p G8 (ESXi-based)"
+        HOSTTYPE="DL380p G8 (ESXi-based)"
         ;;
 
     5)
-        AUTOFANFILE="autofan-dl380p-hdcontroller-g8-.sh"
-        HOSTTYPE="DL370p G8 (No ESXi - CPU + HD controller)"
+        AUTOFANFILE="autofan-dl380p-hdcontroller-g8.sh"
+        HOSTTYPE="DL380p G8 (No ESXi - CPU + HD controller)"
         ;;
 
     *)
